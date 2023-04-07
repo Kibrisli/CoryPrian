@@ -325,6 +325,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15470868888157270451
+  Name: "Flower Bellflower 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_flower_bell_001_ref"
+  }
+}
+Assets {
   Id: 15329646696100681115
   Name: "JewelPack1"
   PlatformAssetType: 24
@@ -853,6 +862,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_raw_001_uv"
+  }
+}
+Assets {
+  Id: 12416815806534727809
+  Name: "Kelp Bush 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_kelp_bush_01"
   }
 }
 Assets {
@@ -2396,6 +2414,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4044214825842439722
+  Name: "Grass Short"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_002"
+  }
+}
+Assets {
   Id: 3948711934400020999
   Name: "Stone Block Long Broken"
   PlatformAssetType: 1
@@ -2657,6 +2684,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_chamfer"
+  }
+}
+Assets {
+  Id: 1984553197323830660
+  Name: "Kelp Bush 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_kelp_bush_02"
   }
 }
 Assets {
