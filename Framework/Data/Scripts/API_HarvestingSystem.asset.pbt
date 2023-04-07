@@ -25,10 +25,7 @@ Assets {
       Overrides {
         Name: "cs:NODES"
         ObjectReference {
-          SelfId: 5794691834349856623
-          SubObjectId: 16052619567247279589
-          InstanceId: 13620541732778982903
-          TemplateId: 5338087018861399484
+          SelfId: 16302194853377534215
         }
       }
     }

@@ -429,5 +429,9 @@ Assets {
       VirtualFolderPath: "Audio"
       PlatformAssetType: 5
     }
+    Folders {
+      VirtualFolderPath: "totems"
+      PlatformAssetType: 13
+    }
   }
 }

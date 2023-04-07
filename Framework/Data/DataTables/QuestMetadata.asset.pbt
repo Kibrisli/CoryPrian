@@ -33,6 +33,15 @@ Assets {
       }
     }
     Assets {
+      Id: 5541180419929889488
+      Name: "Dragon"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Fantasy_Icon_Dragon"
+      }
+    }
+    Assets {
       Id: 10260266135439350248
       Name: "Award"
       PlatformAssetType: 9
@@ -51,30 +60,12 @@ Assets {
       }
     }
     Assets {
-      Id: 6209684280949620244
-      Name: "Icon Stat Offense"
+      Id: 12774504574327834489
+      Name: "Spider"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "Icon_StatOffense"
-      }
-    }
-    Assets {
-      Id: 5541180419929889488
-      Name: "Dragon"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Fantasy_Icon_Dragon"
-      }
-    }
-    Assets {
-      Id: 9173135995611232178
-      Name: "Glove"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Fantasy_Icon_Glove"
+        AssetId: "UI_Fantasy_Icon_Spider"
       }
     }
     Assets {
@@ -87,12 +78,39 @@ Assets {
       }
     }
     Assets {
-      Id: 12774504574327834489
-      Name: "Spider"
+      Id: 6209684280949620244
+      Name: "Icon Stat Offense"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Fantasy_Icon_Spider"
+        AssetId: "Icon_StatOffense"
+      }
+    }
+    Assets {
+      Id: 9421989594598958989
+      Name: "Wolf"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Fantasy_Icon_Wolf"
+      }
+    }
+    Assets {
+      Id: 13684548044610038146
+      Name: "Icon Crown"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "Icon_Crown"
+      }
+    }
+    Assets {
+      Id: 4937617657811823156
+      Name: "Icon Flame"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "Icon_Flame"
       }
     }
     Assets {
@@ -105,15 +123,6 @@ Assets {
       }
     }
     Assets {
-      Id: 11023936511749395776
-      Name: "Fantasy Symbol 05"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Fantasy_Icon_Symbol_05"
-      }
-    }
-    Assets {
       Id: 1028246385114766807
       Name: "Anvil"
       PlatformAssetType: 9
@@ -123,21 +132,12 @@ Assets {
       }
     }
     Assets {
-      Id: 9154621129836835425
-      Name: "Boar"
+      Id: 17199743671743872970
+      Name: "Emblem 4"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Fantasy_Icon_Boar"
-      }
-    }
-    Assets {
-      Id: 707747492659711457
-      Name: "Book"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Fantasy_Icon_Book"
+        AssetId: "UI_Japan_Icon_017"
       }
     }
     Assets {
@@ -150,30 +150,12 @@ Assets {
       }
     }
     Assets {
-      Id: 8017761923929449732
-      Name: "Boat"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "Icon_Boatmedium"
-      }
-    }
-    Assets {
       Id: 901260052895401970
       Name: "Death"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "UI_Fantasy_Icon_Death"
-      }
-    }
-    Assets {
-      Id: 14005289317451984879
-      Name: "Icon Spade"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "Icon_Spade"
       }
     }
     Assets {
