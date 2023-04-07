@@ -632,6 +632,21 @@ Assets {
           MaxDetailLevel {
             Value: "mc:edetaillevel:ultra"
           }
+          IsAllowedForPC: true
+          IsAllowedForMobile: true
+          IsAllowedForLowMemoryMobile: true
+          PCMinDetailLevel {
+            Value: "mc:edetaillevel:low"
+          }
+          PCMaxDetailLevel {
+            Value: "mc:edetaillevel:ultra"
+          }
+          MobileMinDetailLevel {
+            Value: "mc:edetaillevel:low"
+          }
+          MobileMaxDetailLevel {
+            Value: "mc:edetaillevel:ultra"
+          }
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
@@ -759,7 +774,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10196367170525169487
+            Id: 5495815337528568756
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -3137,12 +3152,12 @@ Assets {
       }
     }
     Assets {
-      Id: 10196367170525169487
+      Id: 5495815337528568756
       Name: "Stone Window"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_stone_window_001"
+        AssetId: "sm_ts_fan_stone_window_001_ref"
       }
     }
     Assets {
@@ -3213,7 +3228,7 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 123
+  SerializationVersion: 125
   VirtualFolderPath: "Dungeon Tiles"
   VirtualFolderPath: "Creepy Crypt"
 }

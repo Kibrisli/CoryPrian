@@ -1763,15 +1763,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7579407092892633572
-  Name: "Stone Arch 3m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_stone-arch_6m_002"
-  }
-}
-Assets {
   Id: 7569864089304809235
   Name: "Parchment 01"
   PlatformAssetType: 2
@@ -1949,6 +1940,15 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_ember_volume_vfx"
+  }
+}
+Assets {
+  Id: 6232767206299927090
+  Name: "Stone Arch 3m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_stone-arch_6m_002_ref"
   }
 }
 Assets {

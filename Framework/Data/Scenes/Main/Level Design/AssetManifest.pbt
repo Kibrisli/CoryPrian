@@ -1025,15 +1025,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8283923648149654835
-  Name: "Stone Wall End 6m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_stone-edge_6m_001"
-  }
-}
-Assets {
   Id: 8179760419682545374
   Name: "Waterfall Straight"
   PlatformAssetType: 1
@@ -1079,6 +1070,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7802549491609795458
+  Name: "Stone Wall End 6m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_stone-edge_6m_001_ref"
+  }
+}
+Assets {
   Id: 7754470856388882901
   Name: "Wood Raw"
   PlatformAssetType: 2
@@ -1112,15 +1112,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_torus_005"
-  }
-}
-Assets {
-  Id: 7579407092892633572
-  Name: "Stone Arch 3m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_stone-arch_6m_002"
   }
 }
 Assets {
@@ -1292,6 +1283,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_elven_symbols_001"
+  }
+}
+Assets {
+  Id: 6232767206299927090
+  Name: "Stone Arch 3m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_stone-arch_6m_002_ref"
   }
 }
 Assets {

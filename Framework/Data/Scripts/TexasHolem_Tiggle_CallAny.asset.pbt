@@ -50,7 +50,7 @@ Assets {
       }
     }
   }
-  SerializationVersion: 123
+  SerializationVersion: 125
   VirtualFolderPath: "TexasHoldem"
   VirtualFolderPath: "Toggles"
 }

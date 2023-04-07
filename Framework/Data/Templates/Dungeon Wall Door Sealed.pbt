@@ -209,7 +209,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 14146941956844593476
+            Id: 1415407021767874192
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -688,6 +688,21 @@ Assets {
           MaxDetailLevel {
             Value: "mc:edetaillevel:ultra"
           }
+          IsAllowedForPC: true
+          IsAllowedForMobile: true
+          IsAllowedForLowMemoryMobile: true
+          PCMinDetailLevel {
+            Value: "mc:edetaillevel:low"
+          }
+          PCMaxDetailLevel {
+            Value: "mc:edetaillevel:ultra"
+          }
+          MobileMinDetailLevel {
+            Value: "mc:edetaillevel:low"
+          }
+          MobileMaxDetailLevel {
+            Value: "mc:edetaillevel:ultra"
+          }
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
@@ -1144,12 +1159,12 @@ Assets {
       }
     }
     Assets {
-      Id: 14146941956844593476
+      Id: 1415407021767874192
       Name: "Stone Arch (doorway) 001"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_stone_doorway_001"
+        AssetId: "sm_ts_fan_stone_doorway_001_ref"
       }
     }
     Assets {
@@ -1193,7 +1208,7 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 123
+  SerializationVersion: 125
   VirtualFolderPath: "Dungeon Tiles"
   VirtualFolderPath: "Creepy Crypt"
 }

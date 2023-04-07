@@ -18,7 +18,7 @@ Assets {
       }
     }
   }
-  SerializationVersion: 123
+  SerializationVersion: 125
   VirtualFolderPath: "Loot"
   VirtualFolderPath: "Character"
 }
