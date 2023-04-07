@@ -91,7 +91,6 @@ function OnInteracted(trigger, player)
 	
 	if player == Game.GetLocalPlayer() then
 		Events.BroadcastToServer(TRANSFER_EVENT_ID, ROOT.id)
-		Events.Broadcast("FreezeCamera")
 	end
 end
 

@@ -1,12 +1,14 @@
 
 --[[
 	Quest Controller (Server + Client)
-	v1.0.2 - 2022/10/24
+	v1.0.3
 	by: standardcombo
 	
 	API
 	===
 	-- Client/Server
+	GestQuest(questId)
+	GetQuestObjective(questId, objectiveIndex)
 	GetUnlockedMapQuests(player)
 	GetCompletedQuestIDs(player)
 	HasCompleted(player, questId)
@@ -49,6 +51,8 @@ local REWARDS_PARSER = require(script:GetCustomProperty("RewardsParser"))
 
 local SERIALIZATION_VERSION = 1
 local DEBUG_DONT_SAVE_PROGRESS = false
+
+local STARTING_QUEST = "Welcome"
 
 
 -- Create direct connection between quests and their objectives
@@ -577,7 +581,7 @@ local function LoadPlayerData(player)
 			complete = {},
 			active = {}
 			--Fake data:
-			--complete = {"Welcome"},
+			--complete = {STARTING_QUEST},
 			--map = {"Beast1"},
 			--active = {{id="Map",n=2}}
 		}
@@ -592,8 +596,8 @@ function OnCharacterEquipped(character, player)
 	--print("QuestController::CharacterEquipped", character.id)
 	LoadPlayerData(player)
 	
-	if not API.HasCompleted(player, "Welcome") then
-		API.ActivateForPlayer(player, "Welcome")
+	if not API.HasCompleted(player, STARTING_QUEST) then
+		API.ActivateForPlayer(player, STARTING_QUEST)
 	end
 end
 function OnCharacterUnequipped(character, player)
@@ -636,7 +640,7 @@ function API.ResetQuestsForPlayer(player)
 	
 	LoadPlayerData(player)
 	
-	API.ActivateForPlayer(player, "Welcome")
+	API.ActivateForPlayer(player, STARTING_QUEST)
 end
 if Environment.IsClient() then
 	Events.Connect("Quest.ResetForPlayer", function()
