@@ -1,11 +1,11 @@
 Assets {
   Id: 5665813867967298486
-  Name: "Vol rock Cliff 03_1"
+  Name: "Vol rock Cliff 03"
   PlatformAssetType: 13
   SerializationVersion: 125
   VirtualFolderPath: "Volcano materials"
   CustomMaterialAsset {
-    BaseMaterialId: 17686025311361638391
+    BaseMaterialId: 8719309571567694777
     ParameterOverrides {
       Overrides {
         Name: "color"
@@ -43,7 +43,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17686025311361638391
+      Id: 8719309571567694777
       Name: "Cliff 03"
       PlatformAssetType: 2
       PrimaryAsset {
