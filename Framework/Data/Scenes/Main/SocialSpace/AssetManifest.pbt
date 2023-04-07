@@ -1934,15 +1934,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6232767206299927090
-  Name: "Stone Arch 3m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_stone-arch_6m_002_ref"
-  }
-}
-Assets {
   Id: 6212183737436317633
   Name: "Trim - Curve 30\302\260 - 08m Radius "
   PlatformAssetType: 1
