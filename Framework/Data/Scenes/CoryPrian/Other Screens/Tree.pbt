@@ -139,8 +139,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1074799061569388025
-  Name: "Character Select Screen"
+  Id: 1299535844143356642
+  Name: "Character Select Coryprian"
   Transform {
     Scale {
       X: 1
@@ -151,16 +151,40 @@ Objects {
   ParentId: 16194698060440896494
   TemplateInstance {
     ParameterOverrideMap {
-      key: 12879506879962929374
+      key: 14011988753780420608
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17614796813083167780
       value {
         Overrides {
           Name: "Name"
-          String: "Character Select Screen"
+          String: "Character Select Coryprian"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 25024.2656
+            Y: 38431.9141
+            Z: 5930.32178
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 178.319809
+          }
         }
       }
     }
     TemplateAsset {
-      Id: 11500783014495285293
+      Id: 8827818717263402351
     }
   }
 }

@@ -5,9 +5,6 @@ Objects {
   Name: "Quest - Open Mailbox"
   Transform {
     Location {
-      X: -5176.35596
-      Y: -4811.36475
-      Z: -10868.3711
     }
     Rotation {
     }
@@ -65,9 +62,6 @@ Objects {
   Name: "VFX"
   Transform {
     Location {
-      X: 28989.9121
-      Y: 43083.8203
-      Z: 54996.0234
     }
     Rotation {
       Yaw: 142.173691
@@ -106,9 +100,9 @@ Objects {
   Name: "Hand Cast VFX"
   Transform {
     Location {
-      X: -1065.36621
-      Y: 4503.16113
-      Z: 188.635742
+      X: -0.986452103
+      Y: -17.0610275
+      Z: 90.5859375
     }
     Rotation {
       Yaw: -72.3304443
@@ -186,9 +180,9 @@ Objects {
   Name: "Basic Water Splash VFX"
   Transform {
     Location {
-      X: -1067.26123
-      Y: 4506.86328
-      Z: 122.55542
+      X: -0.986452103
+      Y: -17.0610275
+      Z: 90.5859375
     }
     Rotation {
       Pitch: -1.92321777
@@ -268,8 +262,11 @@ Objects {
   Name: "QuestObjectiveSelectedObject"
   Transform {
     Location {
+      X: 50.2792969
+      Z: 109.846924
     }
     Rotation {
+      Yaw: -31.4258423
     }
     Scale {
       X: 1

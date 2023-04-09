@@ -12,31 +12,41 @@ Assets {
       Overrides {
         Name: "cs:ModalPopup"
         ObjectReference {
-          SelfId: 10263082590651957135
         }
       }
       Overrides {
         Name: "cs:MainPanel"
         ObjectReference {
-          SelfId: 11917060380754017302
+        }
+      }
+      Overrides {
+        Name: "cs:Page1"
+        ObjectReference {
+        }
+      }
+      Overrides {
+        Name: "cs:Page2"
+        ObjectReference {
+        }
+      }
+      Overrides {
+        Name: "cs:BodyPage1"
+        ObjectReference {
         }
       }
       Overrides {
         Name: "cs:NextButton"
         ObjectReference {
-          SelfId: 621503826652085193
         }
       }
       Overrides {
         Name: "cs:CloseButton"
         ObjectReference {
-          SelfId: 17620708729067122005
         }
       }
       Overrides {
         Name: "cs:OpenCloseSfx"
         ObjectReference {
-          SelfId: 17867615546499109197
         }
       }
       Overrides {
@@ -61,6 +71,30 @@ Assets {
       }
       Overrides {
         Name: "cs:MainPanel:ml"
+        Bool: false
+      }
+      Overrides {
+        Name: "cs:Page1:isrep"
+        Bool: false
+      }
+      Overrides {
+        Name: "cs:Page1:ml"
+        Bool: false
+      }
+      Overrides {
+        Name: "cs:Page2:isrep"
+        Bool: false
+      }
+      Overrides {
+        Name: "cs:Page2:ml"
+        Bool: false
+      }
+      Overrides {
+        Name: "cs:BodyPage1:isrep"
+        Bool: false
+      }
+      Overrides {
+        Name: "cs:BodyPage1:ml"
         Bool: false
       }
       Overrides {

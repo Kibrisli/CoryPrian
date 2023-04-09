@@ -11057,19 +11057,19 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: -0.000144958496
-      Y: -18.3925858
-      Z: 76.6137085
+      X: -0.00335693359
+      Y: -18.3925781
+      Z: 198.155853
     }
     Rotation {
       Pitch: -90
-      Yaw: 90
-      Roll: 7.62939453e-06
+      Yaw: -63.434967
+      Roll: 153.435
     }
     Scale {
-      X: 1.98596692
-      Y: 1.81401157
-      Z: 2.00000024
+      X: 3.70859241
+      Y: 3.71814013
+      Z: 2.00000048
     }
   }
   ParentId: 18445183535805316367
@@ -11858,6 +11858,8 @@ Objects {
   Name: "QuestObjectivePickup"
   Transform {
     Location {
+      X: -0.0011138916
+      Z: 173.897766
     }
     Rotation {
     }
@@ -11879,7 +11881,7 @@ Objects {
     }
     Overrides {
       Name: "cs:InteractionLabel"
-      String: "Assemble the Map of Adventurers"
+      String: "Assemble the Adventurers Board"
     }
     Overrides {
       Name: "cs:GeoToHide"

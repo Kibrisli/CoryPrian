@@ -229,7 +229,9 @@ Objects {
   Name: "Welcome"
   Transform {
     Location {
-      Z: -40195
+      X: 21896.7
+      Y: 34030.8203
+      Z: 3944.59204
     }
     Rotation {
     }
