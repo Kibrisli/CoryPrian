@@ -1243,8 +1243,12 @@ Objects {
   Name: "Travel Triggers"
   Transform {
     Location {
+      X: 25654.0586
+      Y: 39027.043
+      Z: 5845.31494
     }
     Rotation {
+      Yaw: -22.671814
     }
     Scale {
       X: 1
@@ -1281,8 +1285,6 @@ Objects {
   Name: "Portal to SocialHub"
   Transform {
     Location {
-      X: 1650
-      Y: 2314.35522
     }
     Rotation {
       Yaw: 89.9999771
@@ -1294,7 +1296,7 @@ Objects {
     }
   }
   ParentId: 6598851658832106982
-  ChildIds: 1591623429730140820
+  ChildIds: 9606133277363344756
   UnregisteredParameters {
     Overrides {
       Name: "cs:IsEnabled"
@@ -1350,28 +1352,28 @@ Objects {
   }
 }
 Objects {
-  Id: 1591623429730140820
+  Id: 9606133277363344756
   Name: "Portal VFX"
   Transform {
     Location {
-      X: -2.91038305e-11
-      Y: 5.53131104e-05
-      Z: 316.210449
+      X: 0.686748
+      Y: 13.9119873
+      Z: 289.042969
     }
     Rotation {
-      Yaw: -1.36603776e-05
+      Yaw: -0.0976867676
     }
     Scale {
-      X: 0.55800271
-      Y: 0.927319288
-      Z: 1.38385987
+      X: 0.505593181
+      Y: 1.11665118
+      Z: 1.02787912
     }
   }
   ParentId: 4956981229252362931
   UnregisteredParameters {
     Overrides {
       Name: "bp:Portal Shape"
-      Int: 2
+      Int: 3
     }
     Overrides {
       Name: "bp:Portal Spread"
@@ -1428,24 +1430,23 @@ Objects {
     Overrides {
       Name: "bp:Color A"
       Color {
-        G: 1.79999971
-        B: 2
+        R: 2
+        G: 0.433333397
         A: 1
       }
     }
     Overrides {
       Name: "bp:Color B"
       Color {
-        G: 0.228999957
-        B: 0.687000036
+        R: 0.687000036
         A: 1
       }
     }
     Overrides {
       Name: "bp:Color C"
       Color {
-        G: 0.0599999391
-        B: 0.399999976
+        R: 0.399999976
+        G: 0.0133333439
         A: 1
       }
     }
@@ -1460,7 +1461,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1483,17 +1484,17 @@ Objects {
   Name: "Trigger - Portal to Main game"
   Transform {
     Location {
-      X: 1650
-      Y: 2273.39624
-      Z: 155.700851
+      X: -12.9519281
+      Y: -0.000174760818
+      Z: 246.714844
     }
     Rotation {
       Yaw: 90
     }
     Scale {
-      X: 0.51303339
-      Y: 2.40888762
-      Z: 1.9
+      X: 0.513007522
+      Y: 3.9261055
+      Z: 5.6801033
     }
   }
   ParentId: 6598851658832106982
