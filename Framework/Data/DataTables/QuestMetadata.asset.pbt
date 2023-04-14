@@ -87,7 +87,7 @@ Assets {
       }
     }
     Assets {
-      Id: 9421989594598958989
+      Id: 10864492779621026393
       Name: "Wolf"
       PlatformAssetType: 9
       PrimaryAsset {
@@ -111,6 +111,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "Icon_Flame"
+      }
+    }
+    Assets {
+      Id: 9421989594598958989
+      Name: "Wolf"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Fantasy_Icon_Wolf"
       }
     }
     Assets {
