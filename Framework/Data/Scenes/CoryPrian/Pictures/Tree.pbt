@@ -1,7 +1,7 @@
 Name: "Pictures"
-RootId: 4952094561943441124
+RootId: 16327836064777602798
 Objects {
-  Id: 14430655189760420830
+  Id: 11262560220475370546
   Name: "AddPicture"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 0.0246674884
     }
   }
-  ParentId: 4952094561943441124
+  ParentId: 16327836064777602798
   TemplateInstance {
     ParameterOverrideMap {
       key: 3290666496471803598
@@ -69,7 +69,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11839950233641456065
+  Id: 12455455940344795143
   Name: "AddPicture"
   Transform {
     Location {
@@ -86,7 +86,7 @@ Objects {
       Z: 0.0246674884
     }
   }
-  ParentId: 4952094561943441124
+  ParentId: 16327836064777602798
   TemplateInstance {
     ParameterOverrideMap {
       key: 3290666496471803598
@@ -140,7 +140,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2649676868784809998
+  Id: 17012099387101449625
   Name: "AddPicture"
   Transform {
     Location {
@@ -157,7 +157,7 @@ Objects {
       Z: 0.0246674884
     }
   }
-  ParentId: 4952094561943441124
+  ParentId: 16327836064777602798
   TemplateInstance {
     ParameterOverrideMap {
       key: 3290666496471803598
@@ -210,7 +210,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7556660558570597687
+  Id: 14369626430826643765
   Name: "AddPicture"
   Transform {
     Scale {
@@ -219,7 +219,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4952094561943441124
+  ParentId: 16327836064777602798
   TemplateInstance {
     ParameterOverrideMap {
       key: 3290666496471803598

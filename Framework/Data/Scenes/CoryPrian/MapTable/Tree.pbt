@@ -11682,6 +11682,7 @@ Objects {
     }
   }
   ParentId: 1291992699449323757
+  ChildIds: 16327836064777602798
   ChildIds: 2376177639046490960
   ChildIds: 7633407222081301946
   Collidable_v2 {
@@ -11857,6 +11858,48 @@ Objects {
   }
   Relevance {
     Value: "mc:edistancerelevance:medium"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16327836064777602798
+  Name: "Pictures"
+  Transform {
+    Location {
+      X: 47.6146736
+      Y: -11.1319294
+      Z: -44.0361938
+    }
+    Rotation {
+      Pitch: 36.4096565
+      Yaw: -179.969559
+      Roll: -89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16622734121321633650
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Pictures"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
