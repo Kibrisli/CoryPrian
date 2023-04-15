@@ -7985,19 +7985,19 @@ Objects {
   Name: "Callout Sparkle"
   Transform {
     Location {
-      X: -0.0163574219
-      Y: -4.0859375
-      Z: 10.65625
+      X: 0.161560059
+      Y: -29.800209
+      Z: 107.472977
     }
     Rotation {
-      Pitch: -0.000102452832
-      Yaw: -89.7593
+      Pitch: -9.15527344e-05
+      Yaw: -89.7593079
       Roll: 0.0406838283
     }
     Scale {
-      X: 1.8835355
-      Y: 1.16425812
-      Z: 0.929031909
+      X: 1.88353479
+      Y: 1.16423786
+      Z: 2.7126627
     }
   }
   ParentId: 18445183535805316367
@@ -11709,7 +11709,9 @@ Objects {
   Name: "Hand Cast VFX"
   Transform {
     Location {
-      Z: 45.8972168
+      X: 9.53674316e-05
+      Y: -1.90734863e-06
+      Z: 45.8967896
     }
     Rotation {
     }
@@ -11786,8 +11788,12 @@ Objects {
   Name: "Basic Water Splash VFX"
   Transform {
     Location {
+      X: 0.0375823975
+      Y: -114.430885
+      Z: 53.8546295
     }
     Rotation {
+      Pitch: -0.0310058594
     }
     Scale {
       X: 2.06990695
@@ -11821,6 +11827,10 @@ Objects {
     Overrides {
       Name: "bp:Loop Duration"
       Float: 0.75
+    }
+    Overrides {
+      Name: "bp:Particle Scale Multiplier"
+      Float: 2.08028865
     }
   }
   Collidable_v2 {

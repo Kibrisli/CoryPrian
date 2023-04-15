@@ -87,15 +87,6 @@ Assets {
       }
     }
     Assets {
-      Id: 10864492779621026393
-      Name: "Wolf"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Fantasy_Icon_Wolf"
-      }
-    }
-    Assets {
       Id: 13684548044610038146
       Name: "Icon Crown"
       PlatformAssetType: 9

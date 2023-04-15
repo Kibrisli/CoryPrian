@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18195224059228302380
+  Name: "Japanese Tea Set - Whisk Bowl 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_tea_set_whisk_bowl_001_ref"
+  }
+}
+Assets {
   Id: 18141993204830915813
   Name: "Fantasy Castle Accessory Roof 01 "
   PlatformAssetType: 1
@@ -59,6 +68,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_bullet_wood_001"
+  }
+}
+Assets {
+  Id: 17615065733973239937
+  Name: "Ring - Beveled"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ring_faceted_001"
   }
 }
 Assets {
@@ -108,6 +126,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_iron_001"
+  }
+}
+Assets {
+  Id: 17091160006555877630
+  Name: "Cube - Rounded"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_rounded_002"
   }
 }
 Assets {
@@ -340,6 +367,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_foliage_gen_flower_bell_001_ref"
+  }
+}
+Assets {
+  Id: 15468551285490340539
+  Name: "Mecha - Armor - Helm 01 - Fin 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_veh_jpn_mecha_armor_helm_001_fin_001_ref"
+  }
+}
+Assets {
+  Id: 15339827692159902109
+  Name: "Heart - Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_heart_polished_001"
   }
 }
 Assets {
@@ -660,6 +705,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13550151197205738038
+  Name: "Fantasy Castle Accessory Tower 01 - 12m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_acc_tower_001_12m"
+  }
+}
+Assets {
   Id: 13490705285119382153
   Name: "Rock 02"
   PlatformAssetType: 1
@@ -706,6 +760,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_large_beam_round_6m"
+  }
+}
+Assets {
+  Id: 13246856020893603182
+  Name: "Pipe - Quarter Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_quarter-pipe_002"
   }
 }
 Assets {
@@ -1187,6 +1250,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11162297399913732681
+  Name: "Cube - Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_test_001"
+  }
+}
+Assets {
   Id: 11131971905339675949
   Name: "Rock Block 02"
   PlatformAssetType: 1
@@ -1317,6 +1389,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10230959292029196430
+  Name: "Prism - 3-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_001"
+  }
+}
+Assets {
   Id: 10184847056121543272
   Name: "Basic Material"
   PlatformAssetType: 2
@@ -1433,12 +1514,30 @@ Assets {
   }
 }
 Assets {
+  Id: 9640361964580760415
+  Name: "Lens - Quarter"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_quarterlense_001"
+  }
+}
+Assets {
   Id: 9544913535066953067
   Name: "Fantasy Sword Guard 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_fan_guard_sword_002"
+  }
+}
+Assets {
+  Id: 9403907716608607511
+  Name: "Ovoid - Hollow 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prim_ovoid_hollow_001_ref"
   }
 }
 Assets {
@@ -1535,6 +1634,24 @@ Assets {
   }
 }
 Assets {
+  Id: 9199751096616988864
+  Name: "Candle Flame VFX"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "fxsm_candleflame"
+  }
+}
+Assets {
+  Id: 9176145884981181688
+  Name: "Pipe - Half Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half-pipe_002"
+  }
+}
+Assets {
   Id: 9003723600529713560
   Name: "Character1"
   PlatformAssetType: 23
@@ -1607,6 +1724,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_hill_005"
+  }
+}
+Assets {
+  Id: 8778472540254762742
+  Name: "Ring - Quarter Beveled Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_quarter_ring_faceted_thick_001_ref"
   }
 }
 Assets {
@@ -1892,6 +2018,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7142781972612396783
+  Name: "Arch Fancy Peaked 6m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_arch_fancy_ogive_6m_001"
+  }
+}
+Assets {
   Id: 7136798186812893292
   Name: "Tree Birch 01"
   PlatformAssetType: 1
@@ -2107,6 +2242,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5949268049384519735
+  Name: "Pipe - Quarter Wedge Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_quarter_pipe_wedge_002"
+  }
+}
+Assets {
   Id: 5931224016695282927
   Name: "Liquid Decal"
   PlatformAssetType: 14
@@ -2169,12 +2313,30 @@ Assets {
   }
 }
 Assets {
+  Id: 5553060217134528479
+  Name: "Fantasy Staff Guard 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_guard_staff_002"
+  }
+}
+Assets {
   Id: 5512000712628422335
   Name: "Bark Dead Advanced 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_bark_dead_001_uv"
+  }
+}
+Assets {
+  Id: 5475761223416488121
+  Name: "Fabric Burlap New 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_fan_fabric_burlap_002_uv"
   }
 }
 Assets {
@@ -2224,6 +2386,15 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
+  }
+}
+Assets {
+  Id: 5216307653213255841
+  Name: "Sphere - Full Slice Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hemisphere_slice_thin_001_ref"
   }
 }
 Assets {
@@ -2414,12 +2585,39 @@ Assets {
   }
 }
 Assets {
+  Id: 4136306111123515359
+  Name: "Wedge"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_001"
+  }
+}
+Assets {
+  Id: 4131827964702361882
+  Name: "Heart"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_heart_001"
+  }
+}
+Assets {
   Id: 4093061049435782625
   Name: "Teardrop - Truncated"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_truncated_teardrop_001"
+  }
+}
+Assets {
+  Id: 4066701243559926108
+  Name: "Teardrop - Rounded"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_teardrop_rounded_001_ref"
   }
 }
 Assets {
@@ -2750,6 +2948,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1645174604280591918
+  Name: "Urban Vehicle Accessory - Sedan Fenderflare 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_veh_urb_car_acc_fenderflare_002_ref"
+  }
+}
+Assets {
   Id: 1626097446304398136
   Name: "Stucco Tintable"
   PlatformAssetType: 2
@@ -2765,6 +2972,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_pipes_acc_flange_002_ref"
+  }
+}
+Assets {
+  Id: 1384103123854536457
+  Name: "Sphere - Full Slice"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hemisphere_slice_001_ref"
   }
 }
 Assets {
@@ -2979,6 +3195,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_horn_001"
+  }
+}
+Assets {
+  Id: 90384633160468631
+  Name: "Horn Curved Double - Vertical"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prim_horn_v_curve_double_001_ref"
   }
 }
 Assets {
