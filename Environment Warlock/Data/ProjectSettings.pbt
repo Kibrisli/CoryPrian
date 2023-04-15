@@ -1,3 +1,0 @@
-LeaderboardConfigs {
-}
-MainScene: "Main"

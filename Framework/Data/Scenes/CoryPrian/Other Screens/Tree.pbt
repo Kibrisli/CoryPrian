@@ -55,7 +55,10 @@ Objects {
         Overrides {
           Name: "cs:MaterialsBar"
           ObjectReference {
-            SelfId: 12567454318801872352
+            SelfId: 487885943213941331
+            SubObjectId: 2823322769909407817
+            InstanceId: 17479739102481556663
+            TemplateId: 9728704631775414875
           }
         }
       }

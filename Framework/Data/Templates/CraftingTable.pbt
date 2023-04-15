@@ -15,8 +15,9 @@ Assets {
             Z: 0.3749125
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 17254457926189755366
         ChildIds: 1373074879223481400
+        ChildIds: 17359080604315308898
         ChildIds: 16865260408401059776
         ChildIds: 15147407147607076785
         ChildIds: 15499891361655638605
@@ -1147,6 +1148,61 @@ Assets {
           Value: "mc:eproxyrelevance:critical"
         }
         IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 17359080604315308898
+        Name: "Craft Equipment 2"
+        Transform {
+          Location {
+            X: 20414.9668
+            Y: 33914.6758
+            Z: 4039.39575
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17457631276908661340
+        TemplateInstance {
+          ParameterOverrideMap {
+            key: 1548523477508723765
+            value {
+              Overrides {
+                Name: "Name"
+                String: "Craft Equipment 2"
+              }
+              Overrides {
+                Name: "Position"
+                Vector {
+                  X: -191.424118
+                  Y: 155.637741
+                  Z: -59.4950027
+                }
+              }
+              Overrides {
+                Name: "Rotation"
+                Rotator {
+                  Yaw: 145.530746
+                }
+              }
+              Overrides {
+                Name: "Scale"
+                Vector {
+                  X: 2.66728902
+                  Y: 2.66728902
+                  Z: 2.66728902
+                }
+              }
+            }
+          }
+          TemplateAsset {
+            Id: 1470921520463367584
+          }
+        }
       }
       Objects {
         Id: 16865260408401059776

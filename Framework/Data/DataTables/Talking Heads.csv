@@ -11,6 +11,12 @@ Stop annoying me, Go back to the map,
 "DemonYes","","Demon","Yes.. yes go do that, and leave me be.","0BADBADBADBADBAD","B4C044B5CE370091","0.000000,0.000000,0.000000","","unarmed_point_forward","True","0BADBADBADBADBAD","0.0","0BADBADBADBADBAD","False","","False"
 "DemonNo","","Demon","What.. well i don't care, go bother some one other than me.","0BADBADBADBADBAD","B4C044B5CE370091","0.000000,0.000000,0.000000","","unarmed_no","True","0BADBADBADBADBAD","0.0","0BADBADBADBADBAD","False","","False"
 "DemonInsult","","Demon","... that was rude","0BADBADBADBADBAD","B4C044B5CE370091","0.000000,0.000000,0.000000","","unarmed_no","True","0BADBADBADBADBAD","0.0","0BADBADBADBADBAD","False","","False"
+"RedKnight0","RedKnight","Red Knight","Ahh.. A New Arrivel after a Long time..","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_point_forward","True","0BADBADBADBADBAD","-1.0","449EC6BF32CB4AED","False","","False"
+"RedKnight01","","Red Knight","i'm Listening  {name}.","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_listen_casual","True","0BADBADBADBADBAD","-1.0","449EC6BF32CB4AED","False","","False"
+"RedKnight1","","Red Knight","i'm One of the few Knights left from the Old Kingdom","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","-1.0","E770166757A78CA5","False","","False"
+"RedKnight2","","Red Knight","You came into Grasslands called CoryPrian, once a peaceful Kingdom. Now home for unspeakable beasts, monsters and demons..","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","-1.0","E770166757A78CA5","False","","False"
+"RedKnight3","","Red Knight","How long... it's hard to remember.. When i see a friendly face was many eons ago.","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","-1.0","E770166757A78CA5","False","","False"
+"RedKnightBye","","Red Knight","Adventures waiting for you {name}.","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_point_forward","False","0BADBADBADBADBAD","3.0","0BADBADBADBADBAD","False","","False"
 "VS+","","Dual Magistri","This is the registration for the arena.
 Would you like to register?","0BADBADBADBADBAD","27D0B62647136EB1","0.000000,0.000000,0.000000","","","False","0BADBADBADBADBAD","-1.0","3EC8BEA73BE94B2B","False","","False"
 "VS-","","Dual Magistri","you are registered for the arena.

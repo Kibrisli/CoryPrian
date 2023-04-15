@@ -111,30 +111,12 @@ Assets {
   }
 }
 Assets {
-  Id: 17008151791760840521
-  Name: "Cauldron"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fantasy_cauldron_001"
-  }
-}
-Assets {
   Id: 16967182821200846753
   Name: "Pipe - Quarter Thick"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_quarter-pipe_003"
-  }
-}
-Assets {
-  Id: 16933889644062321308
-  Name: "Water Bubbling Loop 02 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_water_bubbling_02_Cue_ref"
   }
 }
 Assets {
@@ -188,15 +170,6 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
-  }
-}
-Assets {
-  Id: 16536652190868273770
-  Name: "Rock Block 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rock_generic_007"
   }
 }
 Assets {
@@ -675,15 +648,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_003"
-  }
-}
-Assets {
-  Id: 13598645306353249799
-  Name: "Fantasy Castle Wall Foundation 01 - Curved"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_wall_found_001_curve_001"
   }
 }
 Assets {
@@ -1540,15 +1504,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9318816676439421301
-  Name: "Smoke Volume VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_smoke_volume_vfx"
-  }
-}
-Assets {
   Id: 9282202850496238616
   Name: "Server Boost Gold"
   PlatformAssetType: 24
@@ -2045,15 +2000,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6491903416860593592
-  Name: "Steam Volume VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_steam_volume_vfx"
-  }
-}
-Assets {
   Id: 6476226809204619067
   Name: "Stone Block Big Broken"
   PlatformAssetType: 1
@@ -2397,15 +2343,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4603537691901304316
-  Name: "Torch Fire VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_torch_fire"
-  }
-}
-Assets {
   Id: 4545713430863939559
   Name: "Ivy 01"
   PlatformAssetType: 1
@@ -2465,15 +2402,6 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
-  }
-}
-Assets {
-  Id: 4209751927826907232
-  Name: "Branches Cluster Medium"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_gen_branches_medium_001"
   }
 }
 Assets {
@@ -2577,15 +2505,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tree_redwood_001_stump_ref"
-  }
-}
-Assets {
-  Id: 3608319738452107164
-  Name: "Liquid Bubbling VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_bubbling_looping"
   }
 }
 Assets {
@@ -2953,15 +2872,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_fan_pommel_005"
-  }
-}
-Assets {
-  Id: 692942829504898313
-  Name: "Rock Block 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rock_generic_006"
   }
 }
 Assets {

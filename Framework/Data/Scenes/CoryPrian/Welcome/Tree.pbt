@@ -62,6 +62,8 @@ Objects {
   Name: "VFX"
   Transform {
     Location {
+      Y: 6.8125
+      Z: 4.95043945
     }
     Rotation {
       Yaw: 142.173691

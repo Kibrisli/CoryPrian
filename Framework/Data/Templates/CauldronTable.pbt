@@ -15,7 +15,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 17254457926189755366
+        ChildIds: 2727265275501422638
         ChildIds: 17013081612424705155
         ChildIds: 8898587529192204039
         ChildIds: 247826944975629822
@@ -41,6 +42,61 @@ Assets {
           Value: "mc:eproxyrelevance:critical"
         }
         IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 2727265275501422638
+        Name: "Craft Potions"
+        Transform {
+          Location {
+            X: 20741.8
+            Y: 34309.5195
+            Z: 3854.80518
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13892947771430087622
+        TemplateInstance {
+          ParameterOverrideMap {
+            key: 14981669764504412174
+            value {
+              Overrides {
+                Name: "Name"
+                String: "Craft Potions"
+              }
+              Overrides {
+                Name: "Position"
+                Vector {
+                  X: -1.79968071
+                  Y: 18.6920357
+                  Z: -204.616455
+                }
+              }
+              Overrides {
+                Name: "Rotation"
+                Rotator {
+                  Yaw: -161.027924
+                }
+              }
+              Overrides {
+                Name: "Scale"
+                Vector {
+                  X: 1
+                  Y: 1
+                  Z: 1
+                }
+              }
+            }
+          }
+          TemplateAsset {
+            Id: 12945851450697424408
+          }
+        }
       }
       Objects {
         Id: 17013081612424705155
@@ -238,7 +294,7 @@ Assets {
           }
         }
         ParentId: 13892947771430087622
-        ChildIds: 10794001090462119640
+        ChildIds: 16842638572091257322
         ChildIds: 16793969172143278014
         ChildIds: 9345821649855102502
         ChildIds: 9879339489867460390
@@ -281,23 +337,27 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 10794001090462119640
+        Id: 16842638572091257322
         Name: "Fire Lights"
         Transform {
           Location {
+            X: 6.18695116
+            Y: 2.38719606
+            Z: 13.7600098
           }
           Rotation {
+            Yaw: -153.728149
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.102172233
+            Y: 0.102172233
+            Z: 0.102172233
           }
         }
         ParentId: 247826944975629822
-        ChildIds: 18410009241662504062
-        ChildIds: 4834856641137337613
-        ChildIds: 3097729572166663558
+        ChildIds: 8987347276047474472
+        ChildIds: 15482774085606790060
+        ChildIds: 4941113401603425940
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -319,7 +379,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 18410009241662504062
+        Id: 8987347276047474472
         Name: "Simple Rotate Parent"
         Transform {
           Location {
@@ -336,7 +396,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10794001090462119640
+        ParentId: 16842638572091257322
         UnregisteredParameters {
           Overrides {
             Name: "cs:Speed"
@@ -372,7 +432,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 4834856641137337613
+        Id: 15482774085606790060
         Name: "Point Light"
         Transform {
           Location {
@@ -389,7 +449,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10794001090462119640
+        ParentId: 16842638572091257322
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -439,7 +499,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 3097729572166663558
+        Id: 4941113401603425940
         Name: "Point Light"
         Transform {
           Location {
@@ -456,7 +516,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10794001090462119640
+        ParentId: 16842638572091257322
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2203,9 +2263,9 @@ Assets {
         Name: "Point Light"
         Transform {
           Location {
-            X: 7.36403799
-            Y: 4.03171539
-            Z: 113.900848
+            X: 7.36282778
+            Y: 4.03206873
+            Z: 128.110275
           }
           Rotation {
             Yaw: -39.9997559
