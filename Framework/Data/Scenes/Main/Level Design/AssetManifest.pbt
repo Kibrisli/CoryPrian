@@ -1241,6 +1241,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6677237403455816226
+  Name: "Portal VFX"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_portal"
+  }
+}
+Assets {
   Id: 6616607038129274534
   Name: "Reinforced Crate 150cm"
   PlatformAssetType: 1
