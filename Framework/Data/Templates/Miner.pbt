@@ -49,10 +49,10 @@ Assets {
               Id: 18114066234607847069
             }
             SkinnedMeshes {
-              Id: 11798043585619168449
+              Id: 17765362537956021931
             }
             SkinnedMeshes {
-              Id: 5164437946101426156
+              Id: 2304567902583507026
             }
             SkinnedMeshes {
               Id: 841534158063459245
@@ -87,7 +87,7 @@ Assets {
       }
     }
     Assets {
-      Id: 11798043585619168449
+      Id: 17765362537956021931
       Name: "Humanoid 2 Peasant Pants"
       PlatformAssetType: 26
       PrimaryAsset {
@@ -96,7 +96,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5164437946101426156
+      Id: 2304567902583507026
       Name: "Humanoid 2 Peasant Shirt"
       PlatformAssetType: 26
       PrimaryAsset {

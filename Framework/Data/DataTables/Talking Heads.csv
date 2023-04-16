@@ -4,6 +4,7 @@
 I am too powerful for you. I can not be beat.","0BADBADBADBADBAD","A0A22BAD410CA3E1","0.000000,0.000000,0.000000","","unarmed_laugh","False","7815776ABEB067E8","7.0","0BADBADBADBADBAD","False","","False"
 "Wolfy Growl","","Wolfy","*Growl*","0BADBADBADBADBAD","69CD0B79BB288F8A","-124.625999,0.000000,38.657001","","unarmed_bite","False","0BADBADBADBADBAD","0.0","0BADBADBADBADBAD","False","","False"
 "Welcome","","Kamil","Welcome {name}, I hope you are having a wonderful day.","B4599676B610E1C5","2682FCB218410B9C","0.000000,0.000000,0.000000","","","False","0BADBADBADBADBAD","0.0","0BADBADBADBADBAD","False","","False"
+"DarkKnight0","DarkKnight","Dark Knight","Leave me Alone Stranger!","0BADBADBADBADBAD","695C5EF4A638633E","0.000000,0.000000,0.000000","","","False","0BADBADBADBADBAD","0.0","0BADBADBADBADBAD","False","TestQuest","False"
 "Demon0","Demon","Demon","Go away, {name}.
 Stop annoying me, Go back to the map,
  I'm sure Velwood would interest you greatly.","0BADBADBADBADBAD","B4C044B5CE370091","0.000000,0.000000,0.000000","","unarmed_no","False","0BADBADBADBADBAD","-1.0","C1F3330C644A1A4B","False","","False"
@@ -11,13 +12,6 @@ Stop annoying me, Go back to the map,
 "DemonYes","","Demon","Yes.. yes go do that, and leave me be.","0BADBADBADBADBAD","B4C044B5CE370091","0.000000,0.000000,0.000000","","unarmed_point_forward","True","0BADBADBADBADBAD","0.0","0BADBADBADBADBAD","False","","False"
 "DemonNo","","Demon","What.. well i don't care, go bother some one other than me.","0BADBADBADBADBAD","B4C044B5CE370091","0.000000,0.000000,0.000000","","unarmed_no","True","0BADBADBADBADBAD","0.0","0BADBADBADBADBAD","False","","False"
 "DemonInsult","","Demon","... that was rude","0BADBADBADBADBAD","B4C044B5CE370091","0.000000,0.000000,0.000000","","unarmed_no","True","0BADBADBADBADBAD","0.0","0BADBADBADBADBAD","False","","False"
-"RedKnight0","RedKnight","Red Knight","Ahh.. A New Arrivel after a Long time..","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_point_forward","True","0BADBADBADBADBAD","-1.0","449EC6BF32CB4AED","False","","False"
-"RedKnight01","","Red Knight","i'm Listening  {name}.","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_listen_casual","True","0BADBADBADBADBAD","-1.0","449EC6BF32CB4AED","False","","False"
-"RedKnight1","","Red Knight","i'm One of the few Knights left from the Old Kingdom","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","-1.0","E770166757A78CA5","False","","False"
-"RedKnight2","","Red Knight","You came into Grasslands called CoryPrian, once a peaceful Kingdom. Now home for unspeakable beasts, monsters and demons..","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","-1.0","E770166757A78CA5","False","","False"
-"RedKnight3","","Red Knight","How long... it's hard to remember.. When i see a friendly face was many eons ago.","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","-1.0","E770166757A78CA5","False","","False"
-"RedKnightBye","","Red Knight","Adventures waiting for you {name}.","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_point_forward","False","0BADBADBADBADBAD","3.0","0BADBADBADBADBAD","False","Welcome","True"
-"DarkKnight0","DarkKnight","Dark Knight","Leave me Alone Stranger!","0BADBADBADBADBAD","695C5EF4A638633E","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","3.0","0BADBADBADBADBAD","False","","False"
 "VS+","","Dual Magistri","This is the registration for the arena.
 Would you like to register?","0BADBADBADBADBAD","27D0B62647136EB1","0.000000,0.000000,0.000000","","","False","0BADBADBADBADBAD","-1.0","3EC8BEA73BE94B2B","False","","False"
 "VS-","","Dual Magistri","you are registered for the arena.
@@ -27,7 +21,7 @@ You have been registered for the duels.","0BADBADBADBADBAD","27D0B62647136EB1","
 "VSLeave","","Dual Magistri","Okay, you have been unregistered from the fights.","0BADBADBADBADBAD","27D0B62647136EB1","0.000000,0.000000,0.000000","","","False","0BADBADBADBADBAD","3.0","0BADBADBADBADBAD","True","","False"
 "Greeter0","Greeter","Greeter","A fresh face","0BADBADBADBADBAD","5B20775DF8B830AF","0.000000,0.000000,0.000000","","","False","0BADBADBADBADBAD","-1.0","A7FC86134E1C8F09","False","","False"
 "Greeter1","","Greeter","You live! It's good to see a familiar face","0BADBADBADBADBAD","5B20775DF8B830AF","0.000000,0.000000,0.000000","","","False","0BADBADBADBADBAD","-1.0","A7FC86134E1C8F09","False","","False"
-"GreeterBye","","Greeter","I suggest talking to the innkeeper","0BADBADBADBADBAD","5B20775DF8B830AF","0.000000,0.000000,0.000000","","","False","0BADBADBADBADBAD","4.0","0BADBADBADBADBAD","False","GotoVelwood","False"
+"GreeterBye","","Greeter","I suggest talking to the innkeeper","0BADBADBADBADBAD","5B20775DF8B830AF","0.000000,0.000000,0.000000","","","False","0BADBADBADBADBAD","4.0","0BADBADBADBADBAD","False","","False"
 "GreeterVelwood","","Greeter","Only the dead live in Velwood","0BADBADBADBADBAD","5B20775DF8B830AF","0.000000,0.000000,0.000000","","","False","0BADBADBADBADBAD","-1.0","A7FC86134E1C8F09","False","","False"
 "Miner0","","Miner","The metal I mine will make good swords","0BADBADBADBADBAD","4CEA645A4AA2618C","0.000000,0.000000,0.000000","","","False","0BADBADBADBADBAD","3.0","0BADBADBADBADBAD","False","","False"
 "Blacksmith0","Blacksmith","Blacksmith","Looking for gear? ","0BADBADBADBADBAD","FC3F7FF188129625","0.000000,0.000000,0.000000","","","False","0BADBADBADBADBAD","-1.0","5B875C2885D11DD5","False","","False"

@@ -176,5 +176,14 @@ Assets {
         AssetId: "UI_Fantasy_Icon_CrystalBall"
       }
     }
+    Assets {
+      Id: 3688973956633439338
+      Name: "Emblem Star"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Military_Icon_059"
+      }
+    }
   }
 }
