@@ -1,6 +1,7 @@
 "questId[String]","name[String]","description[String]","count[Int]"
 "Welcome","You've Got Mail !","Find your mailbox and open it.","0"
 "Welcome","Welcome to Loot MMO!","Close your mailbox to collect a special item.","0"
+"WelcomeCoryprian","Fallen Kingdom","Welcome to Cyprian, once a peaceful kingdom ruled by a great king who is a fair ruler and takes great care to listen to the concerns and needs of his people.","0"
 "TestQuest","Check the NPC","NPC checkout","0"
 "Map","Find Map Pieces","1 of 3 found","0"
 "Map","Find Map Pieces","2 of 3 found","0"

@@ -15,6 +15,15 @@ Assets {
       }
     }
     Assets {
+      Id: 12164627038442308625
+      Name: "Emblem Laurel"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Military_Icon_064"
+      }
+    }
+    Assets {
       Id: 2269370495879113376
       Name: "Map"
       PlatformAssetType: 9

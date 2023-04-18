@@ -7,7 +7,7 @@ Assets {
       RootId: 10145384079528211493
       Objects {
         Id: 10145384079528211493
-        Name: "NPCs"
+        Name: "NPCs Velwood Fresh"
         Transform {
           Scale {
             X: 1
@@ -1451,9 +1451,9 @@ Assets {
         Name: "Greeter"
         Transform {
           Location {
-            X: -2874.9939
-            Y: -22257.3926
-            Z: 2582.13428
+            X: 445.703125
+            Y: 205.167969
+            Z: 101.635254
           }
           Rotation {
             Pitch: 4.50795889
@@ -2194,12 +2194,12 @@ Assets {
         Name: "Miner"
         Transform {
           Location {
-            X: 1572.99304
-            Y: -8652.56738
-            Z: -52.9509506
+            X: -677.929688
+            Y: 142.132812
+            Z: 116.174316
           }
           Rotation {
-            Yaw: -62.907074
+            Yaw: -25.1065369
           }
           Scale {
             X: 1
@@ -3658,12 +3658,12 @@ Assets {
         Name: "Blacksmith"
         Transform {
           Location {
-            X: 1666.40955
-            Y: -5971.74316
-            Z: 83.9012146
+            X: 252.751953
+            Y: -461.753906
+            Z: 72.7519531
           }
           Rotation {
-            Yaw: -23.4493713
+            Yaw: 119.643799
           }
           Scale {
             X: 1
@@ -4287,9 +4287,9 @@ Assets {
         Name: "Militia"
         Transform {
           Location {
-            X: -1624.54211
-            Y: 2818.85376
-            Z: 95.2952118
+            X: -701.451172
+            Y: -243.484375
+            Z: 80.9834
           }
           Rotation {
             Yaw: 3.83954406
@@ -4908,9 +4908,6 @@ Assets {
         Name: "Innkeeper"
         Transform {
           Location {
-            X: -1624.54211
-            Y: 2818.85376
-            Z: 95.2952118
           }
           Rotation {
             Yaw: 3.83954573
@@ -4949,8 +4946,6 @@ Assets {
         Name: "LocalLogic"
         Transform {
           Location {
-            X: -25.6984863
-            Y: -19.3632812
           }
           Rotation {
           }
@@ -5085,9 +5080,12 @@ Assets {
         Name: "NPCgeo"
         Transform {
           Location {
+            X: 597.911
+            Y: -92.9768066
+            Z: 144.65625
           }
           Rotation {
-            Yaw: -66.2981
+            Yaw: -155.568314
           }
           Scale {
             X: 2.88
@@ -5143,9 +5141,9 @@ Assets {
         Name: "Signals"
         Transform {
           Location {
-            X: 3834.6084
-            Y: 120.732964
-            Z: 89.5910873
+            X: -12.3403959
+            Y: 13.45432
+            Z: 19.3810349
           }
           Rotation {
             Yaw: -45.9863892
@@ -5413,9 +5411,6 @@ Assets {
         Name: "Innkeeper"
         Transform {
           Location {
-            X: 3845.81494
-            Y: 108.171753
-            Z: 61.6676788
           }
           Rotation {
             Yaw: -45.9863815

@@ -15,7 +15,7 @@ local function ResponseChosen(button)
     Events.Broadcast("Talking.Heads", chatID, chatState, button.name)
     if chatState >= 0 then
         Events.BroadcastToServer("ChangeChatState", chatID, chatState)
-          --LOCAL_PLAYER:SetResource(chatID..chatState)
+          LOCAL_PLAYER:SetResource(chatID..chatState)
     end
 end
 
