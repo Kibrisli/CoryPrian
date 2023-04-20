@@ -1,0 +1,4 @@
+"key[String]","Messages[String]","ChangeState[Int]"
+"RedKnightWho","Who are you ?","-1"
+"RedKnightWhere","What is this place ?","-1"
+"RedKnightBye","i need to go!","-1"
