@@ -435,7 +435,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 2499274055612512061
+              Id: 2858322153361950350
             }
           }
           Overrides {
@@ -449,6 +449,10 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
             Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 1
           }
         }
         Collidable_v2 {
@@ -808,6 +812,7 @@ Assets {
           }
         }
         ParentId: 17106049899705756975
+        ChildIds: 12204660424828433152
         ChildIds: 5972984433570289545
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -823,6 +828,76 @@ Assets {
         }
         Folder {
           IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 12204660424828433152
+        Name: "Cone - Soft 01"
+        Transform {
+          Location {
+            X: -3.95039105
+            Y: 0.087531805
+            Z: -82.9523926
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.728662252
+            Y: 0.728662252
+            Z: 1.70021224
+          }
+        }
+        ParentId: 17993966808518502404
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2499274055612512061
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              G: 0.125490203
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 5745600633623331248
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
@@ -2468,6 +2543,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_hemisphere_001"
+      }
+    }
+    Assets {
+      Id: 5745600633623331248
+      Name: "Cone - Truncated Hollow Thin"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cone_truncated_hollow_003"
       }
     }
     Assets {

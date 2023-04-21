@@ -3114,6 +3114,7 @@ Assets {
         }
         ParentId: 2393801558508204584
         ChildIds: 503528895002547204
+        ChildIds: 9733318193347653833
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5186,6 +5187,73 @@ Assets {
         CoreMesh {
           MeshAsset {
             Id: 15468551285490340539
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 9733318193347653833
+        Name: "Cone - Soft 01"
+        Transform {
+          Location {
+            Z: -101.042236
+          }
+          Rotation {
+            Yaw: 59.8251305
+          }
+          Scale {
+            X: 0.728662252
+            Y: 0.728662252
+            Z: 1.77666783
+          }
+        }
+        ParentId: 1310380803200307503
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2499274055612512061
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 5745600633623331248
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -12749,6 +12817,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_prim_org_apple_001_ref"
+      }
+    }
+    Assets {
+      Id: 5745600633623331248
+      Name: "Cone - Truncated Hollow Thin"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cone_truncated_hollow_003"
       }
     }
     Assets {
