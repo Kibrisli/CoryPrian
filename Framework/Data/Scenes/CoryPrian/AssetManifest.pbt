@@ -44,6 +44,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17999840572970862500
+  Name: "Main Street Pillar 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_pillar_002_ref"
+  }
+}
+Assets {
   Id: 17999095934034705962
   Name: "Waterfall Base Volume VFX"
   PlatformAssetType: 8
@@ -148,6 +157,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_stairs_001_pillar"
+  }
+}
+Assets {
+  Id: 16625862923644351521
+  Name: "Cylinder Chamfered Small - Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_lg_rnd_001_ref"
   }
 }
 Assets {
@@ -313,6 +331,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_foliage_gen_flower_bell_001_ref"
+  }
+}
+Assets {
+  Id: 15424851377311557353
+  Name: "Fantasy Castle Stairs 01 - 150cm Corner 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_stairs_001_150cm_corner"
   }
 }
 Assets {
@@ -2755,6 +2782,15 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
+  }
+}
+Assets {
+  Id: 772181615017214724
+  Name: "Main Street Trim 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_trim_004_ref"
   }
 }
 Assets {

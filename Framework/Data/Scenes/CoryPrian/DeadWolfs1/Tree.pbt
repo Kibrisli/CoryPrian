@@ -227,9 +227,9 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: -933
-      Y: 4877
-      Z: -1043.89844
+      X: 167.368164
+      Y: 2480.51367
+      Z: -1445.68799
     }
     Rotation {
       Yaw: -94.603363
@@ -375,9 +375,9 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: -569
-      Y: 4085
-      Z: -1485
+      X: -248.827148
+      Y: 4143.35938
+      Z: -1436.73096
     }
     Rotation {
       Yaw: -169.670013
