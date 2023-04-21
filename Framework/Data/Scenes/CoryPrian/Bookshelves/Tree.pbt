@@ -63,8 +63,8 @@ Objects {
   Name: "Mage Bookshelf"
   Transform {
     Location {
-      X: 235.912537
-      Y: -0.000152587891
+      X: 225.000687
+      Y: -0.000396728516
     }
     Rotation {
     }
@@ -2029,8 +2029,8 @@ Objects {
   Name: "Warrior Bookshelf"
   Transform {
     Location {
-      X: -242.861298
-      Y: 0.000396728516
+      X: -225.999634
+      Y: -0.000427246094
     }
     Rotation {
     }

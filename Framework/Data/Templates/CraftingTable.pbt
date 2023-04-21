@@ -19,6 +19,7 @@ Assets {
         ChildIds: 1373074879223481400
         ChildIds: 17359080604315308898
         ChildIds: 16865260408401059776
+        ChildIds: 5811064280516436074
         ChildIds: 15147407147607076785
         ChildIds: 15499891361655638605
         ChildIds: 8572209528846727274
@@ -1199,6 +1200,32 @@ Assets {
               }
             }
           }
+          ParameterOverrideMap {
+            key: 7492704133743629561
+            value {
+              Overrides {
+                Name: "cs:dragPanel"
+                ObjectReference {
+                  SelfId: 7766030862912006558
+                }
+              }
+              Overrides {
+                Name: "cs:HoverPanel"
+                ObjectReference {
+                  SelfId: 13209850701844341350
+                }
+              }
+              Overrides {
+                Name: "cs:MaterialsBar"
+                ObjectReference {
+                  SelfId: 487885943213941331
+                  SubObjectId: 2823322769909407817
+                  InstanceId: 17479739102481556663
+                  TemplateId: 9728704631775414875
+                }
+              }
+            }
+          }
           TemplateAsset {
             Id: 1470921520463367584
           }
@@ -1263,6 +1290,55 @@ Assets {
             Id: 4181482252406164384
           }
         }
+      }
+      Objects {
+        Id: 5811064280516436074
+        Name: "Callout Sparkle"
+        Transform {
+          Location {
+            X: -3.72846723
+            Y: -5.33915281
+            Z: -41.8795624
+          }
+          Rotation {
+            Yaw: -179.469223
+          }
+          Scale {
+            X: 6.66822243
+            Y: 6.66822243
+            Z: 5.33457804
+          }
+        }
+        ParentId: 17457631276908661340
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 14231394991004806063
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
       }
       Objects {
         Id: 15147407147607076785
@@ -1649,6 +1725,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_rock_generic_007"
+      }
+    }
+    Assets {
+      Id: 14231394991004806063
+      Name: "Callout Sparkle"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_sparkles_volume_vfx"
       }
     }
     Assets {

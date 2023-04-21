@@ -1,17 +1,82 @@
 Name: "Map"
 RootId: 15813715506480410765
 Objects {
+  Id: 7688351860521073801
+  Name: "Rock Flat 01"
+  Transform {
+    Location {
+      X: 23006.9375
+      Y: 30915.0918
+      Z: 58688.1836
+    }
+    Rotation {
+      Pitch: -2.08816528
+      Yaw: 175.957703
+      Roll: -0.920471191
+    }
+    Scale {
+      X: 1.80000007
+      Y: 3.7
+      Z: 0.900000036
+    }
+  }
+  ParentId: 15813715506480410765
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5665813867967298486
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4842806961858489681
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 16181718522566863577
   Name: "MapTable"
   Transform {
     Location {
-      X: 20969.8066
-      Y: 31473.168
-      Z: 58991.9414
+      X: 22985.8457
+      Y: 30848.0723
+      Z: 58961.3789
     }
     Rotation {
       Pitch: -179.969574
-      Yaw: -36.409668
+      Yaw: -11.409729
       Roll: 90
     }
     Scale {
