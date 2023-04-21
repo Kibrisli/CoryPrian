@@ -1,7 +1,7 @@
 Name: "Signals_1"
-RootId: 3507058074554916019
+RootId: 13109901591908184979
 Objects {
-  Id: 14621803553809546539
+  Id: 12234328183929713018
   Name: "Signal"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 0.166261718
     }
   }
-  ParentId: 3507058074554916019
+  ParentId: 13109901591908184979
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -137,7 +137,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18387289256763538724
+  Id: 16073565141203809161
   Name: "LookAtPlayer"
   Transform {
     Location {
@@ -151,7 +151,7 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 3507058074554916019
+  ParentId: 13109901591908184979
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -175,7 +175,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15919422747573915391
+  Id: 15996256865753633795
   Name: "QuestSignals"
   Transform {
     Location {
@@ -192,7 +192,7 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 3507058074554916019
+  ParentId: 13109901591908184979
   UnregisteredParameters {
     Overrides {
       Name: "cs:QuestID"
@@ -201,7 +201,7 @@ Objects {
     Overrides {
       Name: "cs:Signal"
       ObjectReference {
-        SelfId: 14621803553809546539
+        SelfId: 12234328183929713018
       }
     }
   }
