@@ -3033,6 +3033,7 @@ Objects {
   ChildIds: 5726408156670216826
   ChildIds: 1167212195138351078
   ChildIds: 2413002681474411866
+  ChildIds: 858868731519742682
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3055,6 +3056,48 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 858868731519742682
+  Name: "Pictures"
+  Transform {
+    Location {
+      X: 48.7022133
+      Y: -133.394836
+      Z: 92.8457794
+    }
+    Rotation {
+      Pitch: 8.5624752
+      Yaw: -2.47734976
+      Roll: 4.32008648
+    }
+    Scale {
+      X: 0.783198297
+      Y: 0.783198297
+      Z: 0.783198297
+    }
+  }
+  ParentId: 2404899207865638484
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Pictures"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
@@ -11682,7 +11725,6 @@ Objects {
     }
   }
   ParentId: 1291992699449323757
-  ChildIds: 16327836064777602798
   ChildIds: 2376177639046490960
   ChildIds: 7633407222081301946
   Collidable_v2 {
@@ -11858,48 +11900,6 @@ Objects {
   }
   Relevance {
     Value: "mc:edistancerelevance:medium"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 16327836064777602798
-  Name: "Pictures"
-  Transform {
-    Location {
-      X: 47.6146736
-      Y: -11.1319294
-      Z: -44.0361938
-    }
-    Rotation {
-      Pitch: 36.4096565
-      Yaw: -179.969559
-      Roll: -89.9999771
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16622734121321633650
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Pictures"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

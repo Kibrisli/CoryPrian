@@ -1,7 +1,7 @@
 Name: "Signals_4"
-RootId: 10506616291318555680
+RootId: 13109901591908184979
 Objects {
-  Id: 17029697607294523849
+  Id: 12234328183929713018
   Name: "Signal"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 0.166261718
     }
   }
-  ParentId: 10506616291318555680
+  ParentId: 13109901591908184979
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -137,7 +137,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7840296444186130459
+  Id: 16073565141203809161
   Name: "LookAtPlayer"
   Transform {
     Location {
@@ -151,7 +151,7 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 10506616291318555680
+  ParentId: 13109901591908184979
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -175,7 +175,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7130844841059396280
+  Id: 15996256865753633795
   Name: "QuestSignals"
   Transform {
     Location {
@@ -192,16 +192,16 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 10506616291318555680
+  ParentId: 13109901591908184979
   UnregisteredParameters {
     Overrides {
       Name: "cs:QuestID"
-      String: "WelcomeCoryprian"
+      String: ""
     }
     Overrides {
       Name: "cs:Signal"
       ObjectReference {
-        SelfId: 17029697607294523849
+        SelfId: 12234328183929713018
       }
     }
   }

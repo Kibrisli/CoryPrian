@@ -2,12 +2,18 @@
 "RedKnight0","RedKnight","Red Knight","Aaa.. A new arrival after a long time!","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_point_forward","False","0BADBADBADBADBAD","-1.0","AB5995557A29F131","False","WelcomeCoryprian","False"
 "RedKnight1","","Red Knight","","5665140A9A47F454","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","-1.0","AB5995557A29F131","False","","False"
 "RedKnight2","","Red Knight","i'm One of the few Knights left from the Old Kingdom","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","-1.0","E770166757A78CA5","False","","False"
-"RedKnight3","","Red Knight","You came into Grasslands called CoryPrian, once a peaceful Kingdom. Now home for unspeakable beasts..","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","-1.0","5229F6C02A981569","False","","False"
-"RedKnight4","","Red Knight","How long... it's hard to remember.. Many moons and eions ago..","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","-1.0","4E9E0E6D88FECEBC","False","","False"
-"RedKnightBye","","Red Knight","Adventures waiting for you {name} , goodluck.","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","2.0","0BADBADBADBADBAD","False","WelcomeCoryprian","False"
-"DarkKnight0","DarkKnight","Dark Knight","Leave me Alone Stranger!","0BADBADBADBADBAD","695C5EF4A638633E","0.000000,0.000000,0.000000","","","False","0BADBADBADBADBAD","2.0","0BADBADBADBADBAD","False","TestQuest","False"
+"RedKnight3","","Red Knight","You came into Grasslands called CoryPrian, once a peaceful Kingdom. Now home for unspeakable beasts..","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","-1.0","E770166757A78CA5","False","","False"
+"RedKnight4","","Red Knight","How long... it's hard to remember.. Many moons and eions ago..","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","-1.0","E770166757A78CA5","False","","False"
+"RedKnightBye","RedKnightBye","Red Knight","Adventures waiting for you {name} , goodluck.","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","2.0","0BADBADBADBADBAD","False","WelcomeCoryprian","False"
+"GoldKnight0","GoldKnight","Gold Knight","","D6AFED70F01A10D0","982BE0BCBC3A9900","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","4.0","0BADBADBADBADBAD","False","","False"
+"DarkKnight0","DarkKnight","Dark Knight","Leave me Alone Stranger!","0BADBADBADBADBAD","695C5EF4A638633E","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","2.0","0BADBADBADBADBAD","False","TestQuest","False"
+"DarkWizard0","DarkWizard","Dark Wizard","We should have known...
+
+i have nothing to say Stranger!","0BADBADBADBADBAD","FD12637B8CC4F665","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","3.0","0BADBADBADBADBAD","False","","False"
+"CursedRedWizard0","CursedRedWizard","Cursed Wizard","i tryed to break the spell that bring chaos to our peaceful kingdom.
+But i have failed. That came with a greate cost..","0BADBADBADBADBAD","DA0659FC4FE0F4B1","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","5.0","0BADBADBADBADBAD","False","","False"
 "NovaKnight","NovaKnight","Lost Knight of Stars","i.. i can't..
-","0BADBADBADBADBAD","0BADBADBADBADBAD","0.000000,0.000000,0.000000","","","False","0BADBADBADBADBAD","0.0","0BADBADBADBADBAD","False","","False"
+","0BADBADBADBADBAD","0BADBADBADBADBAD","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","0.0","0BADBADBADBADBAD","False","","False"
 "Demon0","Demon","Demon","Go away, {name}.
 Stop annoying me, Go back to the map,
  I'm sure Velwood would interest you greatly.","0BADBADBADBADBAD","B4C044B5CE370091","0.000000,0.000000,0.000000","","unarmed_no","False","0BADBADBADBADBAD","-1.0","C1F3330C644A1A4B","False","","False"
