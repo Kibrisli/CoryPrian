@@ -5,6 +5,7 @@ function Clicked()
 end
 
 function Responded(buttonAsset)
+    Task.Wait(.1)
     if Object.IsValid(button) then
         button:Destroy()
     end
