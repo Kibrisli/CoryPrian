@@ -78,7 +78,7 @@ Objects {
   ParentId: 9880951623020478724
   ChildIds: 13459640397729040906
   ChildIds: 2189401346598702028
-  ChildIds: 12299459209409392918
+  ChildIds: 7970761556400132884
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -100,79 +100,26 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12299459209409392918
-  Name: "Scroll"
-  Transform {
-    Location {
-      X: -5.3624115
-      Y: -10.2672577
-      Z: 220.132568
-    }
-    Rotation {
-      Pitch: -50.2518921
-      Yaw: 36.3336487
-      Roll: -13.2271118
-    }
-    Scale {
-      X: 1.30463135
-      Y: 1.30463135
-      Z: 1.30463135
-    }
-  }
-  ParentId: 5819595861649058423
-  ChildIds: 3345299280861224414
-  ChildIds: 7970761556400132884
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16844675866280788582
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:high"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
   Id: 7970761556400132884
   Name: "Flare Billboard"
   Transform {
     Location {
+      X: -7.15436745
+      Y: -20.6112347
+      Z: 69.1123047
     }
     Rotation {
+      Pitch: 12.7572832
+      Yaw: -138.344
+      Roll: 20.0121765
     }
     Scale {
-      X: 0.766500056
-      Y: 0.766500056
-      Z: 0.766500056
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 12299459209409392918
+  ParentId: 5819595861649058423
   UnregisteredParameters {
     Overrides {
       Name: "bp:Rotation"
@@ -236,60 +183,6 @@ Objects {
     Value: "mc:edistancerelevance:critical"
   }
   IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 3345299280861224414
-  Name: "Object Rotator Continuous"
-  Transform {
-    Scale {
-      X: 0.766500056
-      Y: 0.766500056
-      Z: 0.766500056
-    }
-  }
-  ParentId: 12299459209409392918
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5456438743692384211
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Object Rotator Continuous"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.766500056
-            Y: 0.766500056
-            Z: 0.766500056
-          }
-        }
-        Overrides {
-          Name: "cs:Object"
-          ObjectReference {
-            SelfId: 12299459209409392918
-          }
-        }
-        Overrides {
-          Name: "cs:RotateVelocity"
-          Rotator {
-            Yaw: 30
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -18.1154785
-            Yaw: 28.5637321
-            Roll: 37.6593513
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 11770376231824422191
-    }
-  }
 }
 Objects {
   Id: 2189401346598702028

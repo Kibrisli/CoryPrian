@@ -19,6 +19,7 @@ Objects {
     }
   }
   ParentId: 11070675045446597968
+  ChildIds: 3477115318323938075
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -135,6 +136,69 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3477115318323938075
+  Name: "Object Curve Mover"
+  Transform {
+    Location {
+      X: 25081.1328
+      Y: 37723.2734
+      Z: 6123.19775
+    }
+    Rotation {
+      Yaw: 25.1929302
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1734817431655598594
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1072177198051453324
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Object Curve Mover"
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 127.512711
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.00487137
+            Y: 1.99863625
+            Z: 2.00487137
+          }
+        }
+        Overrides {
+          Name: "cs:Object"
+          ObjectReference {
+            SelfId: 1734817431655598594
+          }
+        }
+        Overrides {
+          Name: "cs:Multiplier"
+          Float: 5
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10587460636167655313
+    }
+  }
 }
 Objects {
   Id: 2092351164409370030

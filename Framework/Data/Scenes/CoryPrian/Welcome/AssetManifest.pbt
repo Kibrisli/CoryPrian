@@ -1,13 +1,4 @@
 Assets {
-  Id: 16844675866280788582
-  Name: "Fantasy Scroll Contained 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fan_scroll_002_ref"
-  }
-}
-Assets {
   Id: 13934907904162102494
   Name: "Hand Cast VFX"
   PlatformAssetType: 8
