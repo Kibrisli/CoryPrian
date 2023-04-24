@@ -62,9 +62,9 @@ Objects {
   Name: "VFX"
   Transform {
     Location {
-      X: -437.244141
-      Y: -2585.88672
-      Z: -56.4580078
+      X: 2751.99414
+      Y: 4149.90625
+      Z: 1983.3606
     }
     Rotation {
       Yaw: 99.8175201
@@ -78,6 +78,7 @@ Objects {
   ParentId: 9880951623020478724
   ChildIds: 13459640397729040906
   ChildIds: 2189401346598702028
+  ChildIds: 12299459209409392918
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -97,6 +98,198 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12299459209409392918
+  Name: "Scroll"
+  Transform {
+    Location {
+      X: -5.3624115
+      Y: -10.2672577
+      Z: 220.132568
+    }
+    Rotation {
+      Pitch: -50.2518921
+      Yaw: 36.3336487
+      Roll: -13.2271118
+    }
+    Scale {
+      X: 1.30463135
+      Y: 1.30463135
+      Z: 1.30463135
+    }
+  }
+  ParentId: 5819595861649058423
+  ChildIds: 3345299280861224414
+  ChildIds: 7970761556400132884
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16844675866280788582
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:high"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7970761556400132884
+  Name: "Flare Billboard"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.766500056
+      Y: 0.766500056
+      Z: 0.766500056
+    }
+  }
+  ParentId: 12299459209409392918
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Rotation"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Auto Rotate"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Flare Shape"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Color B"
+      Color {
+        R: 0.942450285
+        G: 1
+        B: 0.209999979
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Color C"
+      Color {
+        R: 0.932980061
+        G: 1
+        B: 0.0799999833
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Rotate Texture"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Rotation Rate"
+      Float: 10
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 4488444258523261897
+    }
+    TeamSettings {
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3345299280861224414
+  Name: "Object Rotator Continuous"
+  Transform {
+    Scale {
+      X: 0.766500056
+      Y: 0.766500056
+      Z: 0.766500056
+    }
+  }
+  ParentId: 12299459209409392918
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5456438743692384211
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Object Rotator Continuous"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.766500056
+            Y: 0.766500056
+            Z: 0.766500056
+          }
+        }
+        Overrides {
+          Name: "cs:Object"
+          ObjectReference {
+            SelfId: 12299459209409392918
+          }
+        }
+        Overrides {
+          Name: "cs:RotateVelocity"
+          Rotator {
+            Yaw: 30
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -18.1154785
+            Yaw: 28.5637321
+            Roll: 37.6593513
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11770376231824422191
+    }
+  }
 }
 Objects {
   Id: 2189401346598702028

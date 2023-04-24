@@ -112,13 +112,13 @@ Objects {
   Name: "Quest - Map Piece"
   Transform {
     Location {
-      X: 21338.5664
-      Y: 31567.7617
-      Z: 58776.3
+      X: 23281.1348
+      Y: 31091.3086
+      Z: 58746.7422
     }
     Rotation {
       Pitch: -0.158355713
-      Yaw: -78.3960571
+      Yaw: -57.7607422
       Roll: -0.097442627
     }
     Scale {
@@ -200,7 +200,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -499,11 +499,12 @@ Objects {
   Name: "Quest - Map Piece"
   Transform {
     Location {
-      X: 20890.4316
-      Y: 31909.3652
-      Z: 58771.3359
+      X: 22730.7871
+      Y: 31211.0508
+      Z: 58741.7734
     }
     Rotation {
+      Yaw: 23.6458111
     }
     Scale {
       X: 1
@@ -578,7 +579,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -600,6 +601,8 @@ Objects {
   Name: "ObjectivePickupObject"
   Transform {
     Location {
+      X: -5.67311144
+      Y: -12.9569893
     }
     Rotation {
     }
