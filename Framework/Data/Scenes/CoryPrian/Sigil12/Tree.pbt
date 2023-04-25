@@ -1,25 +1,28 @@
-Name: "Sigils Showrock"
-RootId: 5331765352607089926
+Name: "Sigil12"
+RootId: 17211927370400885942
 Objects {
-  Id: 15471209292979080166
-  Name: "Lootverse Sigils"
+  Id: 3211297741926220898
+  Name: "Sigil Rage"
   Transform {
     Location {
-      X: -3.09375
-      Y: -1.5859375
-      Z: 236.00293
+      X: -224.784897
+      Y: -2.05091128e-05
+      Z: 9.15527344e-05
     }
     Rotation {
-      Roll: -89.9999924
+      Pitch: -67.3853073
+      Yaw: 6.07530928
+      Roll: 84.3879623
     }
     Scale {
-      X: 0.258189201
-      Y: 0.258189201
-      Z: 0.258189201
+      X: 0.258189172
+      Y: 0.258189172
+      Z: 0.258189172
     }
   }
-  ParentId: 5331765352607089926
-  ChildIds: 17485540194745441741
+  ParentId: 17211927370400885942
+  ChildIds: 1076400541720285087
+  ChildIds: 17373295259434286564
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35,39 +38,106 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 15471209292979080166
-    SubobjectId: 5698143110536363041
-    InstanceId: 14368303360332208153
-    TemplateId: 529319378753410157
-    WasRoot: true
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17485540194745441741
-  Name: "Sigils Order"
+  Id: 17373295259434286564
+  Name: "Flare Billboard"
   Transform {
     Location {
-      X: 0.693684399
-      Y: 10.6757116
-      Z: 73.5389175
     }
     Rotation {
-      Pitch: 2.33237982
-      Yaw: 180
-      Roll: -89.9999695
     }
     Scale {
-      X: 3.87312865
-      Y: 3.87312865
-      Z: 3.87312865
+      X: 1.41796362
+      Y: 1.41796362
+      Z: 1.41796362
     }
   }
-  ParentId: 15471209292979080166
+  ParentId: 3211297741926220898
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Flare Shape"
+      Int: 5
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.572549045
+        G: 0.0627451
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Color B"
+      Color {
+        R: 0.572549045
+        G: 0.0627451
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Color C"
+      Color {
+        R: 0.572549045
+        G: 0.0627451
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Emissive Boost"
+      Float: 15
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 4488444258523261897
+    }
+    TeamSettings {
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1076400541720285087
+  Name: "MergedModel"
+  Transform {
+    Location {
+      X: 1.08447266
+      Y: -7.56033325
+      Z: -0.311038971
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3211297741926220898
+  ChildIds: 15567749371446344624
+  ChildIds: 11847003666762535834
+  ChildIds: 1355583614934841492
+  ChildIds: 9402335759125411995
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -81,8 +151,11 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sigils Order"
+    Model {
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -90,31 +163,39 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1775160034814240257
-  Name: "Rock Flat 01"
+  Id: 9402335759125411995
+  Name: "Cylinder - Polished"
   Transform {
     Location {
-      X: 49.5761719
-      Y: 244.060547
-      Z: 913.477783
+      X: -1.08447266
+      Y: -8.43969727
+      Z: 10.311039
     }
     Rotation {
-      Pitch: -9.16989136
-      Yaw: 80.6602249
-      Roll: -175.549377
+      Pitch: 3.4150944e-05
+      Yaw: 89.9999695
+      Roll: 89.9999695
     }
     Scale {
-      X: 0.71019423
-      Y: 1.84695029
-      Z: -6.05179787
+      X: 0.2
+      Y: -0.2
+      Z: 1.30000007
     }
   }
-  ParentId: 5331765352607089926
+  ParentId: 1076400541720285087
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 5665813867967298486
+        Id: 675563715440209277
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.571125031
+        G: 0.064803265
+        A: 1
       }
     }
   }
@@ -132,12 +213,13 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 4842806961858489681
+      Id: 12905923173550510229
     }
     Teams {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableCastShadows: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -155,30 +237,39 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7234446443136504779
-  Name: "Rock Flat 01"
+  Id: 1355583614934841492
+  Name: "Cylinder - Polished"
   Transform {
     Location {
-      X: 79.2089844
-      Y: 245.267578
-      Z: 165.515869
+      X: -15.0844727
+      Y: 0.560302734
+      Z: 10.311039
     }
     Rotation {
-      Yaw: -26.6804199
-      Roll: -90
+      Pitch: -0.0312549435
+      Yaw: 18.0000076
+      Roll: -90.0033264
     }
     Scale {
-      X: 0.989807487
-      Y: 6.56152153
-      Z: -2.23595309
+      X: 0.2
+      Y: -0.2
+      Z: 1.30000007
     }
   }
-  ParentId: 5331765352607089926
+  ParentId: 1076400541720285087
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 5665813867967298486
+        Id: 675563715440209277
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.571125031
+        G: 0.064803265
+        A: 1
       }
     }
   }
@@ -196,12 +287,13 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 4842806961858489681
+      Id: 12905923173550510229
     }
     Teams {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableCastShadows: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -219,30 +311,39 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4804211748863862535
-  Name: "Rock Flat 01"
+  Id: 11847003666762535834
+  Name: "Cylinder - Polished"
   Transform {
     Location {
-      X: -68.2695312
-      Y: 239.296875
-      Z: 165.515869
+      X: 16.9155273
+      Y: 0.560302734
+      Z: 10.311039
     }
     Rotation {
-      Yaw: 19.9007206
-      Roll: -90
+      Pitch: 0.529237151
+      Yaw: -11.0253458
+      Roll: 89.8324051
     }
     Scale {
-      X: 0.989807487
-      Y: 6.56152153
-      Z: -2.23595309
+      X: 0.2
+      Y: 0.2
+      Z: 1.30000007
     }
   }
-  ParentId: 5331765352607089926
+  ParentId: 1076400541720285087
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 5665813867967298486
+        Id: 675563715440209277
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.571125031
+        G: 0.064803265
+        A: 1
       }
     }
   }
@@ -260,12 +361,13 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 4842806961858489681
+      Id: 12905923173550510229
     }
     Teams {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableCastShadows: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -283,29 +385,30 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5133673929734929764
-  Name: "Rock Flat 01"
+  Id: 15567749371446344624
+  Name: "Sigil Stone"
   Transform {
     Location {
-      X: 3.1328125
-      Y: 1.4453125
-      Z: 165.515869
+      X: -0.746582031
+      Y: 7.31896973
     }
     Rotation {
-      Roll: -89.9999695
+      Pitch: 0.0118162269
+      Yaw: -179.98703
+      Roll: 0.20466572
     }
     Scale {
-      X: 0.98976481
-      Y: 4.31249332
-      Z: -0.0754124075
+      X: 1.986
+      Y: 1.98576248
+      Z: 0.358971745
     }
   }
-  ParentId: 5331765352607089926
+  ParentId: 1076400541720285087
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 5665813867967298486
+        Id: 1213324101088113781
       }
     }
   }
@@ -323,7 +426,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 4842806961858489681
+      Id: 6530006698448607407
     }
     Teams {
       IsTeamCollisionEnabled: true
