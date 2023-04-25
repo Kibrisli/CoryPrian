@@ -1,0 +1,36 @@
+Assets {
+  Id: 14182953942275204608
+  Name: "Sign Font 1: !"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "CollegeInset_01_Text_037_ref"
+  }
+}
+Assets {
+  Id: 13934907904162102494
+  Name: "Hand Cast VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_cast_hands"
+  }
+}
+Assets {
+  Id: 10184847056121543272
+  Name: "Basic Material"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_pbr_material_001"
+  }
+}
+Assets {
+  Id: 3336018558241619144
+  Name: "Basic Water Splash VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_watersplash"
+  }
+}

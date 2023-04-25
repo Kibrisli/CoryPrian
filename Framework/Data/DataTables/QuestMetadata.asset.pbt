@@ -33,6 +33,15 @@ Assets {
       }
     }
     Assets {
+      Id: 8297070072070063727
+      Name: "Icon Player"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "Icon_Player"
+      }
+    }
+    Assets {
       Id: 1396009735179489274
       Name: "Sword"
       PlatformAssetType: 9

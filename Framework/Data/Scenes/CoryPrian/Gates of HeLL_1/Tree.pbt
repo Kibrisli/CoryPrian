@@ -66,7 +66,6 @@ Objects {
   ChildIds: 16248679810368884521
   ChildIds: 12971972631957884758
   ChildIds: 10921797938423088511
-  ChildIds: 14487707837231301080
   ChildIds: 768246753726049527
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -126,72 +125,6 @@ Objects {
         G: 0.504889131
         B: 0.994000077
         A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6981536508008379085
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableReceiveDecals: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 14487707837231301080
-  Name: "Rock 03"
-  Transform {
-    Location {
-      X: 4346.11328
-      Y: -11043.1543
-      Z: 5658.69141
-    }
-    Rotation {
-      Pitch: 9.20296192
-      Yaw: 87.6629181
-      Roll: 18.8184147
-    }
-    Scale {
-      X: 4.39635897
-      Y: 2.22476625
-      Z: 4.33895302
-    }
-  }
-  ParentId: 12609223739956029218
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 14934150822633802259
       }
     }
   }

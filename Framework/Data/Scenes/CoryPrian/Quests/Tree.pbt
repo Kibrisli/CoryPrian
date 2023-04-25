@@ -1466,6 +1466,45 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 16181469260824976129
+  Name: "LostKnight"
+  Transform {
+    Location {
+      X: 24844.2207
+      Y: 16991.0527
+      Z: 4574.60938
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4244745184024888751
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "LostKnight"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 15813715506480410765
   Name: "Map"
   Transform {

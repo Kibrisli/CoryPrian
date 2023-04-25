@@ -588,6 +588,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14231394991004806063
+  Name: "Callout Sparkle"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_sparkles_volume_vfx"
+  }
+}
+Assets {
   Id: 14089497421580664888
   Name: "Stone Block Small Broken"
   PlatformAssetType: 1
@@ -1616,6 +1625,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_mod_stairs_steps_003_damaged_02_ref"
+  }
+}
+Assets {
+  Id: 8598178339072722664
+  Name: "Basic Sparks"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_basic_sparks"
   }
 }
 Assets {
