@@ -1912,3 +1912,486 @@ Objects {
     }
   }
 }
+Objects {
+  Id: 3899405400595851810
+  Name: "Areas"
+  Transform {
+    Location {
+      X: 17
+      Y: -8
+      Z: 6569
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1882718114171607823
+  ChildIds: 5172835459652006788
+  ChildIds: 16436399637313165096
+  ChildIds: 12215955875566143221
+  ChildIds: 7662896313975828573
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7662896313975828573
+  Name: "Named Location"
+  Transform {
+    Location {
+      X: 21892.752
+      Y: 32836.5977
+      Z: 4142.65869
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3899405400595851810
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6914351225150253899
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1701.75195
+            Y: -17007.5977
+            Z: 941.341309
+          }
+        }
+        Overrides {
+          Name: "TriggerShape"
+          Enum {
+            Value: "mc:etriggershape:sphere"
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 248.817627
+            Y: 242.391388
+            Z: 67.1509628
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -26.4879456
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12084009895330886478
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Named Location - Dragon\'s Cave"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 21875.752
+            Y: 32844.5977
+            Z: -2426.34131
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:Name"
+          String: "Dragon\'s Cave"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15950215774655544660
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1701.75195
+            Y: -17007.5977
+            Z: 941.341309
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -26.4879456
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 329.199921
+            Y: 270.599945
+            Z: 62.8999863
+          }
+        }
+        Overrides {
+          Name: "TriggerShape"
+          Enum {
+            Value: "mc:etriggershape:sphere"
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5984235938909643820
+    }
+  }
+}
+Objects {
+  Id: 12215955875566143221
+  Name: "Named Location"
+  Transform {
+    Location {
+      X: 21875.752
+      Y: 32844.5977
+      Z: -2426.34131
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3899405400595851810
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6914351225150253899
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -878.353516
+            Y: -10647.2773
+            Z: -3431.02686
+          }
+        }
+        Overrides {
+          Name: "TriggerShape"
+          Enum {
+            Value: "mc:etriggershape:box"
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 90.6999435
+            Y: 29.3671227
+            Z: 19.6638851
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -0.360961914
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12084009895330886478
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Named Location - Cave of Lost Souls"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 21875.752
+            Y: 32844.5977
+            Z: -2426.34131
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:Name"
+          String: "Caves of Lost Souls"
+        }
+        Overrides {
+          Name: "cs:TextColor"
+          Color {
+            R: 0.586000085
+            G: 2.79426615e-07
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15950215774655544660
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -878.355469
+            Y: -10647.2773
+            Z: -3431.02686
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -0.360961914
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 90.6999435
+            Y: 29.3671227
+            Z: 19.6638851
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5984235938909643820
+    }
+  }
+}
+Objects {
+  Id: 16436399637313165096
+  Name: "Named Location"
+  Transform {
+    Location {
+      X: -8222
+      Y: -4403
+      Z: -50966
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3899405400595851810
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6914351225150253899
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2992.59375
+            Y: 285.128906
+            Z: 1359.94678
+          }
+        }
+        Overrides {
+          Name: "TriggerShape"
+          Enum {
+            Value: "mc:etriggershape:box"
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 179.803528
+            Y: 147.808167
+            Z: 34.3767
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -26.4879456
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12084009895330886478
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Named Location - MAP Entrence"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 21875.752
+            Y: 32844.5977
+            Z: -2426.34131
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:Name"
+          String: "Welcome to Coryprian"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15950215774655544660
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2992.59375
+            Y: 285.128906
+            Z: 1359.94678
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -26.4879456
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 179.803528
+            Y: 147.808167
+            Z: 34.3767
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5984235938909643820
+    }
+  }
+}
+Objects {
+  Id: 5172835459652006788
+  Name: "Named Location Display"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3899405400595851810
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 901903567160528550
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Named Location Display"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9692378619208917364
+      value {
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13170181372698416189
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 1489.67053
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 78.9007263
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 18066008406391893384
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 0
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12291872806619147804
+    }
+  }
+}
