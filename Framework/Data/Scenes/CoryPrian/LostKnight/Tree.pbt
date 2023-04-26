@@ -292,6 +292,7 @@ Objects {
   }
   ParentId: 11833176910870401807
   ChildIds: 12916687949187199391
+  ChildIds: 12577614653429307989
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -403,6 +404,49 @@ Objects {
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12577614653429307989
+  Name: "LookAtPlayer"
+  Transform {
+    Location {
+      X: -1071.77454
+      Y: -41440.9492
+      Z: 2936.29468
+    }
+    Rotation {
+      Pitch: -1.36603776e-05
+      Yaw: 24.3819141
+      Roll: 7.24181882e-06
+    }
+    Scale {
+      X: 2.00487089
+      Y: 1.99863553
+      Z: 2.00487089
+    }
+  }
+  ParentId: 12242835692881821227
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8119323275412960624
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

@@ -1,93 +1,46 @@
 Name: "Sigils Showrock"
 RootId: 5331765352607089926
 Objects {
-  Id: 15471209292979080166
-  Name: "Lootverse Sigils"
+  Id: 18302267523955558086
+  Name: "Lootverse Sigils Alligned"
   Transform {
-    Location {
-      X: -3.09375
-      Y: -1.5859375
-      Z: 236.00293
-    }
-    Rotation {
-      Roll: -89.9999924
-    }
     Scale {
-      X: 0.258189201
-      Y: 0.258189201
-      Z: 0.258189201
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 5331765352607089926
-  ChildIds: 17485540194745441741
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 15471209292979080166
-    SubobjectId: 5698143110536363041
-    InstanceId: 14368303360332208153
-    TemplateId: 529319378753410157
-    WasRoot: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 17485540194745441741
-  Name: "Sigils Order"
-  Transform {
-    Location {
-      X: 0.693684399
-      Y: 10.6757116
-      Z: 73.5389175
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4269060771406888113
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Lootverse Sigils Alligned"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2.91032982
+            Y: -6.10201
+            Z: 236.003174
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -2.33236694
+            Yaw: -177.001617
+            Roll: 90
+          }
+        }
+      }
     }
-    Rotation {
-      Pitch: 2.33237982
-      Yaw: 180
-      Roll: -89.9999695
-    }
-    Scale {
-      X: 3.87312865
-      Y: 3.87312865
-      Z: 3.87312865
+    TemplateAsset {
+      Id: 13574696095134775821
     }
   }
-  ParentId: 15471209292979080166
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sigils Order"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 1775160034814240257
@@ -287,12 +240,13 @@ Objects {
   Name: "Rock Flat 01"
   Transform {
     Location {
-      X: 3.1328125
-      Y: 1.4453125
+      X: 2.97460938
+      Y: 3.92578125
       Z: 165.515869
     }
     Rotation {
-      Roll: -89.9999695
+      Yaw: 2.06739545
+      Roll: -90
     }
     Scale {
       X: 0.98976481
