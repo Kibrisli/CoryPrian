@@ -1,8 +1,8 @@
 Name: "Signals_8"
-RootId: 11070675045446597968
+RootId: 10223833542537028492
 Objects {
-  Id: 1734817431655598594
-  Name: "Signal"
+  Id: 6977585391855606616
+  Name: "End"
   Transform {
     Location {
       X: -2.82545829
@@ -18,8 +18,7 @@ Objects {
       Z: 0.166261718
     }
   }
-  ParentId: 11070675045446597968
-  ChildIds: 3477115318323938075
+  ParentId: 10223833542537028492
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -138,70 +137,143 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3477115318323938075
-  Name: "Object Curve Mover"
+  Id: 7362701404822104581
+  Name: "Start"
   Transform {
     Location {
-      X: 25081.1328
-      Y: 37723.2734
-      Z: 6123.19775
+      X: -2.82546496
+      Y: 1.63313043
+      Z: 2.46765161
     }
     Rotation {
-      Yaw: 25.1929302
+      Yaw: -90
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.166261718
+      Y: 0.166780412
+      Z: 0.166261718
     }
   }
-  ParentId: 1734817431655598594
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1072177198051453324
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Object Curve Mover"
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 127.512711
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 2.00487137
-            Y: 1.99863625
-            Z: 2.00487137
-          }
-        }
-        Overrides {
-          Name: "cs:Object"
-          ObjectReference {
-            SelfId: 1734817431655598594
-          }
-        }
-        Overrides {
-          Name: "cs:Multiplier"
-          Float: 5
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
+  ParentId: 10223833542537028492
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 10184847056121543272
       }
     }
-    TemplateAsset {
-      Id: 10587460636167655313
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 11633374910449250360
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Bevel:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:color"
+      Color {
+        R: 0.92549026
+        G: 0.482352972
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:color"
+      Color {
+        R: 0.92549026
+        G: 0.482352972
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font_Sides:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font_Insides:color"
+      Color {
+        R: 1
+        G: 0.513725519
+        B: 0.0705882385
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font_Sides:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Font_Faces:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Font_Insides:id"
+      AssetReference {
+        Id: 1009636138000564291
+      }
+    }
+    Overrides {
+      Name: "ma:Font_Faces:color"
+      Color {
+        A: 1
+      }
     }
   }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14182953942275204608
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2092351164409370030
+  Id: 9103163529684541835
   Name: "LookAtPlayer"
   Transform {
     Location {
@@ -215,7 +287,7 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 11070675045446597968
+  ParentId: 10223833542537028492
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -231,59 +303,6 @@ Objects {
   Script {
     ScriptAsset {
       Id: 8119323275412960624
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 3778133108935360674
-  Name: "QuestSignals"
-  Transform {
-    Location {
-      X: 9.94481373
-      Y: -15.4105988
-      Z: -28.4845352
-    }
-    Rotation {
-      Yaw: -58.2309875
-    }
-    Scale {
-      X: 0.333333313
-      Y: 0.333333313
-      Z: 0.333333313
-    }
-  }
-  ParentId: 11070675045446597968
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:QuestID"
-      String: "TestQuest"
-    }
-    Overrides {
-      Name: "cs:Signal"
-      ObjectReference {
-        SelfId: 1734817431655598594
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 7744594570380362117
     }
   }
   NetworkRelevanceDistance {

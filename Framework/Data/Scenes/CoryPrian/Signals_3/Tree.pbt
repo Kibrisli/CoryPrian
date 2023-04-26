@@ -1,7 +1,7 @@
 Name: "Signals_3"
-RootId: 10506616291318555680
+RootId: 14556043922816502576
 Objects {
-  Id: 17029697607294523849
+  Id: 12566916625471302467
   Name: "Signal"
   Transform {
     Location {
@@ -18,8 +18,8 @@ Objects {
       Z: 0.166261718
     }
   }
-  ParentId: 10506616291318555680
-  ChildIds: 7597132937026376832
+  ParentId: 14556043922816502576
+  ChildIds: 1945699651459636318
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -115,7 +115,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 4218341389188813042
+      Id: 14182953942275204608
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -138,7 +138,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7597132937026376832
+  Id: 1945699651459636318
   Name: "Object Curve Mover"
   Transform {
     Scale {
@@ -147,7 +147,7 @@ Objects {
       Z: 2.00487137
     }
   }
-  ParentId: 17029697607294523849
+  ParentId: 12566916625471302467
   TemplateInstance {
     ParameterOverrideMap {
       key: 1072177198051453324
@@ -173,7 +173,7 @@ Objects {
         Overrides {
           Name: "cs:Object"
           ObjectReference {
-            SelfId: 17029697607294523849
+            SelfId: 12566916625471302467
           }
         }
         Overrides {
@@ -188,21 +188,22 @@ Objects {
   }
 }
 Objects {
-  Id: 7840296444186130459
+  Id: 14380646544993522067
   Name: "LookAtPlayer"
   Transform {
     Location {
     }
     Rotation {
-      Yaw: 89.9999847
+      Yaw: 89.9999542
+      Roll: -8.62129053e-13
     }
     Scale {
-      X: 0.333333313
+      X: 0.333333343
       Y: 0.333333284
-      Z: 0.333333313
+      Z: 0.333333343
     }
   }
-  ParentId: 10506616291318555680
+  ParentId: 14556043922816502576
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -218,59 +219,6 @@ Objects {
   Script {
     ScriptAsset {
       Id: 8119323275412960624
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 7130844841059396280
-  Name: "QuestSignals"
-  Transform {
-    Location {
-      X: 9.94481373
-      Y: -15.4105988
-      Z: -28.4845352
-    }
-    Rotation {
-      Yaw: -58.2309875
-    }
-    Scale {
-      X: 0.333333313
-      Y: 0.333333313
-      Z: 0.333333313
-    }
-  }
-  ParentId: 10506616291318555680
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:QuestID"
-      String: "WelcomeCoryprian"
-    }
-    Overrides {
-      Name: "cs:Signal"
-      ObjectReference {
-        SelfId: 17029697607294523849
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 7744594570380362117
     }
   }
   NetworkRelevanceDistance {

@@ -10023,14 +10023,14 @@ Objects {
   Name: "Sigil Rage"
   Transform {
     Location {
-      X: 22415.8
-      Y: 16753.375
-      Z: 55519.1719
+      X: 22550.6152
+      Y: 16324.1748
+      Z: 55465.8
     }
     Rotation {
-      Pitch: -3.52676392
-      Yaw: 71.9551697
-      Roll: -103.114716
+      Pitch: -19.1902466
+      Yaw: 107.013184
+      Roll: -63.1809692
     }
     Scale {
       X: 1
@@ -10066,9 +10066,9 @@ Objects {
   Name: "Flare Billboard"
   Transform {
     Location {
-      X: 15.9589195
-      Y: 0.999545097
-      Z: 17.7006607
+      X: 1.45146847
+      Y: 1.00163472
+      Z: 16.6309376
     }
     Rotation {
     }
@@ -10474,14 +10474,14 @@ Objects {
   Name: "QuestObjectivePickup"
   Transform {
     Location {
-      X: 22415.8
-      Y: 16753.375
-      Z: 55519.1719
+      X: 22550.6152
+      Y: 16324.1748
+      Z: 55465.8
     }
     Rotation {
-      Pitch: 5.72967482
-      Yaw: -117.319382
-      Roll: 8.38462543
+      Pitch: 14.7975359
+      Yaw: -81.7966919
+      Roll: -33.3827209
     }
     Scale {
       X: 1
@@ -10508,6 +10508,10 @@ Objects {
       ObjectReference {
         SelfId: 5018794506533990905
       }
+    }
+    Overrides {
+      Name: "cs:TriggerScale"
+      Float: 3
     }
   }
   Collidable_v2 {
