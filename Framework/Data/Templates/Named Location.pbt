@@ -7,7 +7,7 @@ Assets {
       RootId: 12084009895330886478
       Objects {
         Id: 12084009895330886478
-        Name: "Named Location - Ruins of Stormwind"
+        Name: "Named Location - MAP Entrence"
         Transform {
           Scale {
             X: 1
@@ -20,7 +20,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Name"
-            String: "Lost World"
+            String: "Welcome to Coryprian"
           }
           Overrides {
             Name: "cs:TextColor"
@@ -192,16 +192,16 @@ Assets {
         Name: "ZoneTrigger"
         Transform {
           Location {
-            X: -37375.0273
-            Y: 1141.4375
+            X: 2992.59375
+            Y: 285.128906
             Z: 1359.94678
           }
           Rotation {
-            Yaw: -43.4225464
+            Yaw: -26.4879456
           }
           Scale {
-            X: 284.786652
-            Y: 507.403442
+            X: 179.803528
+            Y: 147.808167
             Z: 34.3767
           }
         }
@@ -240,17 +240,17 @@ Assets {
         Name: "ZoneTrigger"
         Transform {
           Location {
-            X: -17585.6797
-            Y: -4400.89062
-            Z: 1800.06543
+            X: 2992.59375
+            Y: 285.128906
+            Z: 1359.94678
           }
           Rotation {
-            Yaw: -43.4225464
+            Yaw: -26.4879456
           }
           Scale {
-            X: 79.9088593
-            Y: 249.912689
-            Z: 19.2584019
+            X: 179.803528
+            Y: 147.808167
+            Z: 34.3767
           }
         }
         ParentId: 11547596356089379165
