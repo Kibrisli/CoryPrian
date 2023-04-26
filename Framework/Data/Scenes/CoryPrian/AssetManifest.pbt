@@ -71,15 +71,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17668726325989413397
-  Name: "Stone Block Small"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_fantasy_block_02"
-  }
-}
-Assets {
   Id: 17595464843993599028
   Name: "Tree Redwood Bare Medium"
   PlatformAssetType: 1
@@ -418,15 +409,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14943925207042643352
-  Name: "Emissive Glow Opaque"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxma_opaque_emissive"
-  }
-}
-Assets {
   Id: 14942585471315214147
   Name: "Decal Stains Bottom 01"
   PlatformAssetType: 14
@@ -687,15 +669,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13462694321385217691
-  Name: "Stone Arch 3m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_stone-arch_6m_002"
-  }
-}
-Assets {
   Id: 13425786293211876696
   Name: "Arch"
   PlatformAssetType: 1
@@ -827,15 +800,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prim_org_bean_001_ref"
-  }
-}
-Assets {
-  Id: 12756271137554232688
-  Name: "Ring"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_torus_004"
   }
 }
 Assets {
@@ -2393,15 +2357,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_nat_plank_003_ref"
-  }
-}
-Assets {
-  Id: 4151407114281654115
-  Name: "Stone Block Long"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_fantasy_block_03"
   }
 }
 Assets {
