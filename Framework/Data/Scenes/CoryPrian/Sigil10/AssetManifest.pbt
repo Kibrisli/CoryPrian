@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4488444258523261897
-  Name: "Flare Billboard"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_flare_object"
-  }
-}
-Assets {
   Id: 2248891423855057764
   Name: "Pipe - 3-Sided Thick"
   PlatformAssetType: 1
@@ -41,14 +32,5 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "stone_001"
-  }
-}
-Assets {
-  Id: 675563715440209277
-  Name: "Emissive Glow Transparent"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_emissive_001"
   }
 }

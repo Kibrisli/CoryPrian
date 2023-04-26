@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4488444258523261897
-  Name: "Flare Billboard"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_flare_object"
-  }
-}
-Assets {
   Id: 3675331815437637144
   Name: "Cone - Truncated Hollow Wide Thin"
   PlatformAssetType: 1
@@ -41,14 +32,5 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "stone_001"
-  }
-}
-Assets {
-  Id: 675563715440209277
-  Name: "Emissive Glow Transparent"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_emissive_001"
   }
 }

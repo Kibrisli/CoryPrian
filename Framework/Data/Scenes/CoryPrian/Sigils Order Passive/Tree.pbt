@@ -1,7 +1,7 @@
-Name: "Sigils Order"
-RootId: 14547569842255280393
+Name: "Sigils Order Passive"
+RootId: 10802615400439094891
 Objects {
-  Id: 6302340843026238048
+  Id: 12366827176259324144
   Name: "Sigil16"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14547569842255280393
+  ParentId: 10802615400439094891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -34,19 +34,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Sigil16"
   }
-  InstanceHistory {
-    SelfId: 6302340843026238048
-    SubobjectId: 2377850251716481399
-    InstanceId: 11286472666259241903
-    TemplateId: 13652479257029275461
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15349870299697602855
+  Id: 18106349141663387860
   Name: "Sigil15"
   Transform {
     Location {
@@ -62,7 +56,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14547569842255280393
+  ParentId: 10802615400439094891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -79,19 +73,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Sigil15"
   }
-  InstanceHistory {
-    SelfId: 15349870299697602855
-    SubobjectId: 11712747839773407792
-    InstanceId: 11286472666259241903
-    TemplateId: 13652479257029275461
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10381928038592286060
+  Id: 12206473469625327884
   Name: "Sigil14"
   Transform {
     Location {
@@ -107,7 +95,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14547569842255280393
+  ParentId: 10802615400439094891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -124,19 +112,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Sigil14"
   }
-  InstanceHistory {
-    SelfId: 10381928038592286060
-    SubobjectId: 16689705955634943611
-    InstanceId: 11286472666259241903
-    TemplateId: 13652479257029275461
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9824822737522693785
+  Id: 9874820837603758771
   Name: "Sigil13"
   Transform {
     Location {
@@ -154,7 +136,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14547569842255280393
+  ParentId: 10802615400439094891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -171,19 +153,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Sigil13"
   }
-  InstanceHistory {
-    SelfId: 9824822737522693785
-    SubobjectId: 18433641839490305422
-    InstanceId: 11286472666259241903
-    TemplateId: 13652479257029275461
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15390853109966375026
+  Id: 4070069033838927623
   Name: "Sigil12"
   Transform {
     Location {
@@ -201,7 +177,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14547569842255280393
+  ParentId: 10802615400439094891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -218,19 +194,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Sigil12"
   }
-  InstanceHistory {
-    SelfId: 15390853109966375026
-    SubobjectId: 11682039415909290853
-    InstanceId: 11286472666259241903
-    TemplateId: 13652479257029275461
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9150889645117547063
+  Id: 8520534366480626453
   Name: "Sigil11"
   Transform {
     Location {
@@ -248,7 +218,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14547569842255280393
+  ParentId: 10802615400439094891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -265,19 +235,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Sigil11"
   }
-  InstanceHistory {
-    SelfId: 9150889645117547063
-    SubobjectId: 682231612819749152
-    InstanceId: 11286472666259241903
-    TemplateId: 13652479257029275461
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15370841111207426025
+  Id: 17070599787645084836
   Name: "Sigil10"
   Transform {
     Location {
@@ -295,7 +259,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14547569842255280393
+  ParentId: 10802615400439094891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -312,19 +276,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Sigil10"
   }
-  InstanceHistory {
-    SelfId: 15370841111207426025
-    SubobjectId: 11734561087253425406
-    InstanceId: 11286472666259241903
-    TemplateId: 13652479257029275461
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 53515572043620463
+  Id: 17934358929699211969
   Name: "Sigil9"
   Transform {
     Location {
@@ -342,7 +300,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14547569842255280393
+  ParentId: 10802615400439094891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -359,19 +317,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Sigil9"
   }
-  InstanceHistory {
-    SelfId: 53515572043620463
-    SubobjectId: 8590505850722663288
-    InstanceId: 11286472666259241903
-    TemplateId: 13652479257029275461
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7259098991126265552
+  Id: 10267779129891408514
   Name: "Sigil8"
   Transform {
     Location {
@@ -389,7 +341,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14547569842255280393
+  ParentId: 10802615400439094891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -406,19 +358,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Sigil8"
   }
-  InstanceHistory {
-    SelfId: 7259098991126265552
-    SubobjectId: 1383796672468592071
-    InstanceId: 11286472666259241903
-    TemplateId: 13652479257029275461
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2291927318649771541
+  Id: 9226467672908011100
   Name: "Sigil7"
   Transform {
     Location {
@@ -436,7 +382,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14547569842255280393
+  ParentId: 10802615400439094891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -453,19 +399,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Sigil7"
   }
-  InstanceHistory {
-    SelfId: 2291927318649771541
-    SubobjectId: 7514032156038106370
-    InstanceId: 11286472666259241903
-    TemplateId: 13652479257029275461
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16404840910441953815
+  Id: 14566056978814609844
   Name: "Sigil6"
   Transform {
     Location {
@@ -483,7 +423,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14547569842255280393
+  ParentId: 10802615400439094891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -500,19 +440,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Sigil6"
   }
-  InstanceHistory {
-    SelfId: 16404840910441953815
-    SubobjectId: 10673540237953704192
-    InstanceId: 11286472666259241903
-    TemplateId: 13652479257029275461
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1734799405259884094
+  Id: 6523117317204775411
   Name: "Sigil5"
   Transform {
     Location {
@@ -528,7 +462,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14547569842255280393
+  ParentId: 10802615400439094891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -545,19 +479,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Sigil5"
   }
-  InstanceHistory {
-    SelfId: 1734799405259884094
-    SubobjectId: 8041886808217394473
-    InstanceId: 11286472666259241903
-    TemplateId: 13652479257029275461
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16672428569115224832
+  Id: 2630280080663890273
   Name: "Sigil4"
   Transform {
     Location {
@@ -573,7 +501,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14547569842255280393
+  ParentId: 10802615400439094891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -590,19 +518,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Sigil4"
   }
-  InstanceHistory {
-    SelfId: 16672428569115224832
-    SubobjectId: 10442131046178648087
-    InstanceId: 11286472666259241903
-    TemplateId: 13652479257029275461
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6927292947621531971
+  Id: 12345305565430588690
   Name: "Sigil3"
   Transform {
     Location {
@@ -618,7 +540,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14547569842255280393
+  ParentId: 10802615400439094891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -635,19 +557,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Sigil3"
   }
-  InstanceHistory {
-    SelfId: 6927292947621531971
-    SubobjectId: 1705469615694236244
-    InstanceId: 11286472666259241903
-    TemplateId: 13652479257029275461
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10310679898967252016
+  Id: 10589278274043242310
   Name: "Sigil2"
   Transform {
     Location {
@@ -663,7 +579,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14547569842255280393
+  ParentId: 10802615400439094891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -680,19 +596,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Sigil2"
   }
-  InstanceHistory {
-    SelfId: 10310679898967252016
-    SubobjectId: 17915142377879996199
-    InstanceId: 11286472666259241903
-    TemplateId: 13652479257029275461
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15615850057195442610
+  Id: 2593400657948618957
   Name: "Sigil1"
   Transform {
     Location {
@@ -707,7 +617,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14547569842255280393
+  ParentId: 10802615400439094891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -723,12 +633,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Sigil1"
-  }
-  InstanceHistory {
-    SelfId: 15615850057195442610
-    SubobjectId: 12627846289707780773
-    InstanceId: 11286472666259241903
-    TemplateId: 13652479257029275461
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
