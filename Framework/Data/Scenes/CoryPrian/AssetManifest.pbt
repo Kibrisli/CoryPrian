@@ -80,6 +80,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17668726325989413397
+  Name: "Stone Block Small"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fantasy_block_02"
+  }
+}
+Assets {
   Id: 17595464843993599028
   Name: "Tree Redwood Bare Medium"
   PlatformAssetType: 1
@@ -153,15 +162,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_002"
-  }
-}
-Assets {
-  Id: 16912192915158960834
-  Name: "Humanoid 2 Rig"
-  PlatformAssetType: 25
-  PrimaryAsset {
-    AssetType: "SkeletonAssetRef"
-    AssetId: "npc_guy_wireframe_001_ref"
   }
 }
 Assets {
@@ -442,6 +442,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_roof_001_bracket"
+  }
+}
+Assets {
+  Id: 14943925207042643352
+  Name: "Emissive Glow Opaque"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_opaque_emissive"
   }
 }
 Assets {
@@ -866,6 +875,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12756271137554232688
+  Name: "Ring"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_torus_004"
+  }
+}
+Assets {
   Id: 12676081537097417267
   Name: "Nature Log 04"
   PlatformAssetType: 1
@@ -1150,15 +1168,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bones_human_pile_str_01_ref"
-  }
-}
-Assets {
-  Id: 11798043585619168449
-  Name: "Humanoid 2 Peasant Pants"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_guy_lower_fantasy_000_ref"
   }
 }
 Assets {
@@ -2202,6 +2211,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6232767206299927090
+  Name: "Stone Arch 3m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_stone-arch_6m_002_ref"
+  }
+}
+Assets {
   Id: 6219886055567376658
   Name: "Hay 01"
   PlatformAssetType: 2
@@ -2371,15 +2389,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5164437946101426156
-  Name: "Humanoid 2 Peasant Shirt"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_guy_upper_fantasy_000_ref_temp"
-  }
-}
-Assets {
   Id: 5152362872644576611
   Name: "Gold Pack 1"
   PlatformAssetType: 24
@@ -2390,15 +2399,6 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
-  }
-}
-Assets {
-  Id: 5116279122283517255
-  Name: "Humanoid 2 Zack"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_guy_head_basic_001_ref"
   }
 }
 Assets {
@@ -2582,6 +2582,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_004"
+  }
+}
+Assets {
+  Id: 4151407114281654115
+  Name: "Stone Block Long"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fantasy_block_03"
   }
 }
 Assets {

@@ -9,7 +9,7 @@ Assets {
       Overrides {
         Name: "cmp:Material1_Sides"
         AssetReference {
-          Id: 15979377991647608535
+          Id: 998074920267973145
         }
       }
       Overrides {
@@ -72,6 +72,12 @@ Assets {
         Name: "material2_scale"
         Float: 0.08
       }
+      Overrides {
+        Name: "cmp:Material1"
+        AssetReference {
+          Id: 998074920267973145
+        }
+      }
     }
     Assets {
       Id: 12032822587521192598
@@ -83,12 +89,12 @@ Assets {
       }
     }
     Assets {
-      Id: 15979377991647608535
-      Name: "Cliff 02"
+      Id: 998074920267973145
+      Name: "Cliff 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "cliff_002"
+        AssetId: "mi_cliff_001_uv"
       }
     }
     Assets {
@@ -143,6 +149,15 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_sand_001_uv"
+      }
+    }
+    Assets {
+      Id: 998074920267973145
+      Name: "Cliff 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_cliff_001_uv"
       }
     }
   }

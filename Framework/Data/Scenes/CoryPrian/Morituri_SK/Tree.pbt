@@ -5,16 +5,16 @@ Objects {
   Name: "SIGILS"
   Transform {
     Location {
-      X: 32397.5039
-      Y: 34275.0547
-      Z: 12691.7402
+      X: 12.9902344
+      Y: 57.921875
+      Z: 67.8129883
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.763729692
+      Y: 0.763729692
+      Z: 0.763729692
     }
   }
   ParentId: 17054032585306417805
@@ -774,9 +774,7 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      X: 32403.7285
-      Y: 34275.0547
-      Z: 12634.0635
+      Z: 1.23779297
     }
     Rotation {
     }
