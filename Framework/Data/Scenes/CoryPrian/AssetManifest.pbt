@@ -62,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17850784779650210910
+  Name: "Military Sandbag 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_sandbag_001"
+  }
+}
+Assets {
   Id: 17786706417721973926
   Name: "Decal Bullet Damage Wood"
   PlatformAssetType: 14
@@ -77,6 +86,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tree_redwood_004"
+  }
+}
+Assets {
+  Id: 17436848862703919883
+  Name: "Cube - Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_test_001"
   }
 }
 Assets {
@@ -126,6 +144,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_quarter-pipe_003"
+  }
+}
+Assets {
+  Id: 16965777294932964901
+  Name: "Cube - Chamfered Large Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_002"
   }
 }
 Assets {
@@ -233,6 +260,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_trimitives_001_curve90_6m_ref"
+  }
+}
+Assets {
+  Id: 16027982721893137765
+  Name: "Urban Curtains Tied 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_curtain_01"
   }
 }
 Assets {
@@ -480,6 +516,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14694384032471691780
+  Name: "Bark Redwood Advanced 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_bark_redwood_001_uv"
+  }
+}
+Assets {
   Id: 14633329416983781101
   Name: "Decal Moss Patch"
   PlatformAssetType: 14
@@ -552,15 +597,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14287349269321119691
-  Name: "Ring"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_torus_004"
-  }
-}
-Assets {
   Id: 14270419193600238466
   Name: "Hill 02"
   PlatformAssetType: 1
@@ -585,6 +621,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_foliage_gen_flower_bell_patch_001_ref"
+  }
+}
+Assets {
+  Id: 14231809728886464860
+  Name: "Wood Raw White"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_raw_white_001_uv"
   }
 }
 Assets {
@@ -718,6 +763,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13180655494849194491
+  Name: "Bone Human Skull 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bones_human_skull_01_ref"
+  }
+}
+Assets {
   Id: 13105350100751157865
   Name: "Steam Volume VFX"
   PlatformAssetType: 8
@@ -742,6 +796,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_foliage_gen_leafy_bush_001"
+  }
+}
+Assets {
+  Id: 12939373246397063205
+  Name: "Japanese Paper Lantern Simple 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_lantern_paper_simple_002_ref"
   }
 }
 Assets {
@@ -803,12 +866,30 @@ Assets {
   }
 }
 Assets {
+  Id: 12676081537097417267
+  Name: "Nature Log 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_nat_log_004_ref"
+  }
+}
+Assets {
   Id: 12650985443469059164
   Name: "Bricks Large Foundation 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_brick_large_foundation_001"
+  }
+}
+Assets {
+  Id: 12623119793432265256
+  Name: "Small Crate Lid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_crate_narrow_lid_simple_160cm_001"
   }
 }
 Assets {
@@ -892,6 +973,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12362858279944993823
+  Name: "Office Pencil 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_off_desktop_pen_03_ref"
+  }
+}
+Assets {
   Id: 12354242434331605292
   Name: "Stone Foundation 01"
   PlatformAssetType: 2
@@ -916,6 +1006,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prism_hq_001"
+  }
+}
+Assets {
+  Id: 12293215830634535335
+  Name: "Urban Curtains Tied 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_curtain_01"
+  }
+}
+Assets {
+  Id: 12266837598369671724
+  Name: "Advanced Material"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "universal_material_001"
   }
 }
 Assets {
@@ -1006,6 +1114,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bones_human_ribcage_01_ref"
+  }
+}
+Assets {
+  Id: 11875783043052266369
+  Name: "Japanese Temple Roof 02 - Wall 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_jpn_tem_roof_002_wall_01_ref"
   }
 }
 Assets {
@@ -1165,6 +1282,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11283927545744190578
+  Name: "Modern Weapon Ammo - Canister 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_ammo_cann_001"
+  }
+}
+Assets {
   Id: 11232852364461677985
   Name: "JewelPack3"
   PlatformAssetType: 24
@@ -1277,6 +1403,24 @@ Assets {
   }
 }
 Assets {
+  Id: 10618160998295829975
+  Name: "Wooden Barrel"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_barrel_001"
+  }
+}
+Assets {
+  Id: 10557107473834905535
+  Name: "Cone - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_001"
+  }
+}
+Assets {
   Id: 10441760965546680272
   Name: "Character Additional"
   PlatformAssetType: 23
@@ -1354,6 +1498,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tree_redwood_001"
+  }
+}
+Assets {
+  Id: 9896152941759291763
+  Name: "Wood Raw"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_raw_001_uv"
   }
 }
 Assets {
@@ -1508,6 +1661,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9199751096616988864
+  Name: "Candle Flame VFX"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "fxsm_candleflame"
+  }
+}
+Assets {
   Id: 9003723600529713560
   Name: "Character1"
   PlatformAssetType: 23
@@ -1616,15 +1778,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tree_sakura_hero_01_ref"
-  }
-}
-Assets {
-  Id: 8662415348992986419
-  Name: "Modern Damaged Stairs Steps 01 - 2m 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mod_stairs_steps_003_damaged_02_ref"
   }
 }
 Assets {
@@ -1789,6 +1942,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7625382804772008570
+  Name: "Glass 01 (no distortion)"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_glass_001"
+  }
+}
+Assets {
   Id: 7613984708822269323
   Name: "Tree Redwood Small"
   PlatformAssetType: 1
@@ -1816,12 +1978,30 @@ Assets {
   }
 }
 Assets {
+  Id: 7562771062390814426
+  Name: "Fabric Burlap New 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_fan_fabric_burlap_002_uv"
+  }
+}
+Assets {
   Id: 7363477334452929865
   Name: "Sphere"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_sphere_002"
+  }
+}
+Assets {
+  Id: 7345203844688882865
+  Name: "Military Sandbag 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_sandbag_003"
   }
 }
 Assets {
@@ -1853,6 +2033,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tree_birch_001"
+  }
+}
+Assets {
+  Id: 7024490427461832088
+  Name: "Modern Weapon - Gas Cylinder 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_gas_cylinder_001"
   }
 }
 Assets {
@@ -1901,12 +2090,12 @@ Assets {
   }
 }
 Assets {
-  Id: 6771725018324089506
-  Name: "Nature Plank 02"
-  PlatformAssetType: 1
+  Id: 6777447344140592468
+  Name: "Metal Steel Brushed"
+  PlatformAssetType: 2
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_nat_plank_002_ref"
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_stainless-steel_001_uv"
   }
 }
 Assets {
@@ -2044,15 +2233,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6136827371784165474
-  Name: "Bark Oak Advanced 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_bark_oak_001_uv"
-  }
-}
-Assets {
   Id: 5972838217862418988
   Name: "Fox Mob"
   PlatformAssetType: 17
@@ -2068,6 +2248,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "dcl_liquid"
+  }
+}
+Assets {
+  Id: 5906076877227777947
+  Name: "Military Sandbag 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_sandbag_002"
   }
 }
 Assets {
@@ -2160,6 +2349,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5291267871784324413
+  Name: "Hay 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_fan_hay_002_uv"
+  }
+}
+Assets {
   Id: 5240045292533111116
   Name: "Premium 2"
   PlatformAssetType: 24
@@ -2219,6 +2417,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_wall_001"
+  }
+}
+Assets {
+  Id: 4916037612258779559
+  Name: "Modern Weapon - Body 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_body_003"
   }
 }
 Assets {
@@ -2289,6 +2496,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4553827069405744674
+  Name: "Metal Old Beaten Gold 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_gold_002"
+  }
+}
+Assets {
   Id: 4545713430863939559
   Name: "Ivy 01"
   PlatformAssetType: 1
@@ -2313,6 +2529,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_large_beam_6m"
+  }
+}
+Assets {
+  Id: 4396835502951966014
+  Name: "Wood Planks"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_planks_dark_001_uv"
   }
 }
 Assets {
@@ -2351,12 +2576,12 @@ Assets {
   }
 }
 Assets {
-  Id: 4160294052725762189
-  Name: "Nature Plank 03"
+  Id: 4191189716791684405
+  Name: "Pipe - Thick"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_nat_plank_003_ref"
+    AssetId: "sm_pipe_004"
   }
 }
 Assets {
@@ -2375,6 +2600,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_grass_generic_002"
+  }
+}
+Assets {
+  Id: 3972101026345485261
+  Name: "Cube - Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_001"
   }
 }
 Assets {
@@ -2433,6 +2667,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_fan_pommel_002"
+  }
+}
+Assets {
+  Id: 3700281224674182077
+  Name: "Decal Burnt Streaks 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_burned_streak_002_ref"
   }
 }
 Assets {
@@ -2503,12 +2746,39 @@ Assets {
   }
 }
 Assets {
+  Id: 3240158528397641148
+  Name: "Modern Weapon - Barrel 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_barrel_002"
+  }
+}
+Assets {
   Id: 3198339828547995592
   Name: "Fantasy Castle Stairs Spiral Wall 01 - Small"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_stairs_spiral_wall_002_sm_ref"
+  }
+}
+Assets {
+  Id: 3185485305637589850
+  Name: "Japanese Temple Roof 01 "
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_jpn_tem_roof_001_ref"
+  }
+}
+Assets {
+  Id: 3097760396781639517
+  Name: "Office Book Pile 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_off_desktop_book_pile_003_ref"
   }
 }
 Assets {
@@ -2521,12 +2791,30 @@ Assets {
   }
 }
 Assets {
+  Id: 2817890560817570586
+  Name: "Modern Weapon Barrel 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_barrel_001"
+  }
+}
+Assets {
   Id: 2663939160948252345
   Name: "Waterfall 90 Outer Corner"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "waterfall_90oc"
+  }
+}
+Assets {
+  Id: 2588641419626774677
+  Name: "Cone - Truncated Wide"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_003"
   }
 }
 Assets {
@@ -2624,12 +2912,30 @@ Assets {
   }
 }
 Assets {
+  Id: 2069066196870372973
+  Name: "Simple Crate 150cm"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_crate_simple_150cm_001"
+  }
+}
+Assets {
   Id: 2064017466518942736
   Name: "Cube - Chamfered Large"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_chamfer"
+  }
+}
+Assets {
+  Id: 1992172272420495919
+  Name: "Small Open Crate"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_crate_narrow_open_simple_160cm_001"
   }
 }
 Assets {
@@ -2657,6 +2963,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tree_redwood_001_crown_ref"
+  }
+}
+Assets {
+  Id: 1905297035267569611
+  Name: "Modern Weapon - Stock 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_stock_002"
   }
 }
 Assets {
@@ -2821,6 +3136,15 @@ Assets {
   }
 }
 Assets {
+  Id: 618873586522469590
+  Name: "Fabric Burlap Old 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_fan_fabric_burlap_001_uv"
+  }
+}
+Assets {
   Id: 607962893157595191
   Name: "Gold 4"
   PlatformAssetType: 24
@@ -2858,6 +3182,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bones_human_humerus_01_ref"
+  }
+}
+Assets {
+  Id: 481393392617791948
+  Name: "Urban Fence Pole - Gate End"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mil_fence_pole_02_end_002"
   }
 }
 Assets {

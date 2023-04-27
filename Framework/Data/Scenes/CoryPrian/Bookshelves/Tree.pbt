@@ -1,7 +1,7 @@
 Name: "Bookshelves"
-RootId: 16297838614968035194
+RootId: 16036976128887775890
 Objects {
-  Id: 9372422003371175320
+  Id: 4421233445979442812
   Name: "Top Collider"
   Transform {
     Location {
@@ -19,7 +19,7 @@ Objects {
       Z: 2.30014706
     }
   }
-  ParentId: 16297838614968035194
+  ParentId: 16036976128887775890
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -59,7 +59,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1700440016470216738
+  Id: 10545301977566898686
   Name: "Mage Bookshelf"
   Transform {
     Location {
@@ -74,22 +74,22 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16297838614968035194
-  ChildIds: 14251742031910288231
-  ChildIds: 5998564295732434017
-  ChildIds: 16225903276346051733
-  ChildIds: 9601818174793237644
-  ChildIds: 5792408420951673983
-  ChildIds: 14711124137127986788
-  ChildIds: 9837821823654506366
-  ChildIds: 2308148652520531247
-  ChildIds: 14712089134555463464
-  ChildIds: 8087575697698597187
-  ChildIds: 6728092205467349050
-  ChildIds: 13205363830947951933
-  ChildIds: 14588027395320465659
-  ChildIds: 11923026952373273584
-  ChildIds: 13633578584242975075
+  ParentId: 16036976128887775890
+  ChildIds: 8166575665046128030
+  ChildIds: 3701950892114937160
+  ChildIds: 12484370037708558454
+  ChildIds: 14632477123387667717
+  ChildIds: 17654141380458169452
+  ChildIds: 11693012229533290027
+  ChildIds: 11258046026267514653
+  ChildIds: 17454817191623160445
+  ChildIds: 4869106696120752020
+  ChildIds: 9147913614545901470
+  ChildIds: 7529463444604438569
+  ChildIds: 15552583697943241427
+  ChildIds: 10598468140535063756
+  ChildIds: 4824112023800375812
+  ChildIds: 13323564848727037658
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -108,7 +108,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13633578584242975075
+  Id: 13323564848727037658
   Name: "Decal Carved Font 01"
   Transform {
     Location {
@@ -126,7 +126,7 @@ Objects {
       Z: 0.450190634
     }
   }
-  ParentId: 1700440016470216738
+  ParentId: 10545301977566898686
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -160,7 +160,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11923026952373273584
+  Id: 4824112023800375812
   Name: "Decal Carved Font 01"
   Transform {
     Location {
@@ -178,7 +178,7 @@ Objects {
       Z: 0.450190634
     }
   }
-  ParentId: 1700440016470216738
+  ParentId: 10545301977566898686
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -212,7 +212,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14588027395320465659
+  Id: 10598468140535063756
   Name: "Decal Carved Font 01"
   Transform {
     Location {
@@ -230,7 +230,7 @@ Objects {
       Z: 0.450190634
     }
   }
-  ParentId: 1700440016470216738
+  ParentId: 10545301977566898686
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -258,7 +258,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13205363830947951933
+  Id: 15552583697943241427
   Name: "Decal Carved Font 01"
   Transform {
     Location {
@@ -276,7 +276,7 @@ Objects {
       Z: 0.450190634
     }
   }
-  ParentId: 1700440016470216738
+  ParentId: 10545301977566898686
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -310,7 +310,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6728092205467349050
+  Id: 7529463444604438569
   Name: "Nameplate"
   Transform {
     Location {
@@ -328,7 +328,7 @@ Objects {
       Z: 1.58
     }
   }
-  ParentId: 1700440016470216738
+  ParentId: 10545301977566898686
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -391,7 +391,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8087575697698597187
+  Id: 9147913614545901470
   Name: "Fantasy Book Collection 05"
   Transform {
     Location {
@@ -407,7 +407,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1700440016470216738
+  ParentId: 10545301977566898686
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -443,7 +443,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14712089134555463464
+  Id: 4869106696120752020
   Name: "Fantasy Book Collection 04"
   Transform {
     Location {
@@ -460,7 +460,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1700440016470216738
+  ParentId: 10545301977566898686
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -514,7 +514,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2308148652520531247
+  Id: 17454817191623160445
   Name: "Fantasy Book Collection 05"
   Transform {
     Location {
@@ -530,7 +530,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1700440016470216738
+  ParentId: 10545301977566898686
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -584,7 +584,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9837821823654506366
+  Id: 11258046026267514653
   Name: "Fantasy Book Collection 03"
   Transform {
     Location {
@@ -600,7 +600,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1700440016470216738
+  ParentId: 10545301977566898686
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail3:color"
@@ -653,7 +653,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14711124137127986788
+  Id: 11693012229533290027
   Name: "Fantasy Book Collection 04"
   Transform {
     Location {
@@ -669,7 +669,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1700440016470216738
+  ParentId: 10545301977566898686
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail3:color"
@@ -714,7 +714,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5792408420951673983
+  Id: 17654141380458169452
   Name: "Decal Elven Symbols"
   Transform {
     Location {
@@ -733,7 +733,7 @@ Objects {
       Z: 0.0528372452
     }
   }
-  ParentId: 1700440016470216738
+  ParentId: 10545301977566898686
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -776,7 +776,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9601818174793237644
+  Id: 14632477123387667717
   Name: "Sphere"
   Transform {
     Location {
@@ -795,7 +795,7 @@ Objects {
       Z: 0.225860968
     }
   }
-  ParentId: 1700440016470216738
+  ParentId: 10545301977566898686
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -849,7 +849,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16225903276346051733
+  Id: 12484370037708558454
   Name: "Top"
   Transform {
     Location {
@@ -865,7 +865,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1700440016470216738
+  ParentId: 10545301977566898686
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -911,7 +911,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5998564295732434017
+  Id: 3701950892114937160
   Name: "Middle"
   Transform {
     Location {
@@ -927,7 +927,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1700440016470216738
+  ParentId: 10545301977566898686
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -969,7 +969,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14251742031910288231
+  Id: 8166575665046128030
   Name: "Bottom"
   Transform {
     Location {
@@ -986,7 +986,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1700440016470216738
+  ParentId: 10545301977566898686
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -1034,7 +1034,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6262074281221419179
+  Id: 7503720460647988598
   Name: "Hunter Bookshelf"
   Transform {
     Location {
@@ -1047,22 +1047,22 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16297838614968035194
-  ChildIds: 17005688042275681007
-  ChildIds: 6394570965015689645
-  ChildIds: 17328607903194978151
-  ChildIds: 11917530898494291620
-  ChildIds: 7821199682952090646
-  ChildIds: 15273708462042795323
-  ChildIds: 6757371968492171545
-  ChildIds: 15132465529895575769
-  ChildIds: 15138335709374109116
-  ChildIds: 14322109528801058300
-  ChildIds: 15905856002009759944
-  ChildIds: 2314224277218608898
-  ChildIds: 3643565604037483133
-  ChildIds: 16195620557267873376
-  ChildIds: 16608937639011463889
+  ParentId: 16036976128887775890
+  ChildIds: 17829942709760815102
+  ChildIds: 8912213801441332521
+  ChildIds: 17867947882864685001
+  ChildIds: 8832037995920697705
+  ChildIds: 10155927320502592990
+  ChildIds: 11077642886291266159
+  ChildIds: 5698749856551086454
+  ChildIds: 9478650716398022532
+  ChildIds: 6089724581250407877
+  ChildIds: 612032504104777161
+  ChildIds: 6847748448992617814
+  ChildIds: 10270161815523986265
+  ChildIds: 18558264908719302
+  ChildIds: 18359701759228465148
+  ChildIds: 15011109308037278538
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1081,7 +1081,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16608937639011463889
+  Id: 15011109308037278538
   Name: "Fantasy Book 03"
   Transform {
     Location {
@@ -1099,7 +1099,7 @@ Objects {
       Z: 0.960402
     }
   }
-  ParentId: 6262074281221419179
+  ParentId: 7503720460647988598
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1137,7 +1137,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16195620557267873376
+  Id: 18359701759228465148
   Name: "Fantasy Book Collection 02"
   Transform {
     Location {
@@ -1153,7 +1153,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6262074281221419179
+  ParentId: 7503720460647988598
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1187,7 +1187,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3643565604037483133
+  Id: 18558264908719302
   Name: "Fantasy Book Collection 03"
   Transform {
     Location {
@@ -1203,7 +1203,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6262074281221419179
+  ParentId: 7503720460647988598
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -1257,7 +1257,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2314224277218608898
+  Id: 10270161815523986265
   Name: "Decal Carved Font 01"
   Transform {
     Location {
@@ -1275,7 +1275,7 @@ Objects {
       Z: 0.450190634
     }
   }
-  ParentId: 6262074281221419179
+  ParentId: 7503720460647988598
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -1318,7 +1318,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15905856002009759944
+  Id: 6847748448992617814
   Name: "Decal Carved Font 01"
   Transform {
     Location {
@@ -1336,7 +1336,7 @@ Objects {
       Z: 0.450190634
     }
   }
-  ParentId: 6262074281221419179
+  ParentId: 7503720460647988598
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -1379,7 +1379,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14322109528801058300
+  Id: 612032504104777161
   Name: "Decal Carved Font 01"
   Transform {
     Location {
@@ -1397,7 +1397,7 @@ Objects {
       Z: 0.450190634
     }
   }
-  ParentId: 6262074281221419179
+  ParentId: 7503720460647988598
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -1440,7 +1440,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15138335709374109116
+  Id: 6089724581250407877
   Name: "Decal Carved Font 01"
   Transform {
     Location {
@@ -1458,7 +1458,7 @@ Objects {
       Z: 0.450190634
     }
   }
-  ParentId: 6262074281221419179
+  ParentId: 7503720460647988598
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -1501,7 +1501,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15132465529895575769
+  Id: 9478650716398022532
   Name: "Decal Carved Font 01"
   Transform {
     Location {
@@ -1519,7 +1519,7 @@ Objects {
       Z: 0.450190634
     }
   }
-  ParentId: 6262074281221419179
+  ParentId: 7503720460647988598
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -1562,7 +1562,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6757371968492171545
+  Id: 5698749856551086454
   Name: "Decal Carved Font 01"
   Transform {
     Location {
@@ -1580,7 +1580,7 @@ Objects {
       Z: 0.450190634
     }
   }
-  ParentId: 6262074281221419179
+  ParentId: 7503720460647988598
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -1623,7 +1623,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15273708462042795323
+  Id: 11077642886291266159
   Name: "Nameplate"
   Transform {
     Location {
@@ -1642,7 +1642,7 @@ Objects {
       Z: 1.58
     }
   }
-  ParentId: 6262074281221419179
+  ParentId: 7503720460647988598
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1705,7 +1705,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7821199682952090646
+  Id: 10155927320502592990
   Name: "Decal Elven Symbols"
   Transform {
     Location {
@@ -1724,7 +1724,7 @@ Objects {
       Z: 0.0528372452
     }
   }
-  ParentId: 6262074281221419179
+  ParentId: 7503720460647988598
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -1767,7 +1767,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11917530898494291620
+  Id: 8832037995920697705
   Name: "Sphere"
   Transform {
     Location {
@@ -1786,7 +1786,7 @@ Objects {
       Z: 0.225860968
     }
   }
-  ParentId: 6262074281221419179
+  ParentId: 7503720460647988598
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1840,7 +1840,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17328607903194978151
+  Id: 17867947882864685001
   Name: "Top"
   Transform {
     Location {
@@ -1856,7 +1856,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6262074281221419179
+  ParentId: 7503720460647988598
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1902,7 +1902,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6394570965015689645
+  Id: 8912213801441332521
   Name: "Middle"
   Transform {
     Location {
@@ -1918,7 +1918,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6262074281221419179
+  ParentId: 7503720460647988598
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1960,7 +1960,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17005688042275681007
+  Id: 17829942709760815102
   Name: "Bottom"
   Transform {
     Location {
@@ -1977,7 +1977,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6262074281221419179
+  ParentId: 7503720460647988598
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -2025,7 +2025,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16207962104698661158
+  Id: 4064370842322196985
   Name: "Warrior Bookshelf"
   Transform {
     Location {
@@ -2040,23 +2040,23 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16297838614968035194
-  ChildIds: 13101535872611256176
-  ChildIds: 5983921698720637019
-  ChildIds: 6912432770837886502
-  ChildIds: 5754602318444360243
-  ChildIds: 12113870479277086313
-  ChildIds: 686031520322478074
-  ChildIds: 3194073700549104104
-  ChildIds: 7011464861341294100
-  ChildIds: 1809674273872427842
-  ChildIds: 16909674702458484438
-  ChildIds: 10432846403048154685
-  ChildIds: 13811767354366289495
-  ChildIds: 10977171463357477145
-  ChildIds: 13780704496946562326
-  ChildIds: 10342699007820669237
-  ChildIds: 8071744078820581919
+  ParentId: 16036976128887775890
+  ChildIds: 9324060344628569793
+  ChildIds: 5872012326887674443
+  ChildIds: 10595921468364322578
+  ChildIds: 8477323574937584579
+  ChildIds: 15981020010186371341
+  ChildIds: 15499924027979604588
+  ChildIds: 8994938455765461428
+  ChildIds: 11079366698538635659
+  ChildIds: 621192179235723812
+  ChildIds: 9419303570383056102
+  ChildIds: 13642006401065266425
+  ChildIds: 7017867466668624780
+  ChildIds: 2239324860702992703
+  ChildIds: 16202466710331841464
+  ChildIds: 2553154393953852631
+  ChildIds: 7256464703029887909
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2075,7 +2075,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8071744078820581919
+  Id: 7256464703029887909
   Name: "Fantasy Book Collection 01"
   Transform {
     Location {
@@ -2091,7 +2091,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16207962104698661158
+  ParentId: 4064370842322196985
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2125,7 +2125,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10342699007820669237
+  Id: 2553154393953852631
   Name: "Fantasy Book Collection 05"
   Transform {
     Location {
@@ -2141,7 +2141,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16207962104698661158
+  ParentId: 4064370842322196985
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2175,7 +2175,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13780704496946562326
+  Id: 16202466710331841464
   Name: "Fantasy Book Collection 04"
   Transform {
     Location {
@@ -2191,7 +2191,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16207962104698661158
+  ParentId: 4064370842322196985
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2225,7 +2225,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10977171463357477145
+  Id: 2239324860702992703
   Name: "Decal Carved Font 01"
   Transform {
     Location {
@@ -2243,7 +2243,7 @@ Objects {
       Z: 0.450190634
     }
   }
-  ParentId: 16207962104698661158
+  ParentId: 4064370842322196985
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -2277,7 +2277,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13811767354366289495
+  Id: 7017867466668624780
   Name: "Decal Carved Font 01"
   Transform {
     Location {
@@ -2295,7 +2295,7 @@ Objects {
       Z: 0.450190634
     }
   }
-  ParentId: 16207962104698661158
+  ParentId: 4064370842322196985
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -2329,7 +2329,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10432846403048154685
+  Id: 13642006401065266425
   Name: "Decal Carved Font 01"
   Transform {
     Location {
@@ -2347,7 +2347,7 @@ Objects {
       Z: 0.450190634
     }
   }
-  ParentId: 16207962104698661158
+  ParentId: 4064370842322196985
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -2381,7 +2381,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16909674702458484438
+  Id: 9419303570383056102
   Name: "Decal Carved Font 01"
   Transform {
     Location {
@@ -2399,7 +2399,7 @@ Objects {
       Z: 0.450190634
     }
   }
-  ParentId: 16207962104698661158
+  ParentId: 4064370842322196985
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -2433,7 +2433,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1809674273872427842
+  Id: 621192179235723812
   Name: "Decal Carved Font 01"
   Transform {
     Location {
@@ -2451,7 +2451,7 @@ Objects {
       Z: 0.450190634
     }
   }
-  ParentId: 16207962104698661158
+  ParentId: 4064370842322196985
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -2485,7 +2485,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7011464861341294100
+  Id: 11079366698538635659
   Name: "Decal Carved Font 01"
   Transform {
     Location {
@@ -2503,7 +2503,7 @@ Objects {
       Z: 0.450190634
     }
   }
-  ParentId: 16207962104698661158
+  ParentId: 4064370842322196985
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2531,7 +2531,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3194073700549104104
+  Id: 8994938455765461428
   Name: "Decal Carved Font 01"
   Transform {
     Location {
@@ -2549,7 +2549,7 @@ Objects {
       Z: 0.450190634
     }
   }
-  ParentId: 16207962104698661158
+  ParentId: 4064370842322196985
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -2583,7 +2583,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 686031520322478074
+  Id: 15499924027979604588
   Name: "Nameplate"
   Transform {
     Location {
@@ -2601,7 +2601,7 @@ Objects {
       Z: 1.58
     }
   }
-  ParentId: 16207962104698661158
+  ParentId: 4064370842322196985
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2664,7 +2664,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12113870479277086313
+  Id: 15981020010186371341
   Name: "Decal Elven Symbols"
   Transform {
     Location {
@@ -2683,7 +2683,7 @@ Objects {
       Z: 0.0528372452
     }
   }
-  ParentId: 16207962104698661158
+  ParentId: 4064370842322196985
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -2726,7 +2726,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5754602318444360243
+  Id: 8477323574937584579
   Name: "Sphere"
   Transform {
     Location {
@@ -2745,7 +2745,7 @@ Objects {
       Z: 0.225860968
     }
   }
-  ParentId: 16207962104698661158
+  ParentId: 4064370842322196985
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2799,7 +2799,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6912432770837886502
+  Id: 10595921468364322578
   Name: "Top"
   Transform {
     Location {
@@ -2815,7 +2815,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16207962104698661158
+  ParentId: 4064370842322196985
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2861,7 +2861,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5983921698720637019
+  Id: 5872012326887674443
   Name: "Middle"
   Transform {
     Location {
@@ -2877,7 +2877,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16207962104698661158
+  ParentId: 4064370842322196985
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2919,7 +2919,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13101535872611256176
+  Id: 9324060344628569793
   Name: "Bottom"
   Transform {
     Location {
@@ -2936,7 +2936,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16207962104698661158
+  ParentId: 4064370842322196985
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -2984,7 +2984,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14419138677227362420
+  Id: 11642495496011389521
   Name: "InteractiveObjects"
   Transform {
     Location {
@@ -3001,12 +3001,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16297838614968035194
-  ChildIds: 17030798418524212548
-  ChildIds: 16902651816761677325
-  ChildIds: 896488485510702173
-  ChildIds: 6697458315369203096
-  ChildIds: 1643756738807803888
+  ParentId: 16036976128887775890
+  ChildIds: 11700293529248379528
+  ChildIds: 8458164048982204451
+  ChildIds: 12303821409214279787
+  ChildIds: 3691351799337222039
+  ChildIds: 7803290045930036254
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3028,7 +3028,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1643756738807803888
+  Id: 7803290045930036254
   Name: "Glass_Physics"
   Transform {
     Location {
@@ -3044,9 +3044,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14419138677227362420
-  ChildIds: 6941109548033014875
-  ChildIds: 1683396017180703865
+  ParentId: 11642495496011389521
+  ChildIds: 4627445039291556568
+  ChildIds: 10379427427666436998
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -3088,7 +3088,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1683396017180703865
+  Id: 10379427427666436998
   Name: "Glass"
   Transform {
     Location {
@@ -3101,10 +3101,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1643756738807803888
-  ChildIds: 1935901430578151438
-  ChildIds: 11134816971141773737
-  ChildIds: 14052394323873483832
+  ParentId: 7803290045930036254
+  ChildIds: 11995307252016226777
+  ChildIds: 8716740789683101879
+  ChildIds: 5786759471527405569
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3126,7 +3126,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14052394323873483832
+  Id: 5786759471527405569
   Name: "Bone Human Skull 01"
   Transform {
     Location {
@@ -3143,7 +3143,7 @@ Objects {
       Z: 0.890449762
     }
   }
-  ParentId: 1683396017180703865
+  ParentId: 10379427427666436998
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3212,7 +3212,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11134816971141773737
+  Id: 8716740789683101879
   Name: "Bone Human Skull 01"
   Transform {
     Location {
@@ -3229,7 +3229,7 @@ Objects {
       Z: 0.907969177
     }
   }
-  ParentId: 1683396017180703865
+  ParentId: 10379427427666436998
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3298,7 +3298,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1935901430578151438
+  Id: 11995307252016226777
   Name: "Bone Human Skull 01"
   Transform {
     Location {
@@ -3312,7 +3312,7 @@ Objects {
       Z: 1.53254652
     }
   }
-  ParentId: 1683396017180703865
+  ParentId: 10379427427666436998
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3381,7 +3381,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6941109548033014875
+  Id: 4627445039291556568
   Name: "ObjectPoofer"
   Transform {
     Location {
@@ -3394,12 +3394,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1643756738807803888
+  ParentId: 7803290045930036254
   UnregisteredParameters {
     Overrides {
       Name: "cs:PropGroup"
       ObjectReference {
-        SelfId: 1683396017180703865
+        SelfId: 10379427427666436998
       }
     }
     Overrides {
@@ -3417,7 +3417,7 @@ Objects {
     Overrides {
       Name: "cs:Trigger_Group"
       ObjectReference {
-        SelfId: 17030798418524212548
+        SelfId: 11700293529248379528
       }
     }
   }
@@ -3444,7 +3444,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6697458315369203096
+  Id: 3691351799337222039
   Name: "PurplePotions_Physics"
   Transform {
     Location {
@@ -3461,9 +3461,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14419138677227362420
-  ChildIds: 10219497990411185406
-  ChildIds: 17036170625682308715
+  ParentId: 11642495496011389521
+  ChildIds: 16379503846711477181
+  ChildIds: 7997060212469354775
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -3505,7 +3505,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17036170625682308715
+  Id: 7997060212469354775
   Name: "PurplePotions"
   Transform {
     Location {
@@ -3520,8 +3520,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6697458315369203096
-  ChildIds: 16126353285374112022
+  ParentId: 3691351799337222039
+  ChildIds: 2022690305180587380
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3543,7 +3543,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16126353285374112022
+  Id: 2022690305180587380
   Name: "Bottle 01"
   Transform {
     Location {
@@ -3557,7 +3557,7 @@ Objects {
       Z: 1.10187721
     }
   }
-  ParentId: 17036170625682308715
+  ParentId: 7997060212469354775
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -3635,7 +3635,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10219497990411185406
+  Id: 16379503846711477181
   Name: "ObjectPoofer"
   Transform {
     Location {
@@ -3652,12 +3652,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6697458315369203096
+  ParentId: 3691351799337222039
   UnregisteredParameters {
     Overrides {
       Name: "cs:Explode_Trigger"
       ObjectReference {
-        SelfId: 15000730612723455822
+        SelfId: 2849649624314139676
       }
     }
     Overrides {
@@ -3675,13 +3675,13 @@ Objects {
     Overrides {
       Name: "cs:Trigger_Group"
       ObjectReference {
-        SelfId: 17030798418524212548
+        SelfId: 11700293529248379528
       }
     }
     Overrides {
       Name: "cs:PropGroup"
       ObjectReference {
-        SelfId: 17036170625682308715
+        SelfId: 7997060212469354775
       }
     }
   }
@@ -3708,7 +3708,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 896488485510702173
+  Id: 12303821409214279787
   Name: "OrangePotions_Physics"
   Transform {
     Location {
@@ -3725,9 +3725,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14419138677227362420
-  ChildIds: 4738214029671588738
-  ChildIds: 11305928145487464814
+  ParentId: 11642495496011389521
+  ChildIds: 12046834250765386155
+  ChildIds: 6498316727143494243
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -3769,7 +3769,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11305928145487464814
+  Id: 6498316727143494243
   Name: "OrangePotions"
   Transform {
     Location {
@@ -3782,9 +3782,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 896488485510702173
-  ChildIds: 15917915012232155976
-  ChildIds: 9051570912877931349
+  ParentId: 12303821409214279787
+  ChildIds: 1174546460732019470
+  ChildIds: 8743354208899842905
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3806,7 +3806,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9051570912877931349
+  Id: 8743354208899842905
   Name: "Bottle 01"
   Transform {
     Location {
@@ -3820,7 +3820,7 @@ Objects {
       Z: 0.835262358
     }
   }
-  ParentId: 11305928145487464814
+  ParentId: 6498316727143494243
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -3892,7 +3892,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15917915012232155976
+  Id: 1174546460732019470
   Name: "Bottle 01"
   Transform {
     Location {
@@ -3908,7 +3908,7 @@ Objects {
       Z: 1.16590881
     }
   }
-  ParentId: 11305928145487464814
+  ParentId: 6498316727143494243
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -3980,7 +3980,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4738214029671588738
+  Id: 12046834250765386155
   Name: "ObjectPoofer"
   Transform {
     Location {
@@ -3997,12 +3997,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 896488485510702173
+  ParentId: 12303821409214279787
   UnregisteredParameters {
     Overrides {
       Name: "cs:Explode_Trigger"
       ObjectReference {
-        SelfId: 15000730612723455822
+        SelfId: 2849649624314139676
       }
     }
     Overrides {
@@ -4020,13 +4020,13 @@ Objects {
     Overrides {
       Name: "cs:Trigger_Group"
       ObjectReference {
-        SelfId: 17030798418524212548
+        SelfId: 11700293529248379528
       }
     }
     Overrides {
       Name: "cs:PropGroup"
       ObjectReference {
-        SelfId: 11305928145487464814
+        SelfId: 6498316727143494243
       }
     }
   }
@@ -4053,7 +4053,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16902651816761677325
+  Id: 8458164048982204451
   Name: "BluePotion_Physics"
   Transform {
     Location {
@@ -4070,9 +4070,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14419138677227362420
-  ChildIds: 484139211743651313
-  ChildIds: 15395173597452185120
+  ParentId: 11642495496011389521
+  ChildIds: 3476065179959408149
+  ChildIds: 7235254474003784128
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -4114,7 +4114,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15395173597452185120
+  Id: 7235254474003784128
   Name: "BluePotions"
   Transform {
     Location {
@@ -4128,8 +4128,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16902651816761677325
-  ChildIds: 15835913952513696828
+  ParentId: 8458164048982204451
+  ChildIds: 7732176202308783490
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4151,7 +4151,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15835913952513696828
+  Id: 7732176202308783490
   Name: "Bottle 01"
   Transform {
     Location {
@@ -4165,7 +4165,7 @@ Objects {
       Z: 0.84673506
     }
   }
-  ParentId: 15395173597452185120
+  ParentId: 7235254474003784128
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -4238,7 +4238,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 484139211743651313
+  Id: 3476065179959408149
   Name: "ObjectPoofer"
   Transform {
     Location {
@@ -4251,18 +4251,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16902651816761677325
+  ParentId: 8458164048982204451
   UnregisteredParameters {
     Overrides {
       Name: "cs:PropGroup"
       ObjectReference {
-        SelfId: 15395173597452185120
+        SelfId: 7235254474003784128
       }
     }
     Overrides {
       Name: "cs:Explode_Trigger"
       ObjectReference {
-        SelfId: 15000730612723455822
+        SelfId: 2849649624314139676
       }
     }
     Overrides {
@@ -4280,7 +4280,7 @@ Objects {
     Overrides {
       Name: "cs:Trigger_Group"
       ObjectReference {
-        SelfId: 17030798418524212548
+        SelfId: 11700293529248379528
       }
     }
   }
@@ -4307,7 +4307,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17030798418524212548
+  Id: 11700293529248379528
   Name: "Triggers"
   Transform {
     Location {
@@ -4320,8 +4320,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14419138677227362420
-  ChildIds: 15000730612723455822
+  ParentId: 11642495496011389521
+  ChildIds: 2849649624314139676
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4343,7 +4343,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15000730612723455822
+  Id: 2849649624314139676
   Name: "Explode_Trigger"
   Transform {
     Location {
@@ -4357,7 +4357,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17030798418524212548
+  ParentId: 11700293529248379528
   UnregisteredParameters {
   }
   Collidable_v2 {

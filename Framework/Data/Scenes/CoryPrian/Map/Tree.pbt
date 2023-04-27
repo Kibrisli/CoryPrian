@@ -5,14 +5,14 @@ Objects {
   Name: "Rock Flat 01"
   Transform {
     Location {
-      X: 23006.9375
-      Y: 30915.0918
-      Z: 58688.1836
+      X: 21870.8691
+      Y: 33492
+      Z: 58713.4922
     }
     Rotation {
-      Pitch: -2.08816528
-      Yaw: 175.957703
-      Roll: -0.920471191
+      Pitch: 0.235518575
+      Yaw: 56.2396736
+      Roll: 2.26978254
     }
     Scale {
       X: 1.80000007
@@ -70,14 +70,14 @@ Objects {
   Name: "MapTable"
   Transform {
     Location {
-      X: 22985.8457
-      Y: 30848.0723
-      Z: 58961.3789
+      X: 21804.4043
+      Y: 33542.7422
+      Z: 58982.8906
     }
     Rotation {
-      Pitch: -179.969574
-      Yaw: -11.409729
-      Roll: 90
+      Pitch: 177.320114
+      Yaw: -131.010254
+      Roll: 92.869751
     }
     Scale {
       X: 1
@@ -181,10 +181,14 @@ Objects {
   Name: "MapPiece"
   Transform {
     Location {
-      X: 5.8618083
-      Y: -1.27295446
+      X: -2506.68604
+      Y: -75.71521
+      Z: 35.6079
     }
     Rotation {
+      Pitch: -2.08956909
+      Yaw: -119.604599
+      Roll: -3.34841919
     }
     Scale {
       X: 1
@@ -562,11 +566,14 @@ Objects {
   Name: "Map Piece"
   Transform {
     Location {
-      X: -0.866536498
-      Y: -17.817709
-      Z: 3.70947266
+      X: 505.480469
+      Y: 2371.36743
+      Z: 55.0495605
     }
     Rotation {
+      Pitch: -2.08956909
+      Yaw: -119.604599
+      Roll: -3.34841919
     }
     Scale {
       X: 1
