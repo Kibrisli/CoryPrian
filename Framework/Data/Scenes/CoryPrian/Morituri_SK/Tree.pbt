@@ -51,6 +51,14 @@ Objects {
     }
   }
   ParentId: 14380686102853882264
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:StorageKeys"
+      AssetReference {
+        Id: 3120332404910366941
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
