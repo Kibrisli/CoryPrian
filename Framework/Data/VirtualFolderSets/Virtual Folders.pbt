@@ -433,5 +433,9 @@ Assets {
       VirtualFolderPath: "totems"
       PlatformAssetType: 13
     }
+    Folders {
+      VirtualFolderPath: "Sigils"
+      PlatformAssetType: 5
+    }
   }
 }

@@ -56,8 +56,23 @@ function SyncSigilData(player)
     player:SetPrivateNetworkedData(sigilsNetworkKey,player.serverUserData.sigilData)
 end
 
+function AddSigilToPlayer(player,Id)
+    if player.serverUserData.sigilData[Id] == nil then
+        player.serverUserData.sigilData[Id] = true
+    end
+    --broadcast sigils change
+    Events.Broadcast(sigilsNetworkKey,player)
+end
+
+function OnPlayerJoined(player)
+    player.serverUserData.sigilData = {}
+end
+
 EApi.playerEquippedEvent:Connect(RegisterNewCharacterForSigils)
 EApi.playerUnequippedEvent:Connect(UnregisterCurrentCharacterForSigils)
 
 Events.ConnectForPlayer(DeleteCharacterEvent, DeleteCharacter)
 Events.Connect(sigilsNetworkKey,OnSigilsChanged)
+Events.Connect("Sigil.Acquire", AddSigilToPlayer)
+
+Game.playerJoinedEvent:Connect(OnPlayerJoined)

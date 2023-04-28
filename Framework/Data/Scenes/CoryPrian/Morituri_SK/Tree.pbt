@@ -1,39 +1,30 @@
 Name: "Morituri_SK"
 RootId: 17054032585306417805
 Objects {
-  Id: 16939294778015363486
-  Name: "SIGILS"
+  Id: 9477222791001229251
+  Name: "SIGILS_LOST"
   Transform {
     Location {
-      X: 12.9902344
-      Y: 57.921875
-      Z: 67.8129883
     }
     Rotation {
     }
     Scale {
-      X: 0.763729692
-      Y: 0.763729692
-      Z: 0.763729692
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 17054032585306417805
-  ChildIds: 393442520004644538
-  ChildIds: 3082651134346959162
-  ChildIds: 2951950843615156017
-  ChildIds: 10685647500866632511
-  ChildIds: 17970492881937820387
-  ChildIds: 3200489830888625865
-  ChildIds: 18341094290436581665
-  ChildIds: 3452108206839076892
-  ChildIds: 15749555228492336810
-  ChildIds: 8343602472838584028
-  ChildIds: 1624197864647481278
-  ChildIds: 4888539840205911332
-  ChildIds: 2192252755525639611
-  ChildIds: 6391280595371906311
-  ChildIds: 4549417651633903384
-  ChildIds: 2362200839628173705
+  ChildIds: 8191956262318693669
+  ChildIds: 15606591056115356054
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:CoryPrian_Sigils"
+      AssetReference {
+        Id: 13944757392223888685
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -55,515 +46,26 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2362200839628173705
-  Name: "Sigil16"
+  Id: 15606591056115356054
+  Name: "SigilPlaceholder"
   Transform {
     Location {
-      X: 369.550781
-      Y: -153.074219
+      X: -1669.16211
+      Y: -27.5019531
+      Z: 57.0693359
     }
     Rotation {
-      Yaw: -22.4999847
+      Pitch: -90
     }
     Scale {
-      X: 2
-      Y: 2
-      Z: 2
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 16939294778015363486
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Id"
-      String: "16"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sigil16_1"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 4549417651633903384
-  Name: "Sigil15"
-  Transform {
-    Location {
-      X: 282.841797
-      Y: -282.84375
-    }
-    Rotation {
-      Yaw: -44.9999962
-    }
-    Scale {
-      X: 2
-      Y: 2
-      Z: 2
-    }
-  }
-  ParentId: 16939294778015363486
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Id"
-      String: "15"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sigil15_1"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 6391280595371906311
-  Name: "Sigil14"
-  Transform {
-    Location {
-      X: 153.074219
-      Y: -369.550781
-    }
-    Rotation {
-      Yaw: -67.5000153
-    }
-    Scale {
-      X: 2
-      Y: 2
-      Z: 2
-    }
-  }
-  ParentId: 16939294778015363486
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Id"
-      String: "14"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sigil14_1"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 2192252755525639611
-  Name: "Sigil13"
-  Transform {
-    Location {
-      Y: -400
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 2
-      Y: 2
-      Z: 2
-    }
-  }
-  ParentId: 16939294778015363486
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Id"
-      String: "13"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sigil13_1"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 4888539840205911332
-  Name: "Sigil12"
-  Transform {
-    Location {
-      X: -153.072266
-      Y: -369.550781
-    }
-    Rotation {
-      Yaw: -112.499901
-    }
-    Scale {
-      X: 2
-      Y: 2
-      Z: 2
-    }
-  }
-  ParentId: 16939294778015363486
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Id"
-      String: "12"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sigil12_1"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 1624197864647481278
-  Name: "Sigil11"
-  Transform {
-    Location {
-      X: -282.84375
-      Y: -282.84375
-    }
-    Rotation {
-      Yaw: -135
-    }
-    Scale {
-      X: 2
-      Y: 2
-      Z: 2
-    }
-  }
-  ParentId: 16939294778015363486
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Id"
-      String: "11"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sigil11_1"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 8343602472838584028
-  Name: "Sigil10"
-  Transform {
-    Location {
-      X: -369.550781
-      Y: -153.074219
-    }
-    Rotation {
-      Yaw: -157.500031
-    }
-    Scale {
-      X: 2
-      Y: 2
-      Z: 2
-    }
-  }
-  ParentId: 16939294778015363486
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Id"
-      String: "10"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sigil10_1"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 15749555228492336810
-  Name: "Sigil9"
-  Transform {
-    Location {
-      X: -400
-    }
-    Rotation {
-      Yaw: -179.999985
-    }
-    Scale {
-      X: 2
-      Y: 2
-      Z: 2
-    }
-  }
-  ParentId: 16939294778015363486
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Id"
-      String: "9"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sigil9_1"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 3452108206839076892
-  Name: "Sigil8"
-  Transform {
-    Location {
-      X: -369.552734
-      Y: 153.074219
-    }
-    Rotation {
-      Yaw: 157.500076
-    }
-    Scale {
-      X: 2
-      Y: 2
-      Z: 2
-    }
-  }
-  ParentId: 16939294778015363486
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Id"
-      String: "8"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sigil8_1"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 18341094290436581665
-  Name: "Sigil7"
-  Transform {
-    Location {
-      X: -282.84375
-      Y: 282.84375
-    }
-    Rotation {
-      Yaw: 135
-    }
-    Scale {
-      X: 2
-      Y: 2
-      Z: 2
-    }
-  }
-  ParentId: 16939294778015363486
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Id"
-      String: "7"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sigil7_1"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 3200489830888625865
-  Name: "Sigil6"
-  Transform {
-    Location {
-      X: -153.072266
-      Y: 369.550781
-    }
-    Rotation {
-      Yaw: 112.499916
-    }
-    Scale {
-      X: 2
-      Y: 2
-      Z: 2
-    }
-  }
-  ParentId: 16939294778015363486
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Id"
-      String: "6"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sigil6_1"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 17970492881937820387
-  Name: "Sigil5"
-  Transform {
-    Location {
-      Y: 400
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 2
-      Y: 2
-      Z: 2
-    }
-  }
-  ParentId: 16939294778015363486
+  ParentId: 9477222791001229251
+  ChildIds: 7961159668062832612
+  ChildIds: 10620603455952913394
   UnregisteredParameters {
     Overrides {
       Name: "cs:Id"
@@ -583,8 +85,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sigil5_1"
+    IsGroup: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -592,27 +93,213 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10685647500866632511
-  Name: "Sigil4"
+  Id: 10620603455952913394
+  Name: "ClientContext"
   Transform {
     Location {
-      X: 153.072266
-      Y: 369.550781
     }
     Rotation {
-      Yaw: 67.5000687
     }
     Scale {
-      X: 2
-      Y: 2
-      Z: 2
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 16939294778015363486
+  ParentId: 15606591056115356054
+  ChildIds: 2753914347698646967
+  ChildIds: 10283496204735886634
+  ChildIds: 77285824617492316
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    IsAllowedForPC: true
+    IsAllowedForMobile: true
+    IsAllowedForLowMemoryMobile: true
+    PCMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    PCMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    MobileMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MobileMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 77285824617492316
+  Name: "SigilCollector_Client"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10620603455952913394
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 13514893958108569217
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10283496204735886634
+  Name: "CollectSigilTrigger"
+  Transform {
+    Location {
+      Z: 16.0839825
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.3
+      Y: 0.3
+      Z: 0.3
+    }
+  }
+  ParentId: 10620603455952913394
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Collect the Sigil"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2753914347698646967
+  Name: "RemovePlaceholder"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10620603455952913394
+  ChildIds: 4367367262825940299
+  ChildIds: 14830582813397532899
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10947307648199128843
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14830582813397532899
+  Name: "Cube"
+  Transform {
+    Location {
+      Z: 4.60546827
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.197055534
+      Y: 0.197055504
+      Z: 0.00955552235
+    }
+  }
+  ParentId: 2753914347698646967
   UnregisteredParameters {
     Overrides {
-      Name: "cs:Id"
-      String: "4"
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 675563715440209277
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        G: 0.0900000334
+        B: 0.0649669245
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -627,9 +314,24 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sigil4_1"
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -637,27 +339,29 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2951950843615156017
-  Name: "Sigil3"
+  Id: 4367367262825940299
+  Name: "Stone Placeholder"
   Transform {
     Location {
-      X: 282.841797
-      Y: 282.84375
+      X: -0.0507812425
+      Y: -0.015625
+      Z: 3.7252903e-09
     }
     Rotation {
-      Yaw: 44.9999962
     }
     Scale {
-      X: 2
-      Y: 2
-      Z: 2
+      X: 0.512702346
+      Y: 0.512702346
+      Z: 0.0926826149
     }
   }
-  ParentId: 16939294778015363486
+  ParentId: 2753914347698646967
   UnregisteredParameters {
     Overrides {
-      Name: "cs:Id"
-      String: "3"
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1213324101088113781
+      }
     }
   }
   Collidable_v2 {
@@ -672,9 +376,24 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sigil3_1"
+  CoreMesh {
+    MeshAsset {
+      Id: 6530006698448607407
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -682,31 +401,22 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3082651134346959162
-  Name: "Sigil2"
+  Id: 7961159668062832612
+  Name: "SigilProximityTrigger"
   Transform {
     Location {
-      X: 369.550781
-      Y: 153.074219
     }
     Rotation {
-      Yaw: 22.4999428
     }
     Scale {
-      X: 2
-      Y: 2
-      Z: 2
+      X: 5
+      Y: 5
+      Z: 5
     }
   }
-  ParentId: 16939294778015363486
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Id"
-      String: "2"
-    }
-  }
+  ParentId: 15606591056115356054
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -717,9 +427,20 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sigil2_1"
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:sphere"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -727,21 +448,26 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 393442520004644538
-  Name: "Sigil1"
+  Id: 8191956262318693669
+  Name: "SigilPlaceholder"
   Transform {
     Location {
-      X: 400
+      X: -1669.16211
+      Y: -160.146484
+      Z: 57.0693359
     }
     Rotation {
+      Pitch: -90
     }
     Scale {
-      X: 2
-      Y: 2
-      Z: 2
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 16939294778015363486
+  ParentId: 9477222791001229251
+  ChildIds: 16816086869188535159
+  ChildIds: 139371675957171026
   UnregisteredParameters {
     Overrides {
       Name: "cs:Id"
@@ -761,13 +487,1035 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sigil1_1"
+    IsGroup: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 139371675957171026
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8191956262318693669
+  ChildIds: 3907446753412527251
+  ChildIds: 16997879196825753910
+  ChildIds: 8516462362037560546
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    IsAllowedForPC: true
+    IsAllowedForMobile: true
+    IsAllowedForLowMemoryMobile: true
+    PCMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    PCMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    MobileMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MobileMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8516462362037560546
+  Name: "SigilCollector_Client"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 139371675957171026
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 13514893958108569217
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16997879196825753910
+  Name: "CollectSigilTrigger"
+  Transform {
+    Location {
+      Z: 16.0839825
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.3
+      Y: 0.3
+      Z: 0.3
+    }
+  }
+  ParentId: 139371675957171026
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Collect the Sigil"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3907446753412527251
+  Name: "RemovePlaceholder"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 139371675957171026
+  ChildIds: 9390572691138162434
+  ChildIds: 14635874015881490492
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10947307648199128843
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14635874015881490492
+  Name: "Cube"
+  Transform {
+    Location {
+      Z: 4.60546827
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.197055534
+      Y: 0.197055504
+      Z: 0.00955552235
+    }
+  }
+  ParentId: 3907446753412527251
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 675563715440209277
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        G: 0.0900000334
+        B: 0.0649669245
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9390572691138162434
+  Name: "Stone Placeholder"
+  Transform {
+    Location {
+      X: -0.0507812425
+      Y: -0.015625
+      Z: 3.7252903e-09
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.512702346
+      Y: 0.512702346
+      Z: 0.0926826149
+    }
+  }
+  ParentId: 3907446753412527251
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1213324101088113781
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6530006698448607407
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16816086869188535159
+  Name: "SigilProximityTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 5
+      Y: 5
+      Z: 5
+    }
+  }
+  ParentId: 8191956262318693669
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:sphere"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16939294778015363486
+  Name: "SIGILS_PLACED"
+  Transform {
+    Location {
+      X: 12.9902344
+      Y: 57.921875
+      Z: 67.8129883
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.763729692
+      Y: 0.763729692
+      Z: 0.763729692
+    }
+  }
+  ParentId: 17054032585306417805
+  ChildIds: 13738083134166935210
+  ChildIds: 18186561085658441479
+  ChildIds: 498279756364394026
+  ChildIds: 13514987467882804526
+  ChildIds: 4823497604847560126
+  ChildIds: 12296490603376487697
+  ChildIds: 18329621920816720278
+  ChildIds: 12374211205563995694
+  ChildIds: 1855231956595479575
+  ChildIds: 15655059383933808308
+  ChildIds: 5419424187551566985
+  ChildIds: 1090483998823283081
+  ChildIds: 14567345414326093651
+  ChildIds: 4951776137611369868
+  ChildIds: 4297436795538583460
+  ChildIds: 16615384010104935882
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16615384010104935882
+  Name: "CoryPrian_Sigil16"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16939294778015363486
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9352477718832153136
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CoryPrian_Sigil16"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 369.550049
+            Y: -153.075378
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -22.4999847
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8605336294329266502
+    }
+  }
+}
+Objects {
+  Id: 4297436795538583460
+  Name: "CoryPrian_Sigil15"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16939294778015363486
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1578486261157746919
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CoryPrian_Sigil15"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 282.843048
+            Y: -282.843048
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -44.9999962
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12567921146445037591
+    }
+  }
+}
+Objects {
+  Id: 4951776137611369868
+  Name: "CoryPrian_Sigil14"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16939294778015363486
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 82962939296181038
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CoryPrian_Sigil14"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 153.075378
+            Y: -369.550049
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -67.5000153
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11250676664524691307
+    }
+  }
+}
+Objects {
+  Id: 14567345414326093651
+  Name: "CoryPrian_Sigil13"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16939294778015363486
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4269118979497494210
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CoryPrian_Sigil13"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -400.000427
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999924
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17763519358645637911
+    }
+  }
+}
+Objects {
+  Id: 1090483998823283081
+  Name: "CoryPrian_Sigil12"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16939294778015363486
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1498692195609434191
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CoryPrian_Sigil12"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -153.072815
+            Y: -369.550049
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -112.499893
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 805689455216427055
+    }
+  }
+}
+Objects {
+  Id: 5419424187551566985
+  Name: "CoryPrian_Sigil11"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16939294778015363486
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14168750846899617323
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CoryPrian_Sigil11"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -282.843048
+            Y: -282.843048
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -135
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6652189327343820603
+    }
+  }
+}
+Objects {
+  Id: 15655059383933808308
+  Name: "CoryPrian_Sigil10"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16939294778015363486
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13749279153094174540
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CoryPrian_Sigil10"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -369.550049
+            Y: -153.075378
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -157.500031
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8116007598845813700
+    }
+  }
+}
+Objects {
+  Id: 1855231956595479575
+  Name: "CoryPrian_Sigil9"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16939294778015363486
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5639136882564633864
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CoryPrian_Sigil9"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -400.000427
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999969
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1922336673362388392
+    }
+  }
+}
+Objects {
+  Id: 12374211205563995694
+  Name: "CoryPrian_Sigil8"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16939294778015363486
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11287300709946531739
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CoryPrian_Sigil8"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -369.552612
+            Y: 153.075378
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 157.500092
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17774273495528956762
+    }
+  }
+}
+Objects {
+  Id: 18329621920816720278
+  Name: "CoryPrian_Sigil7"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16939294778015363486
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4609084032938217252
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CoryPrian_Sigil7"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -282.843048
+            Y: 282.843048
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 135
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6736346205226863548
+    }
+  }
+}
+Objects {
+  Id: 12296490603376487697
+  Name: "CoryPrian_Sigil6"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16939294778015363486
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17457431664546824132
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CoryPrian_Sigil6"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -153.072815
+            Y: 369.550049
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 112.499901
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5902852300571007583
+    }
+  }
+}
+Objects {
+  Id: 4823497604847560126
+  Name: "CoryPrian_Sigil5"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16939294778015363486
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 470311349493590880
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CoryPrian_Sigil5"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 400.000427
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999847
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7212692589926431739
+    }
+  }
+}
+Objects {
+  Id: 13514987467882804526
+  Name: "CoryPrian_Sigil4"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16939294778015363486
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10036763147269626432
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CoryPrian_Sigil4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 153.072815
+            Y: 369.550049
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 67.5000763
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7579690147690292227
+    }
+  }
+}
+Objects {
+  Id: 498279756364394026
+  Name: "CoryPrian_Sigil3"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16939294778015363486
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5487989694554876413
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CoryPrian_Sigil3"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 282.843048
+            Y: 282.843048
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 44.9999924
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9209866726757521433
+    }
+  }
+}
+Objects {
+  Id: 18186561085658441479
+  Name: "CoryPrian_Sigil2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16939294778015363486
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5069612649350118857
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CoryPrian_Sigil2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 369.550049
+            Y: 153.075378
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 22.4999256
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4051661782741120640
+    }
+  }
+}
+Objects {
+  Id: 13738083134166935210
+  Name: "CoryPrian_Sigil1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16939294778015363486
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13239438628860344168
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CoryPrian_Sigil1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 400.000427
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15982033348377295118
+    }
+  }
 }
 Objects {
   Id: 845320976592443450
@@ -941,6 +1689,7 @@ Objects {
   }
   ParentId: 17054032585306417805
   ChildIds: 16554327400128922730
+  ChildIds: 390695966852680333
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -955,6 +1704,51 @@ Objects {
   }
   NetworkContext {
     Type: Server
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 390695966852680333
+  Name: "SigilCollector_Server"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14380686102853882264
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SIGILS_LOST"
+      ObjectReference {
+        SelfId: 9477222791001229251
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 11580846139388115114
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

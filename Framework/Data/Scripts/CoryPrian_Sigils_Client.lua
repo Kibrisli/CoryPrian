@@ -1,3 +1,5 @@
+local sigilsNetworkKey = 'Sigils_State'
+
 ---@type Folder
 local SIGILS = script:GetCustomProperty("SIGILS"):WaitForObject()
 ---@type string
@@ -40,6 +42,18 @@ function SetSigilActive(sigilId, isActive)
     end
 end
 
+function OnSigilsChanged(player,PNDkey)
+    if PNDkey ~= sigilsNetworkKey then return end
+    LOCAL_PLAYER.clientUserData.Sigils = LOCAL_PLAYER:GetPrivateNetworkedData(sigilsNetworkKey)
+    Events.Broadcast("Sigils.Changed")
+    --update the sigils states
+    for sigilId,state in pairs(LOCAL_PLAYER.clientUserData.Sigils)do
+        SetSigilActive(sigilId, state)
+    end
+end
+
+LOCAL_PLAYER.privateNetworkedDataChangedEvent:Connect(OnSigilsChanged)
+
 --turn all off
 LOCAL_PLAYER.clientUserData.Sigils = {}
 for i=1,16 do
@@ -47,10 +61,11 @@ for i=1,16 do
     SetSigilActive(id, false)
     LOCAL_PLAYER.clientUserData.Sigils[id] = false
 end
+--[[
 --test
 while true do
     local id = tostring(math.random(1,16))
     LOCAL_PLAYER.clientUserData.Sigils[id] = not LOCAL_PLAYER.clientUserData.Sigils[id]
     SetSigilActive(id, LOCAL_PLAYER.clientUserData.Sigils[id])
     Task.Wait(5)
-end
+end]]
