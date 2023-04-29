@@ -15,7 +15,8 @@ Objects {
     }
   }
   ParentId: 17054032585306417805
-  ChildIds: 15453443125457661844
+  ChildIds: 14456581563028360214
+  ChildIds: 9648069230132934115
   ChildIds: 11858912930545777069
   ChildIds: 10060029153306071971
   ChildIds: 9721536115573049202
@@ -294,9 +295,17 @@ Objects {
   }
 }
 Objects {
-  Id: 15453443125457661844
+  Id: 9648069230132934115
   Name: "SigilPlaceholder"
   Transform {
+    Location {
+      X: 18906.2305
+      Y: 27572.293
+      Z: 4657.50635
+    }
+    Rotation {
+      Pitch: -90
+    }
     Scale {
       X: 1
       Y: 1
@@ -324,6 +333,76 @@ Objects {
           Name: "Rotation"
           Rotator {
             Pitch: -90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 14456581563028360214
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 18906.2305
+      Y: 27572.293
+      Z: 4657.50635
+    }
+    Rotation {
+      Pitch: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SigilPlaceholder"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2682.2168
+            Y: -13338.5742
+            Z: 383.71875
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -73.3616333
+            Yaw: -4.50091553
+            Roll: 25.2480888
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "12"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.59813392
+            Y: 1.59813392
+            Z: 1.59813392
           }
         }
       }
