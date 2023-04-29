@@ -124,6 +124,7 @@ Objects {
   ParentId: 934690117071711700
   ChildIds: 16661009599098560425
   ChildIds: 15607342980740282908
+  ChildIds: 7902992749159207941
   ChildIds: 5859440835340364158
   ChildIds: 16326289099407951428
   ChildIds: 8712155604179370383
@@ -2973,14 +2974,14 @@ Objects {
   Name: "Helmet"
   Transform {
     Location {
-      X: 221.878082
-      Y: -129.899933
-      Z: 45.8584747
+      X: 261.395813
+      Y: -159.825958
+      Z: 86.7911377
     }
     Rotation {
-      Pitch: 39.0571938
-      Yaw: -169.202225
-      Roll: -87.9021606
+      Pitch: 38.4311333
+      Yaw: -169.480698
+      Roll: -83.7122192
     }
     Scale {
       X: 1.27681589
@@ -3033,7 +3034,6 @@ Objects {
   ChildIds: 5933597104723473484
   ChildIds: 16186664584618115497
   ChildIds: 11150597905835871899
-  ChildIds: 7902992749159207941
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3056,48 +3056,6 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:medium"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 7902992749159207941
-  Name: "Pictures"
-  Transform {
-    Location {
-      X: 48.7022133
-      Y: -133.394836
-      Z: 92.8457794
-    }
-    Rotation {
-      Pitch: 8.5624752
-      Yaw: -2.47734976
-      Roll: 4.32008648
-    }
-    Scale {
-      X: 0.783198297
-      Y: 0.783198297
-      Z: 0.783198297
-    }
-  }
-  ParentId: 5859440835340364158
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Pictures"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
@@ -6817,6 +6775,48 @@ Objects {
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7902992749159207941
+  Name: "Pictures"
+  Transform {
+    Location {
+      X: 70.4567871
+      Y: -33.1429405
+      Z: -16.4189987
+    }
+    Rotation {
+      Pitch: 36.4096565
+      Yaw: -179.969559
+      Roll: -89.9999695
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3251608604339230438
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Pictures"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
