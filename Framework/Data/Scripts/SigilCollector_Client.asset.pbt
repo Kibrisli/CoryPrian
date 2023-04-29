@@ -5,9 +5,9 @@ Assets {
   TextAsset {
     CustomParameters {
       Overrides {
-        Name: "cs:Effect_SigilAppear"
+        Name: "cs:Effect_SigilCollected"
         AssetReference {
-          Id: 5562030543865417982
+          Id: 8361842117229080459
         }
       }
     }

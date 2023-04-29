@@ -4,9 +4,16 @@ local sigilsNetworkKey = 'Sigils_State'
 local SIGILS = script:GetCustomProperty("SIGILS"):WaitForObject()
 ---@type string
 local EFFECT_SIGIL_APPEAR = script:GetCustomProperty("Effect_SigilAppear")
+local SIGIL_CAM_CUT = script:GetCustomProperty("SigilCamCut")
 
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local SIGILS_COLLECTED_VISUALS = {}
+local SIGILS_LAST_STATE = {}
+local COOKING_CHARACTER = true
+local CookCharacterTask = nil
+
+local ALL_SIGILS_IDs = {}
+
 --init sigils on the collected ring
 for _,sigParent in ipairs(SIGILS:GetChildren())do
     local sigilId = sigParent:GetCustomProperty("Id")
@@ -30,10 +37,15 @@ function SetSigilActive(sigilId, isActive)
     if SIGILS_COLLECTED_VISUALS[sigilId] == nil then return end
     local setToColor = Color.BLACK
     if isActive == true then
+        --todo check if it was active previously
+        if COOKING_CHARACTER == false and SIGILS_LAST_STATE[sigilId] ~= true then
+            local camCut = World.SpawnAsset(SIGIL_CAM_CUT, {position = SIGILS_COLLECTED_VISUALS[sigilId].flare:GetWorldPosition(), rotation = SIGILS_COLLECTED_VISUALS[sigilId].flare:GetWorldRotation()})
+            Task.Wait(2) --wait for the fade in/out
+            local appearEffect = World.SpawnAsset(EFFECT_SIGIL_APPEAR, {parent = SIGILS_COLLECTED_VISUALS[sigilId].flare})
+            appearEffect.lifeSpan = 5
+        end
         SIGILS_COLLECTED_VISUALS[sigilId].flare.visibility = Visibility.INHERIT
         setToColor = SIGILS_COLLECTED_VISUALS[sigilId].defColor
-        local appearEffect = World.SpawnAsset(EFFECT_SIGIL_APPEAR, {parent = SIGILS_COLLECTED_VISUALS[sigilId].flare})
-        appearEffect.lifeSpan = 5
     else
         SIGILS_COLLECTED_VISUALS[sigilId].flare.visibility = Visibility.FORCE_OFF
     end
@@ -44,28 +56,50 @@ end
 
 function OnSigilsChanged(player,PNDkey)
     if PNDkey ~= sigilsNetworkKey then return end
-    LOCAL_PLAYER.clientUserData.Sigils = LOCAL_PLAYER:GetPrivateNetworkedData(sigilsNetworkKey)
+    LOCAL_PLAYER.clientUserData.Sigils = LOCAL_PLAYER:GetPrivateNetworkedData(sigilsNetworkKey) or {}
     Events.Broadcast("Sigils.Changed")
     --update the sigils states
-    for sigilId,state in pairs(LOCAL_PLAYER.clientUserData.Sigils)do
+    for _,sigilId in ipairs(ALL_SIGILS_IDs)do
+        local state = LOCAL_PLAYER.clientUserData.Sigils[sigilId] or false
         SetSigilActive(sigilId, state)
+    end
+    UpdateSigilsLastState()
+end
+
+function CookCharacter()
+    COOKING_CHARACTER = true
+    Task.Wait(5) -- to sync new sigils state, to prevent cinamatics and vfx
+    COOKING_CHARACTER = false
+end
+
+function UpdateSigilsLastState()
+    for _,sigilId in ipairs(ALL_SIGILS_IDs)do
+        local state = LOCAL_PLAYER.clientUserData.Sigils[sigilId] or false
+        SIGILS_LAST_STATE[sigilId] = state
     end
 end
 
-LOCAL_PLAYER.privateNetworkedDataChangedEvent:Connect(OnSigilsChanged)
-
 --turn all off
 LOCAL_PLAYER.clientUserData.Sigils = {}
-for i=1,16 do
-    local id = tostring(i)
+for _,sigil in ipairs(SIGILS:GetChildren())do
+    local id = sigil:GetCustomProperty("Id")
     SetSigilActive(id, false)
     LOCAL_PLAYER.clientUserData.Sigils[id] = false
+    table.insert(ALL_SIGILS_IDs,id)
 end
---[[
---test
-while true do
-    local id = tostring(math.random(1,16))
-    LOCAL_PLAYER.clientUserData.Sigils[id] = not LOCAL_PLAYER.clientUserData.Sigils[id]
-    SetSigilActive(id, LOCAL_PLAYER.clientUserData.Sigils[id])
-    Task.Wait(5)
-end]]
+--connnect changes and load init vals
+OnSigilsChanged(LOCAL_PLAYER,sigilsNetworkKey)
+LOCAL_PLAYER.privateNetworkedDataChangedEvent:Connect(OnSigilsChanged)
+--save for effects on change
+UpdateSigilsLastState()
+--cook character
+CookCharacterTask = Task.Spawn(CookCharacter)
+
+--connect to character changes
+local charChangeNetworkKey = 'Character_Equipped'
+function EquipedCharacterChanged(player, key)
+	if key ~= charChangeNetworkKey then return end
+    if CookCharacterTask ~= nil then CookCharacterTask:Cancel() end
+    CookCharacterTask = Task.Spawn(CookCharacter)
+end
+LOCAL_PLAYER.privateNetworkedDataChangedEvent:Connect(EquipedCharacterChanged)

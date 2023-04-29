@@ -1,5 +1,5 @@
 -- Custom 
-local EFFECT_SIGIL_APPEAR = script:GetCustomProperty("Effect_SigilAppear")
+local EFFECT_SIGIL_COLLECTED = script:GetCustomProperty("Effect_SigilCollected")
 
 local CLIENT_CONTEXT = script.parent
 local CollectTrigger = CLIENT_CONTEXT:FindChildByName("CollectSigilTrigger")
@@ -10,6 +10,7 @@ local CORY_PRIAN_SIGILS = require(CLIENT_CONTEXT.parent.parent:GetCustomProperty
 local CurrentSigil = nil
 local GatherTriggerHandle = nil
 local EventSent = false
+local StartingState = false
 
 local SIGILS_TEMPLATES = {}
 for _,rowData in ipairs(CORY_PRIAN_SIGILS)do
@@ -18,6 +19,11 @@ end
 
 function SetSigilVisible(isVisible)
     if isVisible == true then
+        --clear to be sure
+        if Object.IsValid(CurrentSigil) == true then
+            CurrentSigil:Destroy()
+        end
+        --spawn new
         CurrentSigil = World.SpawnAsset(SIGILS_TEMPLATES[SigilId], {parent = CLIENT_CONTEXT})
         --connect trigger
         GatherTriggerHandle = CollectTrigger.interactedEvent:Connect(function (trig,other)
@@ -28,7 +34,14 @@ function SetSigilVisible(isVisible)
             EventSent = false
         end)
         CollectTrigger.isInteractable = true
+        StartingState = true
     else
+        --if the state was true, spawn gather effect
+        if StartingState == true then
+            local effect = World.SpawnAsset(EFFECT_SIGIL_COLLECTED, {transform = CurrentSigil:GetWorldTransform()})
+            effect.lifeSpan = 5
+            StartingState = false
+        end
         if Object.IsValid(CurrentSigil) == true then
             CurrentSigil:Destroy()
         end
@@ -38,6 +51,7 @@ function SetSigilVisible(isVisible)
         end
         CollectTrigger.isInteractable = false
     end
+    --print("setting sigil id",SigilId,"visible",isVisible)
 end
 
 function OnSigilsChanged()
@@ -51,6 +65,7 @@ end
 --wait for sigils sync
 Task.Wait(1)
 if LOCAL_PLAYER.clientUserData.Sigils[SigilId] ~= true then
+    StartingState = true
     SetSigilVisible(true)
 end
 

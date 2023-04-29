@@ -16,6 +16,12 @@ Assets {
           Id: 5562030543865417982
         }
       }
+      Overrides {
+        Name: "cs:SigilCamCut"
+        AssetReference {
+          Id: 330779673588324089
+        }
+      }
     }
   }
   SerializationVersion: 125

@@ -10,8 +10,18 @@ local savekeys = require(script:GetCustomProperty("StorageKeys"))
 local ADDITIONAL = savekeys.GetKey('charAdditional')
 assert(ADDITIONAL)
 
+--set up default sigils IDs
+local SIGILS_PLACED = script:GetCustomProperty("SIGILS_PLACED"):WaitForObject()
+local DEFAULT_SIGILS = {}
+for _,sigil in ipairs(SIGILS_PLACED:GetChildren())do
+    local id = sigil:GetCustomProperty("Id")
+    DEFAULT_SIGILS[id] = false
+end
+
 function RegisterNewCharacterForSigils(character, player)
     print("got new character for player "..player.name..": "..character.id)
+    LoadPlayerCharacterSigilState(player,character.id)
+    SyncSigilData(player)
     player.serverUserData.SigilChar = character.id
 end
 
@@ -22,7 +32,14 @@ end
 
 function DeleteCharacter(player, characterId)
     print("Deleting character for player "..player.name..": "..characterId)
-    --TODO remove the character sigil data from storage
+    --remove the character sigil data from storage
+    assert(Environment.IsServer(), 'Server Only Command')
+
+	local data = Storage.GetSharedPlayerData(ADDITIONAL, player)
+	if data[sigilsNetworkKey] == nil then return end
+    if data[sigilsNetworkKey][characterId] ~= nil then data[sigilsNetworkKey][characterId] = nil end
+
+	Storage.SetSharedPlayerData(ADDITIONAL, player, data)
 end
 
 function SavePlayerCharacterSigilState(player,characterID)
@@ -40,7 +57,7 @@ function LoadPlayerCharacterSigilState(player,characterID)
     local data = Storage.GetSharedPlayerData(ADDITIONAL, player)
 	if data[sigilsNetworkKey] == nil then data[sigilsNetworkKey] = {} end
     if data[sigilsNetworkKey][characterID] == nil then data[sigilsNetworkKey][characterID] = {} end
-    player.serverUserData.sigilData = data[sigilsNetworkKey][characterID] or {}
+    player.serverUserData.sigilData = data[sigilsNetworkKey][characterID] or DEFAULT_SIGILS
     SyncSigilData(player)
 end
 
@@ -65,7 +82,7 @@ function AddSigilToPlayer(player,Id)
 end
 
 function OnPlayerJoined(player)
-    player.serverUserData.sigilData = {}
+    player.serverUserData.sigilData = DEFAULT_SIGILS
 end
 
 EApi.playerEquippedEvent:Connect(RegisterNewCharacterForSigils)
