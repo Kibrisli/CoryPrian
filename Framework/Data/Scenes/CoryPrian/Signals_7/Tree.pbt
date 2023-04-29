@@ -260,7 +260,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:QuestID"
-      String: ""
+      String: "Arrival"
     }
     Overrides {
       Name: "cs:Signal"

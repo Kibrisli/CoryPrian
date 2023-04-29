@@ -3094,7 +3094,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Pictures"
+    FilePartitionName: "Pictures_1"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6915,7 +6915,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "WantedDeadorAlive"
+    FilePartitionName: "WantedDeadorAlive_1"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

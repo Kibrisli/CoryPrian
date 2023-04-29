@@ -24,6 +24,24 @@ Assets {
       }
     }
     Assets {
+      Id: 3685704205928946912
+      Name: "Icon Team"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "Icon_Team"
+      }
+    }
+    Assets {
+      Id: 16098631642885037472
+      Name: "Icon Apple"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "Icon_Apple"
+      }
+    }
+    Assets {
       Id: 2269370495879113376
       Name: "Map"
       PlatformAssetType: 9
@@ -39,6 +57,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "Icon_Player"
+      }
+    }
+    Assets {
+      Id: 1951883247356747746
+      Name: "Icon Stat Defense"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "Icon_StatDefense"
       }
     }
     Assets {

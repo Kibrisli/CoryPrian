@@ -239,6 +239,56 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 5447176260006350320
+  Name: "QuestSignals"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 29.8322525
+    }
+    Scale {
+      X: 0.333333343
+      Y: 0.333333343
+      Z: 0.333333343
+    }
+  }
+  ParentId: 13109901591908184979
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:QuestID"
+      String: "Arrival"
+    }
+    Overrides {
+      Name: "cs:Signal"
+      ObjectReference {
+        SelfId: 12234328183929713018
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7744594570380362117
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 15996256865753633795
   Name: "QuestSignals"
   Transform {
@@ -260,7 +310,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:QuestID"
-      String: ""
+      String: "GoldKnight"
     }
     Overrides {
       Name: "cs:Signal"

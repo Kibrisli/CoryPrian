@@ -239,6 +239,59 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 6445655270630810461
+  Name: "QuestSignals"
+  Transform {
+    Location {
+      X: 9.94471073
+      Y: -15.4103918
+      Z: -28.4845409
+    }
+    Rotation {
+      Yaw: -58.2309914
+    }
+    Scale {
+      X: 0.333333343
+      Y: 0.333333343
+      Z: 0.333333343
+    }
+  }
+  ParentId: 12287629527024330178
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:QuestID"
+      String: "Arrival"
+    }
+    Overrides {
+      Name: "cs:Signal"
+      ObjectReference {
+        SelfId: 11369701930155748283
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7744594570380362117
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 17936187112196788381
   Name: "QuestSignals"
   Transform {
@@ -260,7 +313,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:QuestID"
-      String: ""
+      String: "aLittleHelp"
     }
     Overrides {
       Name: "cs:Signal"

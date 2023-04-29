@@ -1278,7 +1278,7 @@ Objects {
 }
 Objects {
   Id: 10129643340757462643
-  Name: "Dragons2"
+  Name: "DragonWhelps2"
   Transform {
     Location {
       X: 17187
@@ -1308,7 +1308,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Dragons2"
+    FilePartitionName: "DragonWhelps2"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1317,7 +1317,7 @@ Objects {
 }
 Objects {
   Id: 13573208438791936830
-  Name: "Dragons1"
+  Name: "DragonWhelps"
   Transform {
     Location {
       Z: -40195
@@ -1345,7 +1345,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Dragons1"
+    FilePartitionName: "DragonWhelps"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1354,7 +1354,7 @@ Objects {
 }
 Objects {
   Id: 4657675700194614410
-  Name: "Raid1.1"
+  Name: "Chapter1.1"
   Transform {
     Location {
       Z: -40195
@@ -1382,7 +1382,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Raid1_1"
+    FilePartitionName: "Chapter1_1"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1391,7 +1391,7 @@ Objects {
 }
 Objects {
   Id: 2346463631818196746
-  Name: "Beasts1"
+  Name: "HuntingRaptors"
   Transform {
     Location {
       X: -4206
@@ -1421,7 +1421,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Beasts1"
+    FilePartitionName: "HuntingRaptors"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1430,7 +1430,7 @@ Objects {
 }
 Objects {
   Id: 11658426403071770519
-  Name: "Raid1"
+  Name: "Chapter1"
   Transform {
     Location {
       Z: -40195
@@ -1458,7 +1458,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Raid1"
+    FilePartitionName: "Chapter1"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1467,7 +1467,7 @@ Objects {
 }
 Objects {
   Id: 16181469260824976129
-  Name: "LostKnight"
+  Name: "LostBrother"
   Transform {
     Location {
       X: 24844.2207
@@ -1497,7 +1497,45 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "LostKnight"
+    FilePartitionName: "LostBrother"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8586257646041239332
+  Name: "MissionBoard"
+  Transform {
+    Location {
+      X: -731
+      Z: -54837.2773
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4244745184024888751
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "MissionBoard"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

@@ -1,5 +1,5 @@
 "Key[String]","ChatID[String]","Name[String]","Message[String]","RandomMessages[Asset Reference]","Actor[Asset Reference]","PositionOffset[Vector3]","Stance[String]","Animation[String]","AnimationLoop[Bool]","Audio[Asset Reference]","DisplayDuration[Float]","ResponseTable[Asset Reference]","BroadcastToServer[Bool]","QuestID[String]","Start[Bool]"
-"RedKnight0","RedKnight","Red Knight","Aaa.. A new arrival after a long time!","0BADBADBADBADBAD","1DEF65D4BBDAE222","0.000000,0.000000,0.000000","","unarmed_point_forward","False","0BADBADBADBADBAD","-1.0","AB5995557A29F131","False","WelcomeCoryprian","False"
+"RedKnight0","RedKnight","Red Knight","Aaa.. A new arrival after a long time!","0BADBADBADBADBAD","1DEF65D4BBDAE222","0.000000,0.000000,0.000000","","unarmed_point_forward","False","0BADBADBADBADBAD","-1.0","AB5995557A29F131","False","","False"
 "RedKnight1","","Red Knight","","5665140A9A47F454","1DEF65D4BBDAE222","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","-1.0","AB5995557A29F131","False","","False"
 "RedKnight2","","Red Knight","i'm One of the few Knights left from the Old Kingdom","0BADBADBADBADBAD","1DEF65D4BBDAE222","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","-1.0","E770166757A78CA5","False","","False"
 "RedKnight3","","Red Knight","You came into Grasslands called CoryPrian, once a peaceful Kingdom. Now home for unspeakable beasts..","0BADBADBADBADBAD","1DEF65D4BBDAE222","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","-1.0","E770166757A78CA5","False","","False"
@@ -7,13 +7,13 @@
 "RedKnightBye","RedKnightBye","Red Knight","Adventures waiting for you {name} , goodluck.","0BADBADBADBADBAD","1DEF65D4BBDAE222","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","2.0","0BADBADBADBADBAD","False","WelcomeCoryprian","False"
 "FirstPriestess0","FirstPriestess","First Priestess","Elune Adore Adventurer.","0BADBADBADBADBAD","C3E5C8D2DC8962AA","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","2.0","0BADBADBADBADBAD","False","","False"
 "SecondPriestess0","SecondPriestess","Second Priestess","","1326EC138C0360D2","ABB6A00A20D23D4E","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","2.0","0BADBADBADBADBAD","False","","False"
-"RedPriestess0","RedPriestess","Priestess of Blood","The dark times will pass.","0BADBADBADBADBAD","31A31ADD71D93C07","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","0.0","0BADBADBADBADBAD","False","","False"
-"GoldKnight0","GoldKnight","Gold Knight","","D6AFED70F01A10D0","982BE0BCBC3A9900","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","4.0","0BADBADBADBADBAD","False","","False"
+"RedPriestess0","RedPriestess","Priestess of Blood","The dark times will pass.","0BADBADBADBADBAD","31A31ADD71D93C07","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","0.0","0BADBADBADBADBAD","False","Arrival","False"
+"GoldKnight0","GoldKnight","Gold Knight","","D6AFED70F01A10D0","982BE0BCBC3A9900","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","4.0","0BADBADBADBADBAD","False","GoldKnight","False"
 "DarkKnight0","DarkKnight","Dark Knight","Leave me Alone Stranger!","0BADBADBADBADBAD","695C5EF4A638633E","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","2.0","0BADBADBADBADBAD","False","TestQuest","False"
 "DarkWizard0","DarkWizard","Dark Wizard","Long time ago...
 This sigils were protecting our Kingdom from dark forces.. ","0BADBADBADBADBAD","FD12637B8CC4F665","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","5.0","0BADBADBADBADBAD","False","","False"
 "CursedRedWizard0","CursedRedWizard","Cursed Wizard","i tryed to break the spell that bring chaos to our peaceful kingdom.
-But i have failed. That came with a greate cost..","0BADBADBADBADBAD","DA0659FC4FE0F4B1","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","5.0","0BADBADBADBADBAD","False","","False"
+But i have failed. That came with a greate cost..","0BADBADBADBADBAD","DA0659FC4FE0F4B1","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","5.0","0BADBADBADBADBAD","False","Arrival","False"
 "CyanKnight0","CyanKnight","Kyren Shadowsong","i have different story to tell..
 You're not Ready to hear it.","0BADBADBADBADBAD","0CE2D0F2A19D17B1","0.000000,0.000000,0.000000","","","False","0BADBADBADBADBAD","0.0","0BADBADBADBADBAD","False","","False"
 "NovaKnight0","NovaKnight","Lost Knight of Stars","i.. i can't..
