@@ -8,7 +8,8 @@
 "FirstPriestess0","FirstPriestess","First Priestess","Elune Adore Adventurer.","0BADBADBADBADBAD","C3E5C8D2DC8962AA","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","2.0","0BADBADBADBADBAD","False","","False"
 "SecondPriestess0","SecondPriestess","Second Priestess","","1326EC138C0360D2","ABB6A00A20D23D4E","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","2.0","0BADBADBADBADBAD","False","","False"
 "RedPriestess0","RedPriestess","Priestess of Blood","The dark times will pass.","0BADBADBADBADBAD","31A31ADD71D93C07","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","0.0","0BADBADBADBADBAD","False","Arrival","False"
-"GoldKnight0","GoldKnight","Gold Knight","","D6AFED70F01A10D0","982BE0BCBC3A9900","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","4.0","0BADBADBADBADBAD","False","GoldKnight","False"
+"GoldKnight0","GoldKnight","Gold Knight","Welcome {name}","0BADBADBADBADBAD","982BE0BCBC3A9900","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","-1.0","E73CF01BA983275D","False","Arrival","False"
+"GoldKnight1","","Gold Knight","Let's dive into Missions","0BADBADBADBADBAD","982BE0BCBC3A9900","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","2.0","0BADBADBADBADBAD","False","GoldKnight","False"
 "DarkKnight0","DarkKnight","Dark Knight","Leave me Alone Stranger!","0BADBADBADBADBAD","695C5EF4A638633E","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","2.0","0BADBADBADBADBAD","False","TestQuest","False"
 "DarkWizard0","DarkWizard","Dark Wizard","Long time ago...
 This sigils were protecting our Kingdom from dark forces.. ","0BADBADBADBADBAD","FD12637B8CC4F665","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","5.0","0BADBADBADBADBAD","False","","False"

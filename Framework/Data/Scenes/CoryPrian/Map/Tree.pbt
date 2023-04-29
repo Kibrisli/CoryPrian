@@ -181,14 +181,14 @@ Objects {
   Name: "MapPiece"
   Transform {
     Location {
-      X: -2506.68604
-      Y: -75.71521
-      Z: 35.6079
+      X: -2504.88
+      Y: -76.8535156
+      Z: 18.1259632
     }
     Rotation {
-      Pitch: -2.08956909
-      Yaw: -119.604599
-      Roll: -3.34841919
+      Pitch: -2.08422852
+      Yaw: -117.955688
+      Roll: -3.34814453
     }
     Scale {
       X: 1
@@ -446,8 +446,14 @@ Objects {
   Name: "QuestObjectivePickup"
   Transform {
     Location {
+      X: -2504.88
+      Y: -76.8535156
+      Z: 18.1259632
     }
     Rotation {
+      Pitch: -0.00289917
+      Yaw: 1.64892232
+      Roll: 0.00451724557
     }
     Scale {
       X: 1
@@ -608,8 +614,9 @@ Objects {
   Name: "ObjectivePickupObject"
   Transform {
     Location {
-      X: -5.67311144
-      Y: -12.9569893
+      X: 505.480469
+      Y: 2371.36743
+      Z: 55.0495605
     }
     Rotation {
     }
