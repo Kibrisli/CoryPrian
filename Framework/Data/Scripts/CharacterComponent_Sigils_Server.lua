@@ -74,8 +74,9 @@ function SyncSigilData(player)
 end
 
 function AddSigilToPlayer(player,Id)
-    if player.serverUserData.sigilData[Id] == nil then
+    if player.serverUserData.sigilData[Id] == nil or player.serverUserData.sigilData[Id] == false then
         player.serverUserData.sigilData[Id] = true
+        Events.Broadcast("Quest.SigilCollected", "LostSigil")
     end
     --broadcast sigils change
     Events.Broadcast(sigilsNetworkKey,player)
