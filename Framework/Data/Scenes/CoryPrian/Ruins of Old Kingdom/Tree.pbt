@@ -50674,6 +50674,9 @@ Objects {
   Name: "Small side base+foliage"
   Transform {
     Location {
+      X: -6.37313843
+      Y: 132.733658
+      Z: -141.36084
     }
     Rotation {
     }
@@ -50805,6 +50808,9 @@ Objects {
   Name: "Mushroom 1"
   Transform {
     Location {
+      X: -377.535461
+      Y: 2601.56787
+      Z: 563.148132
     }
     Rotation {
     }
@@ -51167,9 +51173,9 @@ Objects {
   Name: "Fern 01"
   Transform {
     Location {
-      X: -51.6947021
-      Y: -506.459229
-      Z: 233.625244
+      X: 24.5188599
+      Y: -408.982635
+      Z: 265.763672
     }
     Rotation {
       Pitch: -41.0512085
@@ -51220,14 +51226,14 @@ Objects {
   Name: "Fern 01"
   Transform {
     Location {
-      X: -2.98800659
-      Y: -321.733765
-      Z: 146.464233
+      X: -91.0514221
+      Y: -320.447
+      Z: 294.881348
     }
     Rotation {
       Pitch: -29.8305664
-      Yaw: -1.40286255
-      Roll: 10.0080271
+      Yaw: -54.2457275
+      Roll: 10.0105934
     }
     Scale {
       X: 1
@@ -51273,8 +51279,8 @@ Objects {
   Name: "Flower Bellflower 01"
   Transform {
     Location {
-      X: -2.35205078
-      Y: -476.62619
+      X: 94.3109436
+      Y: -424.785095
       Z: 226.422852
     }
     Rotation {
@@ -51324,9 +51330,9 @@ Objects {
   Name: "Flower Bellflower 02"
   Transform {
     Location {
-      X: -3.27056885
-      Y: -340.622894
-      Z: 129.263672
+      X: 70.7173462
+      Y: -388.358643
+      Z: 240.502441
     }
     Rotation {
       Pitch: 3.65496373
@@ -51428,12 +51434,14 @@ Objects {
   Name: "Fern 01"
   Transform {
     Location {
-      X: -183.517578
-      Y: 12.4921875
-      Z: 0.666992188
+      X: -202.624893
+      Y: -11.9460754
+      Z: 31.3085938
     }
     Rotation {
-      Pitch: 15.3803692
+      Pitch: 38.2181168
+      Yaw: -14.4700317
+      Roll: -19.9746399
     }
     Scale {
       X: 0.637227356
@@ -51479,12 +51487,13 @@ Objects {
   Name: "Fern 01"
   Transform {
     Location {
-      X: -138.162109
-      Y: 290.492188
-      Z: 122.561523
+      X: -175.784851
+      Y: 316.632751
+      Z: 153.458008
     }
     Rotation {
-      Pitch: -4.5481205
+      Pitch: -4.54812622
+      Yaw: 74.7714844
     }
     Scale {
       X: 0.991069853
@@ -54915,13 +54924,13 @@ Objects {
   Name: "Flower Bellflower 02"
   Transform {
     Location {
-      X: -13.0957031
-      Y: -199.554688
-      Z: 129.263672
+      X: -265.463623
+      Y: -198.048172
+      Z: -19.7026367
     }
     Rotation {
       Pitch: 3.65496373
-      Roll: -11.2337389
+      Roll: -11.2337341
     }
     Scale {
       X: 1
@@ -54967,9 +54976,9 @@ Objects {
   Name: "Flower Bellflower 01"
   Transform {
     Location {
-      X: 27.6113281
-      Y: -69.78125
-      Z: 226.422852
+      X: -215.470886
+      Y: -155.670197
+      Z: -45.1450195
     }
     Rotation {
     }
@@ -55022,7 +55031,7 @@ Objects {
       Z: 0.0009765625
     }
     Rotation {
-      Yaw: -41.4658928
+      Yaw: -41.4658813
     }
     Scale {
       X: 1.64552283

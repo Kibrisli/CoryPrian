@@ -1,7 +1,7 @@
 Name: "Signals_4"
-RootId: 12287629527024330178
+RootId: 9699365717013800804
 Objects {
-  Id: 11369701930155748283
+  Id: 5123281797773437041
   Name: "Signal"
   Transform {
     Location {
@@ -18,8 +18,8 @@ Objects {
       Z: 0.166261718
     }
   }
-  ParentId: 12287629527024330178
-  ChildIds: 3403913206619226460
+  ParentId: 9699365717013800804
+  ChildIds: 7984531836123673474
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -138,7 +138,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3403913206619226460
+  Id: 7984531836123673474
   Name: "Object Curve Mover"
   Transform {
     Location {
@@ -155,7 +155,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11369701930155748283
+  ParentId: 5123281797773437041
   TemplateInstance {
     ParameterOverrideMap {
       key: 1072177198051453324
@@ -201,7 +201,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14058918112225911343
+  Id: 13674404948869277184
   Name: "LookAtPlayer"
   Transform {
     Location {
@@ -215,7 +215,7 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 12287629527024330178
+  ParentId: 9699365717013800804
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -239,11 +239,11 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6445655270630810461
+  Id: 4904431950039297366
   Name: "QuestSignals"
   Transform {
     Location {
-      X: 9.94471073
+      X: 9.94472599
       Y: -15.4103918
       Z: -28.4845409
     }
@@ -256,7 +256,7 @@ Objects {
       Z: 0.333333343
     }
   }
-  ParentId: 12287629527024330178
+  ParentId: 9699365717013800804
   UnregisteredParameters {
     Overrides {
       Name: "cs:QuestID"
@@ -265,60 +265,7 @@ Objects {
     Overrides {
       Name: "cs:Signal"
       ObjectReference {
-        SelfId: 11369701930155748283
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 7744594570380362117
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 17936187112196788381
-  Name: "QuestSignals"
-  Transform {
-    Location {
-      X: 9.94481373
-      Y: -15.4105988
-      Z: -28.4845352
-    }
-    Rotation {
-      Yaw: -58.2309875
-    }
-    Scale {
-      X: 0.333333313
-      Y: 0.333333313
-      Z: 0.333333313
-    }
-  }
-  ParentId: 12287629527024330178
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:QuestID"
-      String: "aLittleHelp"
-    }
-    Overrides {
-      Name: "cs:Signal"
-      ObjectReference {
-        SelfId: 11369701930155748283
+        SelfId: 5123281797773437041
       }
     }
   }
