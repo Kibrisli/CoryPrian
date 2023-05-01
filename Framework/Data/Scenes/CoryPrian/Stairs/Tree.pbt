@@ -246,6 +246,189 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 10854504970690031403
+  Name: "Stone Block Small"
+  Transform {
+    Location {
+      X: 149.738235
+      Y: -2.07775164
+      Z: 74.7769089
+    }
+    Rotation {
+      Yaw: -90.0605164
+      Roll: -0.19329834
+    }
+    Scale {
+      X: 7.4499855
+      Y: 2.31740332
+      Z: 1
+    }
+  }
+  ParentId: 7010014263232956909
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5665813867967298486
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17668726325989413397
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12648827501976468876
+  Name: "Stone Block Small"
+  Transform {
+    Location {
+      X: 106.428917
+      Y: -2.03111148
+      Z: 65.1063843
+    }
+    Rotation {
+      Yaw: -90.0605164
+      Roll: -0.19329834
+    }
+    Scale {
+      X: 7.4499855
+      Y: 2.31740332
+      Z: 1
+    }
+  }
+  ParentId: 7010014263232956909
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5665813867967298486
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17668726325989413397
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15955509071993958739
+  Name: "Stone Block Small"
+  Transform {
+    Location {
+      X: 60.4396744
+      Y: -1.98314238
+      Z: 44.0498848
+    }
+    Rotation {
+      Yaw: -90.0605164
+      Roll: -0.19329834
+    }
+    Scale {
+      X: 2.5907743
+      Y: 1.44072306
+      Z: 0.999997556
+    }
+  }
+  ParentId: 7010014263232956909
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5665813867967298486
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17668726325989413397
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 17346617767045032843
   Name: "Stone Block Small"
   Transform {

@@ -19,6 +19,7 @@ Objects {
     }
   }
   ParentId: 10777876992130674287
+  ChildIds: 7134700883330071999
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -137,6 +138,72 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 7134700883330071999
+  Name: "Object Curve Mover"
+  Transform {
+    Location {
+      X: 25081.125
+      Y: 37723.2578
+      Z: 6123.19727
+    }
+    Rotation {
+      Yaw: 25.1928425
+    }
+    Scale {
+      X: 0.999999821
+      Y: 0.99999994
+      Z: 0.999999821
+    }
+  }
+  ParentId: 12090627580582558392
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1072177198051453324
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Object Curve Mover"
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -155.618118
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.00487065
+            Y: 1.99863577
+            Z: 2.00487065
+          }
+        }
+        Overrides {
+          Name: "cs:Object"
+          ObjectReference {
+            SelfId: 12090627580582558392
+          }
+        }
+        Overrides {
+          Name: "cs:Multiplier"
+          Float: 5
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4230.49463
+            Y: -10266.2949
+            Z: 4099.06494
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10587460636167655313
+    }
+  }
+}
+Objects {
   Id: 15766880650600627606
   Name: "Start"
   Transform {
@@ -241,7 +308,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"

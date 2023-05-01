@@ -5,9 +5,9 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: 9656.17773
-      Y: -3334.04492
-      Z: -557.852051
+      X: 11986.2461
+      Y: -4937.9082
+      Z: -553.472168
     }
     Rotation {
       Yaw: -94.603363
@@ -79,9 +79,9 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: 7563.17188
-      Y: -282.195312
-      Z: -537.659668
+      X: 8726.14062
+      Y: -5829.01172
+      Z: -553.472168
     }
     Rotation {
       Yaw: -152.744629
@@ -153,9 +153,9 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: 7043.01953
-      Y: 1144.58008
-      Z: -496.826172
+      X: 10292.9375
+      Y: -5829.01172
+      Z: -553.472168
     }
     Rotation {
       Yaw: -169.670013
@@ -227,9 +227,9 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: 8602.61133
-      Y: 4011.19922
-      Z: -823.076172
+      X: 12348.4141
+      Y: -3752.28906
+      Z: -415.429688
     }
     Rotation {
       Yaw: -169.670044
@@ -301,9 +301,9 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: 6694.95703
-      Y: 6170.70703
-      Z: -1052.24219
+      X: 8165.79297
+      Y: -3752.28906
+      Z: -484.066406
     }
     Rotation {
       Yaw: -152.744629
@@ -375,9 +375,9 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: 6322.04883
-      Y: 2927.35352
-      Z: -776.32959
+      X: 10292.9375
+      Y: -1834.35547
+      Z: -553.472168
     }
     Rotation {
       Yaw: -94.603363
@@ -449,9 +449,9 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: 5837.7832
-      Y: -212.482422
-      Z: -573.126953
+      X: 10292.9375
+      Y: -3752.28906
+      Z: -553.472168
     }
     Rotation {
     }
@@ -522,16 +522,16 @@ Objects {
   Name: "Quest Area"
   Transform {
     Location {
-      X: 10461.4082
-      Y: -2467.33984
+      X: 11054.4375
+      Y: -3043.36719
       Z: -361.742188
     }
     Rotation {
-      Yaw: -30.6403809
+      Yaw: -44.1669
     }
     Scale {
-      X: 118.200005
-      Y: 73.8
+      X: 87.8961487
+      Y: 73.8000259
       Z: 17.3000011
     }
   }
