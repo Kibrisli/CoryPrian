@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13800436588944964225
+  Name: "Bush 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bush_generic_002"
+  }
+}
+Assets {
   Id: 11972672084376847955
   Name: "Hill 03"
   PlatformAssetType: 1

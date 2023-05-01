@@ -1,6 +1,115 @@
 Name: "Lil\'Lake"
 RootId: 2877409629711468855
 Objects {
+  Id: 3043474419440886771
+  Name: "Bush 02"
+  Transform {
+    Location {
+      X: 2286.76172
+      Y: 173.382812
+      Z: 542.205566
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.32804942
+      Y: 1.32804942
+      Z: 1.32804942
+    }
+  }
+  ParentId: 2877409629711468855
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13800436588944964225
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6833184112387527979
+  Name: "Bush 02"
+  Transform {
+    Location {
+      X: 3057.91797
+      Y: -33.4101562
+      Z: 405.129883
+    }
+    Rotation {
+      Yaw: -6.10968971
+    }
+    Scale {
+      X: 1.32804942
+      Y: 1.32804942
+      Z: 1.32804942
+    }
+  }
+  ParentId: 2877409629711468855
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13800436588944964225
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 4569217503937123766
   Name: "Hill 03"
   Transform {

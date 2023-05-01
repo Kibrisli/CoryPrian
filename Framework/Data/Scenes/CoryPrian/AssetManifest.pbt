@@ -1180,15 +1180,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12484798020569700940
-  Name: "Wood Raw"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_wood_raw_001_uv"
-  }
-}
-Assets {
   Id: 12440414106477759869
   Name: "Fantasy Castle Wall 01 - Window 02"
   PlatformAssetType: 1
@@ -1330,15 +1321,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_pillar_002_top_ref"
-  }
-}
-Assets {
-  Id: 11976559336949726522
-  Name: "Craftsman Porch Fence Post 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_porch_001_post"
   }
 }
 Assets {
@@ -1643,15 +1625,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bones_human_scap_01_ref"
-  }
-}
-Assets {
-  Id: 10727817675464078874
-  Name: "Arch Fancy 3m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_arch_fancy_3m_001"
   }
 }
 Assets {
@@ -3071,15 +3044,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4093061049435782625
-  Name: "Teardrop - Truncated"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_truncated_teardrop_001"
-  }
-}
-Assets {
   Id: 4044214825842439722
   Name: "Grass Short"
   PlatformAssetType: 1
@@ -3229,15 +3193,6 @@ Assets {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
     }
-  }
-}
-Assets {
-  Id: 3255814708276840062
-  Name: "Cone - Truncated"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cone_truncated_001"
   }
 }
 Assets {
@@ -3422,15 +3377,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_crate_simple_150cm_001"
-  }
-}
-Assets {
-  Id: 2064017466518942736
-  Name: "Cube - Chamfered Large"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_chamfer"
   }
 }
 Assets {
