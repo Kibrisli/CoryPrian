@@ -15,12 +15,22 @@ Objects {
     }
   }
   ParentId: 17054032585306417805
-  ChildIds: 14456581563028360214
   ChildIds: 9648069230132934115
-  ChildIds: 11858912930545777069
   ChildIds: 10060029153306071971
+  ChildIds: 11285265557235796837
+  ChildIds: 10609121004419311719
+  ChildIds: 11858912930545777069
+  ChildIds: 18433262892119540058
+  ChildIds: 3887579932891897678
+  ChildIds: 16676279245776062750
+  ChildIds: 2844076391550102913
+  ChildIds: 3791863917898497529
   ChildIds: 9721536115573049202
+  ChildIds: 14456581563028360214
+  ChildIds: 782880198677739896
   ChildIds: 1711136014809043360
+  ChildIds: 1142152665717909917
+  ChildIds: 6270571311190870848
   UnregisteredParameters {
     Overrides {
       Name: "cs:CoryPrian_Sigils"
@@ -48,6 +58,132 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6270571311190870848
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 22028
+      Y: 28845
+      Z: 4691
+    }
+    Rotation {
+      Pitch: -90
+      Yaw: -2.73207552e-05
+      Roll: -179.999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SigilPlaceholder"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -12014.8389
+            Y: -28.2128906
+            Z: 376.463867
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -90
+            Roll: 137.669525
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.50178766
+            Y: 2.50178766
+            Z: 2.50178766
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "16"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 1142152665717909917
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 8560.4873
+      Y: 28031.6953
+      Z: 4976.90088
+    }
+    Rotation {
+      Pitch: -90
+      Roll: 137.669525
+    }
+    Scale {
+      X: 2.50178766
+      Y: 2.50178766
+      Z: 2.50178766
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SigilPlaceholder"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -20063.0723
+            Y: -11535.9707
+            Z: 38.4418945
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -28.6351929
+            Yaw: -37.7444458
+            Roll: -8.99197388
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.55446267
+            Y: 3.55446267
+            Z: 3.55446267
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "15"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
 }
 Objects {
   Id: 1711136014809043360
@@ -80,29 +216,154 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 1452.67383
-            Y: 785.091797
-            Z: 90.5629883
+            X: 3804.67578
+            Y: -5567.34
+            Z: -4877.87305
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: -90
+            Pitch: 180
             Roll: -179.999969
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 2.66034722
+            Y: 2.66034722
+            Z: 2.66034722
           }
         }
         Overrides {
           Name: "cs:Id"
           String: "14"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 782880198677739896
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 24380.002
+      Y: 22492.5684
+      Z: -277.436035
+    }
+    Rotation {
+      Pitch: -1.36603776e-05
+      Yaw: 180
+      Roll: 4.09811219e-05
+    }
+    Scale {
+      X: 2.66034722
+      Y: 2.66034722
+      Z: 2.66034722
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SigilPlaceholder"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -44881.4805
+            Y: 20202.1621
+            Z: -312.355957
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -90
+            Roll: -43.7686768
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.92383218
+            Y: 3.9243443
+            Z: 3.9243443
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "13"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 14456581563028360214
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 18906.2305
+      Y: 27572.293
+      Z: 4657.50635
+    }
+    Rotation {
+      Pitch: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SigilPlaceholder"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2682.2168
+            Y: -13338.5742
+            Z: 383.71875
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -73.3616333
+            Yaw: -4.50091553
+            Roll: 25.2480888
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "12"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.59813392
+            Y: 1.59813392
+            Z: 1.59813392
+          }
         }
       }
     }
@@ -174,16 +435,17 @@ Objects {
   }
 }
 Objects {
-  Id: 10060029153306071971
+  Id: 3791863917898497529
   Name: "SigilPlaceholder"
   Transform {
     Location {
-      X: 18906.2305
-      Y: 27572.293
-      Z: 4657.50635
+      X: 22028
+      Y: 27797
+      Z: 4741
     }
     Rotation {
       Pitch: -90
+      Roll: -179.999985
     }
     Scale {
       X: 1
@@ -203,8 +465,135 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 98.6738281
-            Y: -1204.9082
+            X: 13962.1855
+            Y: -23860.8555
+            Z: 2409.10547
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -155.890869
+            Yaw: -71.8629456
+            Roll: 176.262726
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.28544617
+            Y: 2.28544617
+            Z: 2.28544617
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "10"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 2844076391550102913
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 22028
+      Y: 27797
+      Z: 4741
+    }
+    Rotation {
+      Pitch: -90
+      Roll: -179.999939
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SigilPlaceholder"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -18056.959
+            Y: 23533.002
+            Z: 323.241211
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -89.7360535
+            Yaw: -163.296234
+            Roll: 55.2231979
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.50969887
+            Y: 2.50969887
+            Z: 2.50969887
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "9"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 16676279245776062750
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 22028
+      Y: 27797
+      Z: 4741
+    }
+    Rotation {
+      Pitch: -90
+      Yaw: -1.82138374e-05
+      Roll: -179.999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SigilPlaceholder"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1452.67383
+            Y: -262.908203
             Z: 140.562988
           }
         }
@@ -212,7 +601,7 @@ Objects {
           Name: "Rotation"
           Rotator {
             Pitch: -90
-            Roll: 90
+            Roll: -179.999939
           }
         }
         Overrides {
@@ -226,6 +615,131 @@ Objects {
         Overrides {
           Name: "cs:Id"
           String: "8"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 3887579932891897678
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 22028
+      Y: 27797
+      Z: 4741
+    }
+    Rotation {
+      Pitch: -90
+      Yaw: -2.73207552e-05
+      Roll: -179.999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SigilPlaceholder"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8999.38
+            Y: 5675.6543
+            Z: 11.3354492
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 2.73207552e-05
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.1391
+            Y: 2.1391
+            Z: 2.1391
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "7"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 18433262892119540058
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 22028
+      Y: 27797
+      Z: 4741
+    }
+    Rotation {
+      Pitch: -90
+      Roll: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SigilPlaceholder"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1452.67383
+            Y: -262.908203
+            Z: 140.562988
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -90
+            Yaw: -4.55345935e-06
+            Roll: -179.999969
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "6"
         }
       }
     }
@@ -264,28 +778,218 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1669.0957
-            Y: 452.855469
-            Z: 57.0693359
+            X: 31696.6035
+            Y: -24429.3594
+            Z: 2656.86963
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 102.455704
+            Yaw: 3.75001526
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.23161697
+            Y: 3.23161697
+            Z: 3.23161697
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "5"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 10609121004419311719
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 52271.9297
+      Y: 3630.54883
+      Z: 7257.30664
+    }
+    Rotation {
+      Pitch: 77.5441055
+      Yaw: -176.249969
+      Roll: 179.999969
+    }
+    Scale {
+      X: 3.23161697
+      Y: 3.23161697
+      Z: 3.23161697
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SigilPlaceholder"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -77489.2656
+            Y: -27470.3
+            Z: 3129.88965
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 102.432838
+            Yaw: -35
+            Roll: 180
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.6952436
+            Y: 3.6952436
+            Z: 3.6952436
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "4"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 11285265557235796837
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 52271.9297
+      Y: 3630.54883
+      Z: 7257.30664
+    }
+    Rotation {
+      Pitch: 77.5442657
+      Yaw: -176.249969
+      Roll: -180
+    }
+    Scale {
+      X: 3.23161697
+      Y: 3.23161697
+      Z: 3.23161697
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SigilPlaceholder"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 31696.6035
+            Y: -24429.3594
+            Z: 2656.86963
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 77.5441818
+            Yaw: -176.249969
+            Roll: 179.999985
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.23161697
+            Y: 3.23161697
+            Z: 3.23161697
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "3"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 10060029153306071971
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 18906.2305
+      Y: 27572.293
+      Z: 4657.50635
+    }
+    Rotation {
+      Pitch: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SigilPlaceholder"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -28308.9336
+            Y: -10944.9375
+            Z: 2361.49414
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
             Pitch: -90
+            Roll: -96.1334839
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 3.17375255
+            Y: 3.17375255
+            Z: 3.17375255
           }
         }
         Overrides {
           Name: "cs:Id"
-          String: "5"
+          String: "2"
         }
       }
     }
@@ -324,85 +1028,25 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1669.0957
-            Y: -487.615234
-            Z: 57.0693359
+            X: 6772.375
+            Y: -26220.5508
+            Z: 1999.42676
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: -90
+            Pitch: 1.95748425
+            Yaw: 8.7864
+            Roll: 77.5378876
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1989990967213482915
-    }
-  }
-}
-Objects {
-  Id: 14456581563028360214
-  Name: "SigilPlaceholder"
-  Transform {
-    Location {
-      X: 18906.2305
-      Y: 27572.293
-      Z: 4657.50635
-    }
-    Rotation {
-      Pitch: -90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9477222791001229251
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16155682097833407872
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SigilPlaceholder"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -2682.2168
-            Y: -13338.5742
-            Z: 383.71875
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -73.3616333
-            Yaw: -4.50091553
-            Roll: 25.2480888
-          }
-        }
-        Overrides {
-          Name: "cs:Id"
-          String: "12"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.59813392
-            Y: 1.59813392
-            Z: 1.59813392
+            X: 2.49008417
+            Y: 2.49008417
+            Z: 2.49008417
           }
         }
       }

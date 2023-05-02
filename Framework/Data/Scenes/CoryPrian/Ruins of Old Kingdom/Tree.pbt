@@ -638,6 +638,7 @@ Objects {
     }
   }
   ParentId: 18388164256394617479
+  ChildIds: 8841148992451282070
   ChildIds: 9935053973946190304
   ChildIds: 12365596524570327723
   ChildIds: 16456879536120628180
@@ -185170,6 +185171,182 @@ Objects {
     }
     TemplateAsset {
       Id: 3419874923331343923
+    }
+  }
+}
+Objects {
+  Id: 8841148992451282070
+  Name: "Overgrown Rampart 1"
+  Transform {
+    Location {
+      X: 16356.5215
+      Y: 40711.8203
+      Z: 8200.875
+    }
+    Rotation {
+      Yaw: -26.7939568
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13111254450328766942
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 256951556933199845
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50.6681442
+            Y: 542.641052
+            Z: -294.595703
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 5
+            Y: 4
+            Z: 11.8896713
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3064006751360210571
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 11163650953406419088
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50.6714096
+            Y: -633.446594
+            Z: -314.142578
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 5
+            Y: 4
+            Z: 12.2321072
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6416900536830894801
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -79.2212524
+            Y: 32.5677872
+            Z: 0.000244140625
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -3.05175781e-05
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7484441306224462280
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50.6705856
+            Y: -242.359573
+            Z: -213.006836
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 5
+            Y: 4
+            Z: 10.8875494
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9393325744479446890
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50.6691
+            Y: 157.641235
+            Z: -223.234375
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 5
+            Y: 4
+            Z: 11.1950083
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17016743775880659231
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Overgrown Rampart 1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 17959.5352
+            Y: 11597.9355
+            Z: -419.787109
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -26.7939453
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17679172531866133805
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 14693274518574987954
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5517274630775548098
     }
   }
 }

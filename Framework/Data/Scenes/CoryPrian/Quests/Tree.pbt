@@ -149,43 +149,6 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7792877421146342174
-  Name: "Sigils"
-  Transform {
-    Location {
-      Z: -40195
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4244745184024888751
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sigils"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
   Id: 10550905439560934960
   Name: "Lv20"
   Transform {
