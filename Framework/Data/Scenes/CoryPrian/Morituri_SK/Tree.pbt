@@ -86,7 +86,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "SigilPlaceholder"
+          String: "Protection"
         }
         Overrides {
           Name: "Position"
@@ -148,7 +148,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "SigilPlaceholder"
+          String: "Fury"
         }
         Overrides {
           Name: "Position"
@@ -211,7 +211,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "SigilPlaceholder"
+          String: "Anger"
         }
         Overrides {
           Name: "Position"
@@ -274,7 +274,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "SigilPlaceholder"
+          String: "Vitriol"
         }
         Overrides {
           Name: "Position"
@@ -335,7 +335,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "SigilPlaceholder"
+          String: "Rage"
         }
         Overrides {
           Name: "Position"
@@ -398,7 +398,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "SigilPlaceholder"
+          String: "Detection"
         }
         Overrides {
           Name: "Position"
@@ -460,7 +460,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "SigilPlaceholder"
+          String: "Reflection"
         }
         Overrides {
           Name: "Position"
@@ -523,7 +523,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "SigilPlaceholder"
+          String: "The Twins"
         }
         Overrides {
           Name: "Position"
@@ -587,7 +587,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "SigilPlaceholder"
+          String: "The Fox"
         }
         Overrides {
           Name: "Position"
@@ -650,7 +650,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "SigilPlaceholder"
+          String: "Power"
         }
         Overrides {
           Name: "Position"
@@ -711,7 +711,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "SigilPlaceholder"
+          String: "Giants"
         }
         Overrides {
           Name: "Position"
@@ -773,7 +773,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "SigilPlaceholder"
+          String: "Perfection"
         }
         Overrides {
           Name: "Position"
@@ -836,7 +836,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "SigilPlaceholder"
+          String: "Brilliance"
         }
         Overrides {
           Name: "Position"
@@ -900,7 +900,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "SigilPlaceholder"
+          String: "Skill"
         }
         Overrides {
           Name: "Position"
@@ -962,7 +962,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "SigilPlaceholder"
+          String: "Enlightenment"
         }
         Overrides {
           Name: "Position"
@@ -1023,7 +1023,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "SigilPlaceholder"
+          String: "Titan"
         }
         Overrides {
           Name: "Position"
