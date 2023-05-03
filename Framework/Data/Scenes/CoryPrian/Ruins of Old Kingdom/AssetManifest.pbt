@@ -251,15 +251,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13645840415461878573
-  Name: "Craftsman Dining Table"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_table_dining_001"
-  }
-}
-Assets {
   Id: 13490705285119382153
   Name: "Rock 02"
   PlatformAssetType: 1
@@ -359,15 +350,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11972672084376847955
-  Name: "Hill 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_hill_003"
-  }
-}
-Assets {
   Id: 11896861416883541638
   Name: "Pipe - Half Thick"
   PlatformAssetType: 1
@@ -413,30 +395,12 @@ Assets {
   }
 }
 Assets {
-  Id: 11594524757616528940
-  Name: "Bone Human Skull 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bones_human_skull_01_ref"
-  }
-}
-Assets {
   Id: 11521250418432815603
   Name: "Ivy 05"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ivy_generic_005"
-  }
-}
-Assets {
-  Id: 11452126672691922020
-  Name: "Craftsman Dining Chair"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_chair_dining_001"
   }
 }
 Assets {
@@ -503,15 +467,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10506186976923278857
-  Name: "Tree Birch Bare 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_birch_002"
-  }
-}
-Assets {
   Id: 10354510378571488340
   Name: "Wedge - Corner Complex"
   PlatformAssetType: 1
@@ -545,15 +500,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_moss_001_uv"
-  }
-}
-Assets {
-  Id: 9381248077573981814
-  Name: "Chest Big Closed"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_chest_003"
   }
 }
 Assets {
@@ -602,30 +548,12 @@ Assets {
   }
 }
 Assets {
-  Id: 8772778959370683656
-  Name: "Gravel Raked 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gravel_001_uv"
-  }
-}
-Assets {
   Id: 8553298544017934648
   Name: "Grass Tall"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_grass_generic_001"
-  }
-}
-Assets {
-  Id: 8544067281039692417
-  Name: "Table Tile Right"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_table_right_001"
   }
 }
 Assets {
@@ -680,15 +608,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_003"
-  }
-}
-Assets {
-  Id: 6831424436409588726
-  Name: "Table Tile Left"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_table_left_001"
   }
 }
 Assets {
@@ -752,15 +671,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_stone_window_001_ref"
-  }
-}
-Assets {
-  Id: 5212272354503594506
-  Name: "Bark Pine Advanced 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_bark_pine_001_uv"
   }
 }
 Assets {

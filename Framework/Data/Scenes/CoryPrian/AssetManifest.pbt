@@ -1140,15 +1140,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12565879920591753650
-  Name: "Wooden Barrel"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_barrel_001"
-  }
-}
-Assets {
   Id: 12558067698426651158
   Name: "Tree Oak Stump 01"
   PlatformAssetType: 1
@@ -1646,15 +1637,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10633518646770753022
-  Name: "Decal Bones 02"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_fan_ground_bones_002"
-  }
-}
-Assets {
   Id: 10618160998295829975
   Name: "Wooden Barrel"
   PlatformAssetType: 1
@@ -1853,15 +1835,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_fan_guard_sword_002"
-  }
-}
-Assets {
-  Id: 9381248077573981814
-  Name: "Chest Big Closed"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_chest_003"
   }
 }
 Assets {
@@ -2571,15 +2544,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6409950974262235392
-  Name: "Fantasy Throne 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_fantasy_throne_001_ref"
-  }
-}
-Assets {
   Id: 6289363088155023181
   Name: "Decal Elven Symbols"
   PlatformAssetType: 14
@@ -2733,15 +2697,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_bark_dead_001_uv"
-  }
-}
-Assets {
-  Id: 5469587659824363715
-  Name: "Chest Big Opened"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_chest_004"
   }
 }
 Assets {
@@ -3171,15 +3126,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_acc_roof_win_001"
-  }
-}
-Assets {
-  Id: 3374193802675370255
-  Name: "Spiderweb VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_web"
   }
 }
 Assets {
