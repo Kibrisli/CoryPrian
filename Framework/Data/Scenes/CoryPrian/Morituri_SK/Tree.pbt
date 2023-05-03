@@ -398,7 +398,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Detection"
+          String: "Detection (Visibility ForceOff)"
         }
         Overrides {
           Name: "Position"
@@ -426,6 +426,12 @@ Objects {
         Overrides {
           Name: "cs:Id"
           String: "11"
+        }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
         }
       }
     }
@@ -778,17 +784,17 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 22244.9629
-            Y: -17595.957
-            Z: 256.074707
+            X: 1564.83398
+            Y: -569.244141
+            Z: 62.390625
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: 90.2712479
-            Yaw: -19.4012451
-            Roll: 37.7390594
+            Pitch: 90.2974
+            Yaw: -18.102417
+            Roll: -21.862
           }
         }
         Overrides {
