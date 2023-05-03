@@ -1940,6 +1940,9 @@ Objects {
   ChildIds: 16436399637313165096
   ChildIds: 12215955875566143221
   ChildIds: 7662896313975828573
+  ChildIds: 10445490837008466522
+  ChildIds: 7830559441220229825
+  ChildIds: 9969823913132457447
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1959,6 +1962,408 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9969823913132457447
+  Name: "Named Location"
+  Transform {
+    Location {
+      X: -51859.4531
+      Y: 1517.35352
+      Z: 4142.65869
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3899405400595851810
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6914351225150253899
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3408.46094
+            Y: 1018.39099
+          }
+        }
+        Overrides {
+          Name: "TriggerShape"
+          Enum {
+            Value: "mc:etriggershape:sphere"
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 797.263611
+            Y: 776.672119
+            Z: 215.165665
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -26.4879456
+          }
+        }
+        Overrides {
+          Name: "CoreProxy.IndicatorVisibility"
+          Enum {
+            Value: "mc:eindicatorvisibility:alwaysvisible"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12084009895330886478
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Named Location - Warlocks Domain"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -45589.5703
+            Y: -19093.8809
+            Z: -2426.34131
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:Name"
+          String: "Warlocks Domain"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15950215774655544660
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3408.46094
+            Y: 1018.39099
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -26.4879456
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1054.82556
+            Y: 867.058289
+            Z: 201.544815
+          }
+        }
+        Overrides {
+          Name: "TriggerShape"
+          Enum {
+            Value: "mc:etriggershape:sphere"
+          }
+        }
+        Overrides {
+          Name: "CoreProxy.IndicatorVisibility"
+          Enum {
+            Value: "mc:eindicatorvisibility:alwaysvisible"
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5984235938909643820
+    }
+  }
+}
+Objects {
+  Id: 7830559441220229825
+  Name: "Named Location"
+  Transform {
+    Location {
+      X: -45572.5703
+      Y: -19101.8809
+      Z: 4142.65869
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3899405400595851810
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6914351225150253899
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3408.46094
+            Y: 1018.39099
+          }
+        }
+        Overrides {
+          Name: "TriggerShape"
+          Enum {
+            Value: "mc:etriggershape:sphere"
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 797.263611
+            Y: 776.672119
+            Z: 215.165665
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -26.4879456
+          }
+        }
+        Overrides {
+          Name: "CoreProxy.IndicatorVisibility"
+          Enum {
+            Value: "mc:eindicatorvisibility:alwaysvisible"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12084009895330886478
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Named Location - UnDead Mines"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -19607.2578
+            Y: 51759.0273
+            Z: -1305.57227
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.49396527
+            Y: 1.49396527
+            Z: 1.49396527
+          }
+        }
+        Overrides {
+          Name: "cs:Name"
+          String: "UnDead Mines"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15950215774655544660
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3408.46094
+            Y: 1018.39099
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -26.4879456
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1054.82556
+            Y: 867.058289
+            Z: 201.544815
+          }
+        }
+        Overrides {
+          Name: "TriggerShape"
+          Enum {
+            Value: "mc:etriggershape:sphere"
+          }
+        }
+        Overrides {
+          Name: "CoreProxy.IndicatorVisibility"
+          Enum {
+            Value: "mc:eindicatorvisibility:alwaysvisible"
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5984235938909643820
+    }
+  }
+}
+Objects {
+  Id: 10445490837008466522
+  Name: "Named Location"
+  Transform {
+    Location {
+      X: 21892.752
+      Y: 32836.5977
+      Z: 4142.65869
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3899405400595851810
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6914351225150253899
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3408.46094
+            Y: 1018.39099
+          }
+        }
+        Overrides {
+          Name: "TriggerShape"
+          Enum {
+            Value: "mc:etriggershape:sphere"
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 797.263611
+            Y: 776.672119
+            Z: 215.165665
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -26.4879456
+          }
+        }
+        Overrides {
+          Name: "CoreProxy.IndicatorVisibility"
+          Enum {
+            Value: "mc:eindicatorvisibility:alwaysvisible"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12084009895330886478
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Named Location - Osugan Cave"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -51876.4531
+            Y: 1525.35352
+            Z: -2426.34131
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:Name"
+          String: "Osugan Cave"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15950215774655544660
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3408.46094
+            Y: 1018.39099
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -26.4879456
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1054.82556
+            Y: 867.058289
+            Z: 201.544815
+          }
+        }
+        Overrides {
+          Name: "TriggerShape"
+          Enum {
+            Value: "mc:etriggershape:sphere"
+          }
+        }
+        Overrides {
+          Name: "CoreProxy.IndicatorVisibility"
+          Enum {
+            Value: "mc:eindicatorvisibility:alwaysvisible"
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5984235938909643820
+    }
+  }
 }
 Objects {
   Id: 7662896313975828573
@@ -2248,6 +2653,10 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "cs:Name"
+          String: "Coryprian"
         }
       }
     }
