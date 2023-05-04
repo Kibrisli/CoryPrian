@@ -1,6 +1,7 @@
 "id[String]","icon[Asset Reference]","mapContent[Asset Reference]","isReplayable[Bool]","rewards[String]","unlocks[String]","gameId[String]","spawnKey[String]"
 "Welcome","EE963B7EAE09141A","0BADBADBADBADBAD","False","XP(50), Wait(1.2), Material(Coins=10), Wait(1.75), Item(MapPiece)","WelcomeCoryprian","0572ec/coryprian","Social"
 "WelcomeCoryprian","A8D16FD72B774411","0BADBADBADBADBAD","False","XP(250)","Arrival","0572ec/coryprian","Social"
+"Climetheruins","109204396AA090C2","0BADBADBADBADBAD","False","","","0572ec/coryprian","Social"
 "Arrival","33264072958EDCE0","0BADBADBADBADBAD","False","XP(50)","Arrival1","0572ec/coryprian","Social"
 "Arrival1","33264072958EDCE0","0BADBADBADBADBAD","False","XP(50)","Arrival2","0572ec/coryprian","Social"
 "Arrival2","33264072958EDCE0","0BADBADBADBADBAD","False","XP(50)","Arrival3","0572ec/coryprian","Social"

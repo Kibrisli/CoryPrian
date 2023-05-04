@@ -1,7 +1,7 @@
 Name: "Signals_5"
-RootId: 10777876992130674287
+RootId: 1447700732661237038
 Objects {
-  Id: 12090627580582558392
+  Id: 11804775360416873976
   Name: "End"
   Transform {
     Location {
@@ -18,8 +18,8 @@ Objects {
       Z: 0.166261718
     }
   }
-  ParentId: 10777876992130674287
-  ChildIds: 7134700883330071999
+  ParentId: 1447700732661237038
+  ChildIds: 13717922048795840699
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -138,7 +138,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7134700883330071999
+  Id: 13717922048795840699
   Name: "Object Curve Mover"
   Transform {
     Location {
@@ -155,7 +155,7 @@ Objects {
       Z: 0.999999821
     }
   }
-  ParentId: 12090627580582558392
+  ParentId: 11804775360416873976
   TemplateInstance {
     ParameterOverrideMap {
       key: 1072177198051453324
@@ -181,7 +181,7 @@ Objects {
         Overrides {
           Name: "cs:Object"
           ObjectReference {
-            SelfId: 12090627580582558392
+            SelfId: 11804775360416873976
           }
         }
         Overrides {
@@ -204,7 +204,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15766880650600627606
+  Id: 11881369836865860825
   Name: "Start"
   Transform {
     Location {
@@ -221,8 +221,8 @@ Objects {
       Z: 0.166261718
     }
   }
-  ParentId: 10777876992130674287
-  ChildIds: 7664953763799451941
+  ParentId: 1447700732661237038
+  ChildIds: 14450736954323711202
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -308,7 +308,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -341,7 +341,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7664953763799451941
+  Id: 14450736954323711202
   Name: "Object Curve Mover"
   Transform {
     Location {
@@ -358,7 +358,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15766880650600627606
+  ParentId: 11881369836865860825
   TemplateInstance {
     ParameterOverrideMap {
       key: 1072177198051453324
@@ -384,7 +384,7 @@ Objects {
         Overrides {
           Name: "cs:Object"
           ObjectReference {
-            SelfId: 15766880650600627606
+            SelfId: 11881369836865860825
           }
         }
         Overrides {
@@ -407,7 +407,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17132025264113007074
+  Id: 9235737561490936139
   Name: "LookAtPlayer"
   Transform {
     Location {
@@ -421,7 +421,7 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 10777876992130674287
+  ParentId: 1447700732661237038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -437,6 +437,64 @@ Objects {
   Script {
     ScriptAsset {
       Id: 8119323275412960624
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15700585708286851340
+  Name: "QuestSignals"
+  Transform {
+    Location {
+      X: 0.000244116149
+      Y: -3.45514832e-06
+    }
+    Rotation {
+      Yaw: 102.279762
+    }
+    Scale {
+      X: 0.333333284
+      Y: 0.333333284
+      Z: 0.333333284
+    }
+  }
+  ParentId: 1447700732661237038
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:QuestID"
+      String: "Climetheruins"
+    }
+    Overrides {
+      Name: "cs:Signal"
+      ObjectReference {
+        SelfId: 11804775360416873976
+      }
+    }
+    Overrides {
+      Name: "cs:Signal2"
+      ObjectReference {
+        SelfId: 11881369836865860825
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 107746594427673585
     }
   }
   NetworkRelevanceDistance {

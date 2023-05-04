@@ -1,7 +1,7 @@
 Name: "Signals_10"
-RootId: 3507058074554916019
+RootId: 7083814217370803176
 Objects {
-  Id: 14621803553809546539
+  Id: 8786906918984623372
   Name: "Signal"
   Transform {
     Location {
@@ -18,8 +18,8 @@ Objects {
       Z: 0.166261718
     }
   }
-  ParentId: 3507058074554916019
-  ChildIds: 10350709962223667949
+  ParentId: 7083814217370803176
+  ChildIds: 7318058725183546338
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -138,24 +138,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10350709962223667949
+  Id: 7318058725183546338
   Name: "Object Curve Mover"
   Transform {
-    Location {
-      X: 25081.1328
-      Y: 37723.2734
-      Z: 6123.19775
-    }
-    Rotation {
-      Yaw: 25.1929302
-    }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 2.00487137
+      Y: 1.99863625
+      Z: 2.00487137
     }
   }
-  ParentId: 14621803553809546539
+  ParentId: 8786906918984623372
   TemplateInstance {
     ParameterOverrideMap {
       key: 1072177198051453324
@@ -167,7 +159,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 33.8421898
+            Yaw: 1.3660374e-05
           }
         }
         Overrides {
@@ -181,17 +173,12 @@ Objects {
         Overrides {
           Name: "cs:Object"
           ObjectReference {
-            SelfId: 14621803553809546539
+            SelfId: 8786906918984623372
           }
         }
         Overrides {
           Name: "cs:Multiplier"
           Float: 5
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
         }
       }
     }
@@ -201,7 +188,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18387289256763538724
+  Id: 17129417913415914380
   Name: "LookAtPlayer"
   Transform {
     Location {
@@ -215,7 +202,7 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 3507058074554916019
+  ParentId: 7083814217370803176
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -239,7 +226,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15919422747573915391
+  Id: 16787708435377483704
   Name: "QuestSignals"
   Transform {
     Location {
@@ -256,16 +243,16 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 3507058074554916019
+  ParentId: 7083814217370803176
   UnregisteredParameters {
     Overrides {
       Name: "cs:QuestID"
-      String: "Arrival3"
+      String: "WelcomeCoryprian"
     }
     Overrides {
       Name: "cs:Signal"
       ObjectReference {
-        SelfId: 14621803553809546539
+        SelfId: 8786906918984623372
       }
     }
   }

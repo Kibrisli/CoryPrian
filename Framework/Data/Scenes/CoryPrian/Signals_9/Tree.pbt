@@ -1,7 +1,7 @@
 Name: "Signals_9"
-RootId: 10506616291318555680
+RootId: 9943918612147877
 Objects {
-  Id: 17029697607294523849
+  Id: 5162845763770597593
   Name: "Signal"
   Transform {
     Location {
@@ -18,8 +18,8 @@ Objects {
       Z: 0.166261718
     }
   }
-  ParentId: 10506616291318555680
-  ChildIds: 7597132937026376832
+  ParentId: 9943918612147877
+  ChildIds: 12043513387300463679
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -138,7 +138,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7597132937026376832
+  Id: 12043513387300463679
   Name: "Object Curve Mover"
   Transform {
     Scale {
@@ -147,7 +147,7 @@ Objects {
       Z: 2.00487137
     }
   }
-  ParentId: 17029697607294523849
+  ParentId: 5162845763770597593
   TemplateInstance {
     ParameterOverrideMap {
       key: 1072177198051453324
@@ -173,7 +173,7 @@ Objects {
         Overrides {
           Name: "cs:Object"
           ObjectReference {
-            SelfId: 17029697607294523849
+            SelfId: 5162845763770597593
           }
         }
         Overrides {
@@ -188,7 +188,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7840296444186130459
+  Id: 11306803041057407029
   Name: "LookAtPlayer"
   Transform {
     Location {
@@ -202,7 +202,7 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 10506616291318555680
+  ParentId: 9943918612147877
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -226,7 +226,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7130844841059396280
+  Id: 1080629312545890492
   Name: "QuestSignals"
   Transform {
     Location {
@@ -243,16 +243,16 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 10506616291318555680
+  ParentId: 9943918612147877
   UnregisteredParameters {
     Overrides {
       Name: "cs:QuestID"
-      String: "WelcomeCoryprian"
+      String: "ArrivalEnd"
     }
     Overrides {
       Name: "cs:Signal"
       ObjectReference {
-        SelfId: 17029697607294523849
+        SelfId: 5162845763770597593
       }
     }
   }

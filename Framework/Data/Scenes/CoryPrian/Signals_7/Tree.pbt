@@ -1,7 +1,7 @@
 Name: "Signals_7"
-RootId: 13109901591908184979
+RootId: 7394374560443885944
 Objects {
-  Id: 12234328183929713018
+  Id: 5504176465846266050
   Name: "Signal"
   Transform {
     Location {
@@ -18,8 +18,8 @@ Objects {
       Z: 0.166261718
     }
   }
-  ParentId: 13109901591908184979
-  ChildIds: 3754894318221710920
+  ParentId: 7394374560443885944
+  ChildIds: 625565596139481651
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -138,7 +138,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3754894318221710920
+  Id: 625565596139481651
   Name: "Object Curve Mover"
   Transform {
     Location {
@@ -155,7 +155,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12234328183929713018
+  ParentId: 5504176465846266050
   TemplateInstance {
     ParameterOverrideMap {
       key: 1072177198051453324
@@ -201,7 +201,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16073565141203809161
+  Id: 2348435972486059973
   Name: "LookAtPlayer"
   Transform {
     Location {
@@ -215,7 +215,7 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 13109901591908184979
+  ParentId: 7394374560443885944
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -239,30 +239,33 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5447176260006350320
+  Id: 2415377295439338545
   Name: "QuestSignals"
   Transform {
     Location {
+      X: 9.94481373
+      Y: -15.4105988
+      Z: -28.4845352
     }
     Rotation {
-      Yaw: 29.8322525
+      Yaw: -58.2309875
     }
     Scale {
-      X: 0.333333343
-      Y: 0.333333343
-      Z: 0.333333343
+      X: 0.333333313
+      Y: 0.333333313
+      Z: 0.333333313
     }
   }
-  ParentId: 13109901591908184979
+  ParentId: 7394374560443885944
   UnregisteredParameters {
     Overrides {
       Name: "cs:QuestID"
-      String: "Arrival1"
+      String: "GoldKnight"
     }
     Overrides {
       Name: "cs:Signal"
       ObjectReference {
-        SelfId: 12234328183929713018
+        SelfId: 5504176465846266050
       }
     }
   }
