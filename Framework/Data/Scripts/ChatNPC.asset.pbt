@@ -4,6 +4,12 @@ Assets {
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {
+      Overrides {
+        Name: "cs:TalkingHeads_QuestsOverride"
+        AssetReference {
+          Id: 11810801446709770983
+        }
+      }
     }
   }
   SerializationVersion: 125
