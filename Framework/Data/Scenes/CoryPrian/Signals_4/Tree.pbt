@@ -181,7 +181,7 @@ Objects {
         Overrides {
           Name: "cs:Object"
           ObjectReference {
-            SelfId: 17029697607294523849
+            SelfId: 5123281797773437041
           }
         }
         Overrides {
