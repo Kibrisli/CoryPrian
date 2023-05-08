@@ -19,6 +19,7 @@ Objects {
     }
   }
   ParentId: 10223833542537028492
+  ChildIds: 6481875397898618626
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -137,6 +138,72 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 6481875397898618626
+  Name: "Object Curve Mover"
+  Transform {
+    Location {
+      X: 21491.8203
+      Y: 31280.9609
+      Z: 4165.50439
+    }
+    Rotation {
+      Yaw: 15.7163792
+    }
+    Scale {
+      X: 0.999999821
+      Y: 0.99999994
+      Z: 0.999999821
+    }
+  }
+  ParentId: 6977585391855606616
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1072177198051453324
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Object Curve Mover"
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 132.779205
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.00487065
+            Y: 1.99863589
+            Z: 2.00487065
+          }
+        }
+        Overrides {
+          Name: "cs:Object"
+          ObjectReference {
+            SelfId: 6977585391855606616
+          }
+        }
+        Overrides {
+          Name: "cs:Multiplier"
+          Float: 5
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6640.97217
+            Y: -1264.84631
+            Z: -1472.6366
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10587460636167655313
+    }
+  }
+}
+Objects {
   Id: 7362701404822104581
   Name: "Start"
   Transform {
@@ -155,6 +222,7 @@ Objects {
     }
   }
   ParentId: 10223833542537028492
+  ChildIds: 5269404134423081318
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -271,6 +339,72 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5269404134423081318
+  Name: "Object Curve Mover"
+  Transform {
+    Location {
+      X: 21491.8223
+      Y: 31280.9609
+      Z: 4165.50439
+    }
+    Rotation {
+      Yaw: 15.7163124
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7362701404822104581
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1072177198051453324
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Object Curve Mover"
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 132.779175
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.00487089
+            Y: 1.99863589
+            Z: 2.00487089
+          }
+        }
+        Overrides {
+          Name: "cs:Object"
+          ObjectReference {
+            SelfId: 7362701404822104581
+          }
+        }
+        Overrides {
+          Name: "cs:Multiplier"
+          Float: 5
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6670.02148
+            Y: -1264.84
+            Z: -1472.6366
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10587460636167655313
+    }
+  }
 }
 Objects {
   Id: 9103163529684541835

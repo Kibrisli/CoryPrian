@@ -394,6 +394,27 @@ Objects {
   ParentId: 9477222791001229251
   TemplateInstance {
     ParameterOverrideMap {
+      key: 10408956019674201079
+      value {
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:inheritfromparent"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12078976952193358902
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 16155682097833407872
       value {
         Overrides {
@@ -403,16 +424,16 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 1452.67383
-            Y: -262.115234
-            Z: 140.562988
+            X: 4327.01367
+            Y: 9997.31836
+            Z: 1491.91992
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
             Pitch: -90
-            Roll: 180
+            Roll: 52.6089439
           }
         }
         Overrides {
