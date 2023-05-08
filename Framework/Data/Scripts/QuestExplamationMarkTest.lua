@@ -4,6 +4,7 @@ local questID = script:GetCustomProperty("QuestID")
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
 signal.visibility = Visibility.FORCE_OFF
+signal2.visibility = Visibility.FORCE_ON
 
 local function UpdateSignals(player)
     if player == LOCAL_PLAYER then

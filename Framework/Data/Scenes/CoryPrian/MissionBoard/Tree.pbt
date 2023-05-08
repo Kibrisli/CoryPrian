@@ -28,6 +28,10 @@ Objects {
         Id: 5665813867967298486
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: true
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -181,9 +185,9 @@ Objects {
   Name: "Hammer"
   Transform {
     Location {
-      X: -2643.98657
-      Y: 380.301514
-      Z: 34.452877
+      X: -2643.98535
+      Y: 380.300415
+      Z: 42.3852921
     }
     Rotation {
       Pitch: -2.08956909
@@ -447,9 +451,9 @@ Objects {
   Name: "QuestObjectivePickup"
   Transform {
     Location {
-      X: -2635.89258
-      Y: 384.430786
-      Z: 43.3481522
+      X: -2635.8916
+      Y: 384.429565
+      Z: 51.280571
     }
     Rotation {
     }

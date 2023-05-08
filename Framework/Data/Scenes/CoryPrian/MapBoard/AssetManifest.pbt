@@ -224,6 +224,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9003343305753709160
+  Name: "Urban Headstone 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_headstone_004_ref"
+  }
+}
+Assets {
   Id: 8643205952937730457
   Name: "Abstract Frame 02"
   PlatformAssetType: 9
