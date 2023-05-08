@@ -1,5 +1,5 @@
 "key[String]","Messages[String]","ChangeState[Int]"
 "RedKnight2","Who are you ?","-1"
 "RedKnight3","What is this place?","-1"
-"RedKnight4","How long its been ?","-1"
+"RedKnight4","How long has it been ?","-1"
 "RedKnightBye","I need to go! ","-1"

@@ -60,21 +60,12 @@ Assets {
       }
     }
     Assets {
-      Id: 8297070072070063727
-      Name: "Icon Player"
+      Id: 9625741709508654573
+      Name: "Icon Globe"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "Icon_Player"
-      }
-    }
-    Assets {
-      Id: 1951883247356747746
-      Name: "Icon Stat Defense"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "Icon_StatDefense"
+        AssetId: "Icon_Globe"
       }
     }
     Assets {

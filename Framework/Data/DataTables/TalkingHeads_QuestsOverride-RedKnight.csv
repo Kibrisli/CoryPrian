@@ -1,4 +1,5 @@
 "OriginalChatId[String]","IfQuestIdCompleted[String]","OverrideWithQuestId[String]"
-"RedKnight","WelcomeCoryprian","RedKnight1"
-"RedKnight","",""
-"RedKnight","ArrivalEnd","RedKnightChat"
+"RedKnight","WelcomeCoryprian","RedKnightArrival"
+"RedKnight","Arrival5","RedKnightChat"
+"RedKnight","ArrivalEnd","RedKnightSecond"
+"CursedRedWizard","Arrival3","CursedRedWizardTalk"
