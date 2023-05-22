@@ -430,6 +430,12 @@ Assets {
             }
           }
           Overrides {
+            Name: "cs:UI Scroll Panel _Message"
+            ObjectReference {
+              SubObjectId: 5797266207439502866
+            }
+          }
+          Overrides {
             Name: "cs:Message"
             ObjectReference {
               SubObjectId: 1772761670242010749
@@ -574,7 +580,7 @@ Assets {
         ChildIds: 15298129700909512545
         ChildIds: 17261488357075996455
         ChildIds: 4080496552103571578
-        ChildIds: 1772761670242010749
+        ChildIds: 5797266207439502866
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -834,12 +840,16 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 1772761670242010749
-        Name: "Message"
+        Id: 5797266207439502866
+        Name: "UI Scroll Panel _Message"
         Transform {
           Location {
+            X: -31204.3965
+            Y: 9168.77
+            Z: 10617.6602
           }
           Rotation {
+            Yaw: 161.655792
           }
           Scale {
             X: 1
@@ -848,6 +858,7 @@ Assets {
           }
         }
         ParentId: 18324927655321469137
+        ChildIds: 1772761670242010749
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -873,6 +884,64 @@ Assets {
           AddSizeToParentIfUsingParentSize: true
           UseParentWidth: true
           UseParentHeight: true
+          IsHittable: true
+          ScrollPanel {
+            Orientation {
+              Value: "mc:eorientation:orient_vertical"
+            }
+            ScrollPosition: 250
+            IsInteractable: true
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 1772761670242010749
+        Name: "Message"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5797266207439502866
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Control {
+          Height: 350
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          UseParentWidth: true
           Text {
             Color {
               R: 1

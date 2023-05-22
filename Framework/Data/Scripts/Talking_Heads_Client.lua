@@ -3,6 +3,8 @@ local ROOT = script:GetCustomProperty("Root"):WaitForObject()
 local PANEL = script:GetCustomProperty("Panel"):WaitForObject()
 local IMAGE = script:GetCustomProperty("Image"):WaitForObject()
 local NAME = script:GetCustomProperty("Name"):WaitForObject()
+---@type UIScrollPanel
+local UI_SCROLL_PANEL__MESSAGE = script:GetCustomProperty("UI Scroll Panel _Message"):WaitForObject()
 local MESSAGE = script:GetCustomProperty("Message"):WaitForObject()
 local CAMERA = script:GetCustomProperty("Camera"):WaitForObject()
 local TALKING_HEADS = require(script:GetCustomProperty("TalkingHeads"))
@@ -50,18 +52,67 @@ local function parse_message(message)
 	return message
 end
 
+--longer texts support, Morituri_SK
+local FinalScrollPos = 0
+local SmoothScrollTask = nil
+local FinalMessageToShow = nil
+local WritingTextTask = nil
+
+local function SmoothScroll()
+	if UI_SCROLL_PANEL__MESSAGE.scrollPosition < FinalScrollPos then
+		UI_SCROLL_PANEL__MESSAGE.scrollPosition = UI_SCROLL_PANEL__MESSAGE.scrollPosition + 1
+		print("adding to scroll",UI_SCROLL_PANEL__MESSAGE.scrollPosition)
+	elseif FinalMessageToShow == MESSAGE.text then
+		print("SCROLL SMOOTH AUTOMATION ENDED")
+		return
+	end
+	Task.Wait()
+	SmoothScroll()
+end
+
+local function SetMessageText(txt)
+	--set current text
+	MESSAGE.text = txt
+	--calculate the height of the text needed
+	local textSize = MESSAGE:ComputeApproximateSize()
+	--scroll to bottom
+	if textSize.y > 90 then
+		--UI_SCROLL_PANEL__MESSAGE.scrollPosition = textSize.y + 50
+		FinalScrollPos = textSize.y - 50
+		MESSAGE.height = textSize.y + 50
+	else
+		--UI_SCROLL_PANEL__MESSAGE.scrollPosition = 0
+		FinalScrollPos = 0
+		MESSAGE.height = 90 --hardcoded, value from the template
+	end
+end
+
 local function display_message(message)
+
 	local txt = parse_message(message)
 
+	--Morituri_SK fix
+	if WritingTextTask ~= nil then WritingTextTask:Cancel() end
+	--Morituri_SK change
+	FinalMessageToShow = txt
+	UI_SCROLL_PANEL__MESSAGE.scrollPosition = 0
+	--start smooth scroll task
+	if SmoothScrollTask ~= nil then SmoothScrollTask:Cancel() end
+	SmoothScrollTask = Task.Spawn(SmoothScroll)
+
 	if(WRITE_TEXT) then
-		Task.Spawn(function()
+		--Morituri_SK fix WritingTextTask
+		WritingTextTask = Task.Spawn(function()
 			for i = 1, string.len(txt) do
 				if(skip_writing and CAN_SKIP_WRITING) then
-					MESSAGE.text = txt
+					--MESSAGE.text = txt
+					SetMessageText(txt)
 					skip_writing = false
 					break
 				else
-					MESSAGE.text = string.sub(txt, 1, i)
+					--MESSAGE.text = string.sub(txt, 1, i)
+					local subtxt = string.sub(txt, 1, i)
+					SetMessageText(subtxt)
 					Task.Wait(TEXT_SPEED)
 				end
 			end
@@ -69,7 +120,8 @@ local function display_message(message)
 			skip_writing = false
 		end)
 	else
-		MESSAGE.text = txt
+		--MESSAGE.text = txt
+		SetMessageText(txt)
 	end
 end
 
