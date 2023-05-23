@@ -2,6 +2,8 @@
 local CAMERA = script:GetCustomProperty("Camera"):WaitForObject()
 local UI_PANEL_FADER = script:GetCustomProperty("UI Panel Fader"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
+---@type AnimatedMesh
+local WIZARD_NPC = script:GetCustomProperty("WizardNPC"):WaitForObject(1)
 
 local fadeTime = 1
 local camTime = 5
@@ -22,6 +24,8 @@ function Tick(dt)
             LOCAL_PLAYER:SetOverrideCamera(CAMERA)
             local CamTransform = CAMERA:GetTransform()
             CAMERA:MoveTo(CAMERA:GetPosition() + CamTransform:GetForwardVector() * 250 - CamTransform:GetUpVector() * 50, camTime + 2 * fadeTime, true)
+            --if the wizard npc is valid, animate clap hands
+            if Object.IsValid(WIZARD_NPC) then WIZARD_NPC:PlayAnimation("unarmed_cheer",{startPosition = .5, playbackRate = .5}) end
             AdvanceStage()
         end
     elseif Stage == 1 then

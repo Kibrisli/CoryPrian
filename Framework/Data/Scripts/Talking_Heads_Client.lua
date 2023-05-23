@@ -61,9 +61,9 @@ local WritingTextTask = nil
 local function SmoothScroll()
 	if UI_SCROLL_PANEL__MESSAGE.scrollPosition < FinalScrollPos then
 		UI_SCROLL_PANEL__MESSAGE.scrollPosition = UI_SCROLL_PANEL__MESSAGE.scrollPosition + 1
-		print("adding to scroll",UI_SCROLL_PANEL__MESSAGE.scrollPosition)
+		--print("adding to scroll",UI_SCROLL_PANEL__MESSAGE.scrollPosition)
 	elseif FinalMessageToShow == MESSAGE.text then
-		print("SCROLL SMOOTH AUTOMATION ENDED")
+		--print("SCROLL SMOOTH AUTOMATION ENDED")
 		return
 	end
 	Task.Wait()
@@ -78,8 +78,8 @@ local function SetMessageText(txt)
 	--scroll to bottom
 	if textSize.y > 90 then
 		--UI_SCROLL_PANEL__MESSAGE.scrollPosition = textSize.y + 50
-		FinalScrollPos = textSize.y - 50
-		MESSAGE.height = textSize.y + 50
+		FinalScrollPos = textSize.y - 40
+		MESSAGE.height = textSize.y + 40
 	else
 		--UI_SCROLL_PANEL__MESSAGE.scrollPosition = 0
 		FinalScrollPos = 0

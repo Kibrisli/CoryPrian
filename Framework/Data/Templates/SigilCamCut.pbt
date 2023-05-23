@@ -10,12 +10,12 @@ Assets {
         Name: "SigilCamCut"
         Transform {
           Scale {
-            X: 0.763729692
-            Y: 0.763729692
-            Z: 0.763729692
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
-        ParentId: 8911185782872020612
+        ParentId: 4781671109827199097
         ChildIds: 12817808813334462005
         ChildIds: 15644794828412958363
         ChildIds: 17784001538073801660
@@ -44,18 +44,17 @@ Assets {
         Name: "Camera"
         Transform {
           Location {
-            X: 775.30011
-            Y: 165.234543
-            Z: 974.97229
+            Y: 1200.00122
+            Z: 900
           }
           Rotation {
-            Pitch: -36.0541382
-            Yaw: -175.764374
+            Pitch: -40
+            Yaw: -90
           }
           Scale {
-            X: 1.30936384
-            Y: 1.30936384
-            Z: 1.30936384
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 7177432620930441530
@@ -320,6 +319,15 @@ Assets {
             Name: "cs:UI Panel Fader"
             ObjectReference {
               SubObjectId: 5578059453496139122
+            }
+          }
+          Overrides {
+            Name: "cs:WizardNPC"
+            ObjectReference {
+              SelfId: 12855373184984911106
+              SubObjectId: 2393801558508204584
+              InstanceId: 13237204288098207768
+              TemplateId: 18235747223470405221
             }
           }
         }
