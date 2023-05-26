@@ -58,7 +58,6 @@ Assets {
         ChildIds: 4518382710522577775
         ChildIds: 14973221885895231556
         ChildIds: 5977929673237912722
-        ChildIds: 16620818158063940354
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -358,43 +357,6 @@ Assets {
         }
         Relevance {
           Value: "mc:edistancerelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 16620818158063940354
-        Name: "LootedSigil"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 8571706647552831020
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Script {
-          ScriptAsset {
-            Id: 18198826527428918794
-          }
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"

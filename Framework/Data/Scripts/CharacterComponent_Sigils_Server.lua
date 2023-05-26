@@ -19,19 +19,19 @@ for _,sigil in ipairs(SIGILS_PLACED:GetChildren())do
 end
 
 function RegisterNewCharacterForSigils(character, player)
-    print("got new character for player "..player.name..": "..character.id)
+    --print("got new character for player "..player.name..": "..character.id)
     LoadPlayerCharacterSigilState(player,character.id)
     SyncSigilData(player)
     player.serverUserData.SigilChar = character.id
 end
 
 function UnregisterCurrentCharacterForSigils(character, player)
-    print("Removing current character for player "..player.name..": "..character.id)
+    --print("Removing current character for player "..player.name..": "..character.id)
     player.serverUserData.SigilChar = nil
 end
 
 function DeleteCharacter(player, characterId)
-    print("Deleting character for player "..player.name..": "..characterId)
+    --print("Deleting character for player "..player.name..": "..characterId)
     --remove the character sigil data from storage
     assert(Environment.IsServer(), 'Server Only Command')
 
@@ -62,7 +62,7 @@ function LoadPlayerCharacterSigilState(player,characterID)
 end
 
 function OnSigilsChanged(player)
-    print("Sigils state changed for player "..player.name)
+    --print("Sigils state changed for player "..player.name)
     local characterID = player.serverUserData.SigilChar
     if characterID == 0 then warn("Player has not assigned SigilChar to save current sigil data") return end
     SavePlayerCharacterSigilState(player,characterID)
@@ -76,6 +76,7 @@ end
 function AddSigilToPlayer(player,Id)
     if player.serverUserData.sigilData[Id] == nil or player.serverUserData.sigilData[Id] == false then
         player.serverUserData.sigilData[Id] = true
+        --print("Sigil "..tostring(Id).." acquired")
         Events.Broadcast("Quest.SigilCollected", "LostSigil")
     end
     --broadcast sigils change

@@ -403,6 +403,53 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 2010441237196668649
+  Name: "RewardSigil_ForQuestCompleted"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18256966695446206728
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ID_Quest"
+      String: "Welcome"
+    }
+    Overrides {
+      Name: "cs:ID_Sigil"
+      String: "11"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2252530108714396951
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 6218468179710241560
   Name: "ObjectiveEventListener"
   Transform {
