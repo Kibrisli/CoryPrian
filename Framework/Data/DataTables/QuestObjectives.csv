@@ -1,5 +1,6 @@
 "questId[String]","name[String]","description[String]","count[Int]"
 "Welcome","You've Got Mail !","Find your mailbox and open it.","0"
+"Sigils.Restore","Restore the Sigils","Restore the Circle of Magic by unlocking all the Coryprian Sigils. They are scattered and lost, some are just lost in the world, some are stolen by evil characters.","16"
 "Climetheruins","Ruins of Destiny","Climb to the top of the Ruins","0"
 "Welcome","Welcome to Loot MMO!","Close your mailbox to collect a special item.","0"
 "WelcomeCoryprian","A new Arrival!","Welcome to CoryPrian, once a peaceful kingdom ruled by a great king who was a fair ruler.","0"

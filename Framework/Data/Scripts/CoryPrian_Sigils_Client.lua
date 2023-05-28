@@ -40,6 +40,7 @@ function SetSigilActive(sigilId, isActive)
         --todo check if it was active previously
         if COOKING_CHARACTER == false and SIGILS_LAST_STATE[sigilId] ~= true then
             --local camCut = World.SpawnAsset(SIGIL_CAM_CUT, {position = SIGILS_COLLECTED_VISUALS[sigilId].flare:GetWorldPosition(), rotation = SIGILS_COLLECTED_VISUALS[sigilId].flare:GetWorldRotation()})
+            Task.Wait(2) -- wait for the collected animation to play
             local camCut = World.SpawnAsset(SIGIL_CAM_CUT, {position = SIGILS:GetWorldPosition()})
             Task.Wait(2) --wait for the fade in/out
             local appearEffect = World.SpawnAsset(EFFECT_SIGIL_APPEAR, {parent = SIGILS_COLLECTED_VISUALS[sigilId].flare})
