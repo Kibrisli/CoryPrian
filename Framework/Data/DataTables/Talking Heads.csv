@@ -1,4 +1,7 @@
 "Key[String]","ChatID[String]","Name[String]","Message[String]","RandomMessages[Asset Reference]","Actor[Asset Reference]","PositionOffset[Vector3]","Stance[String]","Animation[String]","AnimationLoop[Bool]","Audio[Asset Reference]","DisplayDuration[Float]","ResponseTable[Asset Reference]","BroadcastToServer[Bool]","QuestID[String]","Start[Bool]"
+"NormalDude0","NormalDude","Village Soldier","i wasn't expecting someone to show up !
+it seems you found one of the Sigils!
+Head to the Camp and find the Red Knight..","0BADBADBADBADBAD","0A081EF13FB3C876","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","0.0","0BADBADBADBADBAD","False","","False"
 "RedKnight0","RedKnight","Red Knight","Aaa.. A new arrival after a long time!
 Welcome to Coryprian {name}. Meet with people of Coryprian around the camping area.","0BADBADBADBADBAD","1DEF65D4BBDAE222","0.000000,0.000000,0.000000","","unarmed_point_forward","False","0BADBADBADBADBAD","4.0","0BADBADBADBADBAD","False","WelcomeCoryprian","False"
 "RedKnightArrival0","RedKnightArrival","Red Knight","Speak with people of Coryprian around camping area. Our people have suffered so much. Some of them will need your help.","0BADBADBADBADBAD","1DEF65D4BBDAE222","0.000000,0.000000,0.000000","","unarmed_listen_casual","False","0BADBADBADBADBAD","-1.0","AB5995557A29F131","False","","False"
