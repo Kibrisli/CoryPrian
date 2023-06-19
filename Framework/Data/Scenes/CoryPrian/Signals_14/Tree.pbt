@@ -1,8 +1,8 @@
 Name: "Signals_14"
-RootId: 10223833542537028492
+RootId: 10506616291318555680
 Objects {
-  Id: 6977585391855606616
-  Name: "End"
+  Id: 17029697607294523849
+  Name: "Signal"
   Transform {
     Location {
       X: -2.82545829
@@ -18,8 +18,8 @@ Objects {
       Z: 0.166261718
     }
   }
-  ParentId: 10223833542537028492
-  ChildIds: 6481875397898618626
+  ParentId: 10506616291318555680
+  ChildIds: 7597132937026376832
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -138,24 +138,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6481875397898618626
+  Id: 7597132937026376832
   Name: "Object Curve Mover"
   Transform {
-    Location {
-      X: 21491.8203
-      Y: 31280.9609
-      Z: 4165.50439
-    }
-    Rotation {
-      Yaw: 15.7163792
-    }
     Scale {
-      X: 0.999999821
-      Y: 0.99999994
-      Z: 0.999999821
+      X: 2.00487137
+      Y: 1.99863625
+      Z: 2.00487137
     }
   }
-  ParentId: 6977585391855606616
+  ParentId: 17029697607294523849
   TemplateInstance {
     ParameterOverrideMap {
       key: 1072177198051453324
@@ -167,34 +159,26 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 132.779205
+            Yaw: 1.3660374e-05
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 2.00487065
-            Y: 1.99863589
-            Z: 2.00487065
+            X: 2.00487137
+            Y: 1.99863625
+            Z: 2.00487137
           }
         }
         Overrides {
           Name: "cs:Object"
           ObjectReference {
-            SelfId: 6977585391855606616
+            SelfId: 17029697607294523849
           }
         }
         Overrides {
           Name: "cs:Multiplier"
           Float: 5
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -6640.97217
-            Y: -1264.84631
-            Z: -1472.6366
-          }
         }
       }
     }
@@ -204,210 +188,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7362701404822104581
-  Name: "Start"
-  Transform {
-    Location {
-      X: -2.82546496
-      Y: 1.63313043
-      Z: 2.46765161
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 0.166261718
-      Y: 0.166780412
-      Z: 0.166261718
-    }
-  }
-  ParentId: 10223833542537028492
-  ChildIds: 5269404134423081318
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Font.Bevel:id"
-      AssetReference {
-        Id: 10184847056121543272
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Faces:id"
-      AssetReference {
-        Id: 11633374910449250360
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Sides:id"
-      AssetReference {
-        Id: 10184847056121543272
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:color"
-      Color {
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Faces:color"
-      Color {
-        R: 0.92549026
-        G: 0.482352972
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Sides:color"
-      Color {
-        R: 0.92549026
-        G: 0.482352972
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font_Sides:color"
-      Color {
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font_Insides:color"
-      Color {
-        R: 1
-        G: 0.513725519
-        B: 0.0705882385
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font_Sides:id"
-      AssetReference {
-        Id: 10184847056121543272
-      }
-    }
-    Overrides {
-      Name: "ma:Font_Faces:id"
-      AssetReference {
-        Id: 10184847056121543272
-      }
-    }
-    Overrides {
-      Name: "ma:Font_Insides:id"
-      AssetReference {
-        Id: 1009636138000564291
-      }
-    }
-    Overrides {
-      Name: "ma:Font_Faces:color"
-      Color {
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14182953942275204608
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 5269404134423081318
-  Name: "Object Curve Mover"
-  Transform {
-    Location {
-      X: 21491.8223
-      Y: 31280.9609
-      Z: 4165.50439
-    }
-    Rotation {
-      Yaw: 15.7163124
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7362701404822104581
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1072177198051453324
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Object Curve Mover"
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 132.779175
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 2.00487089
-            Y: 1.99863589
-            Z: 2.00487089
-          }
-        }
-        Overrides {
-          Name: "cs:Object"
-          ObjectReference {
-            SelfId: 7362701404822104581
-          }
-        }
-        Overrides {
-          Name: "cs:Multiplier"
-          Float: 5
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -6670.02148
-            Y: -1264.84
-            Z: -1472.6366
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 10587460636167655313
-    }
-  }
-}
-Objects {
-  Id: 9103163529684541835
+  Id: 7840296444186130459
   Name: "LookAtPlayer"
   Transform {
     Location {
@@ -421,7 +202,7 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 10223833542537028492
+  ParentId: 10506616291318555680
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -437,6 +218,59 @@ Objects {
   Script {
     ScriptAsset {
       Id: 8119323275412960624
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7130844841059396280
+  Name: "QuestSignals"
+  Transform {
+    Location {
+      X: 9.94481373
+      Y: -15.4105988
+      Z: -28.4845352
+    }
+    Rotation {
+      Yaw: -58.2309875
+    }
+    Scale {
+      X: 0.333333313
+      Y: 0.333333313
+      Z: 0.333333313
+    }
+  }
+  ParentId: 10506616291318555680
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:QuestID"
+      String: "WelcomeCoryprian"
+    }
+    Overrides {
+      Name: "cs:Signal"
+      ObjectReference {
+        SelfId: 17029697607294523849
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7744594570380362117
     }
   }
   NetworkRelevanceDistance {

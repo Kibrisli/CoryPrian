@@ -1,7 +1,7 @@
 Name: "Signals_15"
-RootId: 11070675045446597968
+RootId: 3507058074554916019
 Objects {
-  Id: 1734817431655598594
+  Id: 14621803553809546539
   Name: "Signal"
   Transform {
     Location {
@@ -18,8 +18,8 @@ Objects {
       Z: 0.166261718
     }
   }
-  ParentId: 11070675045446597968
-  ChildIds: 3477115318323938075
+  ParentId: 3507058074554916019
+  ChildIds: 10350709962223667949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -138,7 +138,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3477115318323938075
+  Id: 10350709962223667949
   Name: "Object Curve Mover"
   Transform {
     Location {
@@ -155,7 +155,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1734817431655598594
+  ParentId: 14621803553809546539
   TemplateInstance {
     ParameterOverrideMap {
       key: 1072177198051453324
@@ -167,7 +167,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 127.512711
+            Yaw: 33.8421898
           }
         }
         Overrides {
@@ -181,7 +181,7 @@ Objects {
         Overrides {
           Name: "cs:Object"
           ObjectReference {
-            SelfId: 1734817431655598594
+            SelfId: 14621803553809546539
           }
         }
         Overrides {
@@ -201,7 +201,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2092351164409370030
+  Id: 18387289256763538724
   Name: "LookAtPlayer"
   Transform {
     Location {
@@ -215,7 +215,7 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 11070675045446597968
+  ParentId: 3507058074554916019
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -239,7 +239,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3778133108935360674
+  Id: 15919422747573915391
   Name: "QuestSignals"
   Transform {
     Location {
@@ -256,16 +256,16 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 11070675045446597968
+  ParentId: 3507058074554916019
   UnregisteredParameters {
     Overrides {
       Name: "cs:QuestID"
-      String: "TestQuest"
+      String: "Arrival3"
     }
     Overrides {
       Name: "cs:Signal"
       ObjectReference {
-        SelfId: 1734817431655598594
+        SelfId: 14621803553809546539
       }
     }
   }

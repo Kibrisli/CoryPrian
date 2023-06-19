@@ -1,7 +1,7 @@
 Name: "Signals_12"
-RootId: 8916335006452353648
+RootId: 8102645029594607149
 Objects {
-  Id: 1180978388141639240
+  Id: 3357299040801929549
   Name: "Signal"
   Transform {
     Location {
@@ -18,8 +18,8 @@ Objects {
       Z: 0.166261718
     }
   }
-  ParentId: 8916335006452353648
-  ChildIds: 260918539154076816
+  ParentId: 8102645029594607149
+  ChildIds: 13152719445762010081
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -138,7 +138,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 260918539154076816
+  Id: 13152719445762010081
   Name: "Object Curve Mover"
   Transform {
     Scale {
@@ -147,7 +147,7 @@ Objects {
       Z: 2.00487137
     }
   }
-  ParentId: 1180978388141639240
+  ParentId: 3357299040801929549
   TemplateInstance {
     ParameterOverrideMap {
       key: 1072177198051453324
@@ -173,7 +173,7 @@ Objects {
         Overrides {
           Name: "cs:Object"
           ObjectReference {
-            SelfId: 1180978388141639240
+            SelfId: 3357299040801929549
           }
         }
         Overrides {
@@ -188,7 +188,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4885506588054932143
+  Id: 5586215354225051339
   Name: "LookAtPlayer"
   Transform {
     Location {
@@ -202,7 +202,7 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 8916335006452353648
+  ParentId: 8102645029594607149
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -226,7 +226,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10392062230732291557
+  Id: 7137767071774068388
   Name: "QuestSignals"
   Transform {
     Location {
@@ -243,7 +243,7 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 8916335006452353648
+  ParentId: 8102645029594607149
   UnregisteredParameters {
     Overrides {
       Name: "cs:QuestID"
@@ -252,7 +252,7 @@ Objects {
     Overrides {
       Name: "cs:Signal"
       ObjectReference {
-        SelfId: 1180978388141639240
+        SelfId: 3357299040801929549
       }
     }
   }

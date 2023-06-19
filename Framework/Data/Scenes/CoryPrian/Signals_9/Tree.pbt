@@ -1,7 +1,7 @@
 Name: "Signals_9"
-RootId: 16885579648009915440
+RootId: 8514582201525735118
 Objects {
-  Id: 16911655447429059662
+  Id: 1596072085363231473
   Name: "Signal"
   Transform {
     Location {
@@ -18,8 +18,8 @@ Objects {
       Z: 0.166261718
     }
   }
-  ParentId: 16885579648009915440
-  ChildIds: 15723865894433780517
+  ParentId: 8514582201525735118
+  ChildIds: 130819051727988456
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -138,7 +138,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15723865894433780517
+  Id: 130819051727988456
   Name: "Object Curve Mover"
   Transform {
     Scale {
@@ -147,7 +147,7 @@ Objects {
       Z: 2.00487137
     }
   }
-  ParentId: 16911655447429059662
+  ParentId: 1596072085363231473
   TemplateInstance {
     ParameterOverrideMap {
       key: 1072177198051453324
@@ -173,7 +173,7 @@ Objects {
         Overrides {
           Name: "cs:Object"
           ObjectReference {
-            SelfId: 16911655447429059662
+            SelfId: 1596072085363231473
           }
         }
         Overrides {
@@ -188,7 +188,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15261913767672201769
+  Id: 8437732146016508518
   Name: "LookAtPlayer"
   Transform {
     Location {
@@ -202,7 +202,7 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 16885579648009915440
+  ParentId: 8514582201525735118
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -226,7 +226,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 631510608639018262
+  Id: 16667744034757864820
   Name: "QuestSignals"
   Transform {
     Location {
@@ -243,7 +243,7 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 16885579648009915440
+  ParentId: 8514582201525735118
   UnregisteredParameters {
     Overrides {
       Name: "cs:QuestID"
@@ -252,7 +252,7 @@ Objects {
     Overrides {
       Name: "cs:Signal"
       ObjectReference {
-        SelfId: 16911655447429059662
+        SelfId: 1596072085363231473
       }
     }
   }

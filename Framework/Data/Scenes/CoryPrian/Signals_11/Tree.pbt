@@ -1,7 +1,7 @@
 Name: "Signals_11"
-RootId: 8514582201525735118
+RootId: 13686633102589664803
 Objects {
-  Id: 1596072085363231473
+  Id: 15601567951767446458
   Name: "Signal"
   Transform {
     Location {
@@ -18,8 +18,8 @@ Objects {
       Z: 0.166261718
     }
   }
-  ParentId: 8514582201525735118
-  ChildIds: 130819051727988456
+  ParentId: 13686633102589664803
+  ChildIds: 12284998233212751124
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -138,7 +138,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 130819051727988456
+  Id: 12284998233212751124
   Name: "Object Curve Mover"
   Transform {
     Scale {
@@ -147,7 +147,7 @@ Objects {
       Z: 2.00487137
     }
   }
-  ParentId: 1596072085363231473
+  ParentId: 15601567951767446458
   TemplateInstance {
     ParameterOverrideMap {
       key: 1072177198051453324
@@ -173,7 +173,7 @@ Objects {
         Overrides {
           Name: "cs:Object"
           ObjectReference {
-            SelfId: 1596072085363231473
+            SelfId: 15601567951767446458
           }
         }
         Overrides {
@@ -188,7 +188,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8437732146016508518
+  Id: 6161930413474989202
   Name: "LookAtPlayer"
   Transform {
     Location {
@@ -202,7 +202,7 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 8514582201525735118
+  ParentId: 13686633102589664803
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -226,7 +226,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16667744034757864820
+  Id: 9127110651406544341
   Name: "QuestSignals"
   Transform {
     Location {
@@ -243,7 +243,7 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 8514582201525735118
+  ParentId: 13686633102589664803
   UnregisteredParameters {
     Overrides {
       Name: "cs:QuestID"
@@ -252,7 +252,7 @@ Objects {
     Overrides {
       Name: "cs:Signal"
       ObjectReference {
-        SelfId: 1596072085363231473
+        SelfId: 15601567951767446458
       }
     }
   }
