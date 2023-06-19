@@ -5,12 +5,12 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: -6767.03906
-      Y: -2517.96094
+      X: -6767.03711
+      Y: 42692.2461
       Z: -1454
     }
     Rotation {
-      Yaw: -94.603363
+      Yaw: -109.312958
     }
     Scale {
       X: 1
@@ -79,12 +79,12 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: -5364.72656
-      Y: 2142.29688
+      X: -4227.34961
+      Y: 46843.6914
       Z: -1454
     }
     Rotation {
-      Yaw: -94.603363
+      Yaw: -109.312958
     }
     Scale {
       X: 1
@@ -153,12 +153,12 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: -7170.76953
-      Y: 3555.38281
+      X: -5615.39258
+      Y: 48669.0547
       Z: -1454
     }
     Rotation {
-      Yaw: -94.603363
+      Yaw: -109.312958
     }
     Scale {
       X: 1
@@ -227,12 +227,12 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: -7975.30078
-      Y: 1216.40625
+      X: -6987.47461
+      Y: 46611.0234
       Z: -1454
     }
     Rotation {
-      Yaw: -94.603363
+      Yaw: -109.312958
     }
     Scale {
       X: 1
@@ -301,12 +301,12 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: -4091
-      Y: -326
+      X: -3622.11523
+      Y: 44132.8711
       Z: -1454
     }
     Rotation {
-      Yaw: -94.603363
+      Yaw: -109.312958
     }
     Scale {
       X: 1
@@ -375,12 +375,12 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: -5625
-      Y: 1012
+      X: -4766.10742
+      Y: 45816.5273
       Z: -1454
     }
     Rotation {
-      Yaw: -94.603363
+      Yaw: -109.312958
     }
     Scale {
       X: 1
@@ -449,12 +449,12 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: -5903
-      Y: -508
+      X: -5420.94336
+      Y: 44416.9219
       Z: -1454
     }
     Rotation {
-      Yaw: -94.603363
+      Yaw: -109.312958
     }
     Scale {
       X: 1
@@ -523,12 +523,12 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: -5293
-      Y: -2081
+      X: -5230.35742
+      Y: 42740.5938
       Z: -1461
     }
     Rotation {
-      Yaw: -94.603363
+      Yaw: -109.312958
     }
     Scale {
       X: 1
@@ -597,12 +597,12 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: -7029
-      Y: -4160
+      X: -7437.36523
+      Y: 41170.5391
       Z: -1615
     }
     Rotation {
-      Yaw: -152.744629
+      Yaw: -167.454102
     }
     Scale {
       X: 1
@@ -671,12 +671,12 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: -8190
-      Y: -2455
+      X: -8127.37305
+      Y: 43114.4688
       Z: -1380
     }
     Rotation {
-      Yaw: -169.670013
+      Yaw: 175.6203
     }
     Scale {
       X: 1
@@ -745,12 +745,12 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: -9403
-      Y: -3515
+      X: -9569.7832
+      Y: 42397.207
       Z: -1696
     }
     Rotation {
-      Yaw: -169.670044
+      Yaw: 175.620255
     }
     Scale {
       X: 1
@@ -819,12 +819,12 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: -9576
-      Y: -6479
+      X: -10489.7246
+      Y: 39574.2812
       Z: -1723
     }
     Rotation {
-      Yaw: -152.744629
+      Yaw: -167.454102
     }
     Scale {
       X: 1
@@ -893,12 +893,12 @@ Objects {
   Name: "Enemy Spawn"
   Transform {
     Location {
-      X: -9072
-      Y: -5075
+      X: -9645.73633
+      Y: 40804.2891
       Z: -1728
     }
     Rotation {
-      Yaw: -94.603363
+      Yaw: -109.312958
     }
     Scale {
       X: 1
@@ -967,11 +967,12 @@ Objects {
   Name: "Quest Area"
   Transform {
     Location {
-      X: -5270
-      Y: -1325
+      X: -5016.14648
+      Y: 43465.9805
       Z: -1700
     }
     Rotation {
+      Yaw: -14.7097473
     }
     Scale {
       X: 250.500168
@@ -1051,12 +1052,12 @@ Objects {
   Name: "Spawn Point - Beasts1"
   Transform {
     Location {
-      X: -13223
-      Y: 7013
-      Z: -1337
+      X: 517.373047
+      Y: 43878.8203
+      Z: -1355.48193
     }
     Rotation {
-      Yaw: -48.9249268
+      Yaw: 155.81897
     }
     Scale {
       X: 1
@@ -1096,12 +1097,12 @@ Objects {
   Name: "Spawn Point - Beasts1"
   Transform {
     Location {
-      X: -13110
-      Y: 7141
-      Z: -1337
+      X: 468.306641
+      Y: 43715.2656
+      Z: -1355.48193
     }
     Rotation {
-      Yaw: -48.9249268
+      Yaw: 155.81897
     }
     Scale {
       X: 1
@@ -1141,12 +1142,12 @@ Objects {
   Name: "Spawn Point - Beasts1"
   Transform {
     Location {
-      X: -13110
-      Y: 7013
-      Z: -1337
+      X: 414.763672
+      Y: 43831.5156
+      Z: -1355.48193
     }
     Rotation {
-      Yaw: -48.9249268
+      Yaw: 155.81897
     }
     Scale {
       X: 1
@@ -1186,12 +1187,12 @@ Objects {
   Name: "Spawn Point - Beasts1"
   Transform {
     Location {
-      X: -13110
-      Y: 6902
-      Z: -1337
+      X: 368.285156
+      Y: 43932.3594
+      Z: -1355.48193
     }
     Rotation {
-      Yaw: -48.9249268
+      Yaw: 155.81897
     }
     Scale {
       X: 1
@@ -1231,12 +1232,12 @@ Objects {
   Name: "Spawn Point - Beasts1"
   Transform {
     Location {
-      X: -12996
-      Y: 7013
-      Z: -1337
+      X: 311.197266
+      Y: 43783.8047
+      Z: -1355.48193
     }
     Rotation {
-      Yaw: -48.9249268
+      Yaw: 155.81897
     }
     Scale {
       X: 1

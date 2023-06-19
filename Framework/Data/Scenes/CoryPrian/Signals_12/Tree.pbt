@@ -1,7 +1,7 @@
 Name: "Signals_12"
-RootId: 10506616291318555680
+RootId: 8916335006452353648
 Objects {
-  Id: 17029697607294523849
+  Id: 1180978388141639240
   Name: "Signal"
   Transform {
     Location {
@@ -18,8 +18,8 @@ Objects {
       Z: 0.166261718
     }
   }
-  ParentId: 10506616291318555680
-  ChildIds: 7597132937026376832
+  ParentId: 8916335006452353648
+  ChildIds: 260918539154076816
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Bevel:id"
@@ -138,7 +138,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7597132937026376832
+  Id: 260918539154076816
   Name: "Object Curve Mover"
   Transform {
     Scale {
@@ -147,7 +147,7 @@ Objects {
       Z: 2.00487137
     }
   }
-  ParentId: 17029697607294523849
+  ParentId: 1180978388141639240
   TemplateInstance {
     ParameterOverrideMap {
       key: 1072177198051453324
@@ -173,7 +173,7 @@ Objects {
         Overrides {
           Name: "cs:Object"
           ObjectReference {
-            SelfId: 17029697607294523849
+            SelfId: 1180978388141639240
           }
         }
         Overrides {
@@ -188,7 +188,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7840296444186130459
+  Id: 4885506588054932143
   Name: "LookAtPlayer"
   Transform {
     Location {
@@ -202,7 +202,7 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 10506616291318555680
+  ParentId: 8916335006452353648
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -226,7 +226,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7130844841059396280
+  Id: 10392062230732291557
   Name: "QuestSignals"
   Transform {
     Location {
@@ -243,16 +243,16 @@ Objects {
       Z: 0.333333313
     }
   }
-  ParentId: 10506616291318555680
+  ParentId: 8916335006452353648
   UnregisteredParameters {
     Overrides {
       Name: "cs:QuestID"
-      String: "WelcomeCoryprian"
+      String: "NormalDude"
     }
     Overrides {
       Name: "cs:Signal"
       ObjectReference {
-        SelfId: 17029697607294523849
+        SelfId: 1180978388141639240
       }
     }
   }

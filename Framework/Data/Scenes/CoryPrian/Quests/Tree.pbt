@@ -597,7 +597,7 @@ Objects {
   Name: "Demons"
   Transform {
     Location {
-      X: -26747
+      X: -31629.4238
       Y: -53112
       Z: 7999.89844
     }
