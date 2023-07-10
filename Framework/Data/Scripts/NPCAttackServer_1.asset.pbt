@@ -18,21 +18,25 @@ Assets {
       Overrides {
         Name: "cs:ProjectileBody"
         AssetReference {
+          Id: 841534158063459245
         }
       }
       Overrides {
         Name: "cs:MuzzleFlash"
         AssetReference {
+          Id: 841534158063459245
         }
       }
       Overrides {
         Name: "cs:ImpactSurface"
         AssetReference {
+          Id: 841534158063459245
         }
       }
       Overrides {
         Name: "cs:ImpactCharacter"
         AssetReference {
+          Id: 841534158063459245
         }
       }
       Overrides {

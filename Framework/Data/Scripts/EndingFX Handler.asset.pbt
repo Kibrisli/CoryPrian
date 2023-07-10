@@ -7,6 +7,7 @@ Assets {
       Overrides {
         Name: "cs:FX_Template"
         AssetReference {
+          Id: 841534158063459245
         }
       }
       Overrides {
