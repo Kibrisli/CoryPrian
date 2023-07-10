@@ -2069,6 +2069,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8580039884885780066
+  Name: "Glitchy Hologram"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_hologram"
+  }
+}
+Assets {
   Id: 8577311143671657918
   Name: "Wood Planks White"
   PlatformAssetType: 2
