@@ -1838,6 +1838,24 @@ Assets {
   }
 }
 Assets {
+  Id: 9528250243219167259
+  Name: "Chest Small Opened"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_chest_002"
+  }
+}
+Assets {
+  Id: 9381248077573981814
+  Name: "Chest Big Closed"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_chest_003"
+  }
+}
+Assets {
   Id: 9377227685447941950
   Name: "2D Basic Shapes Decal"
   PlatformAssetType: 14
@@ -2762,6 +2780,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5127694997629030939
+  Name: "Chest Big Opened"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_chest_004"
+  }
+}
+Assets {
   Id: 5039051833507134363
   Name: "Castle Part - Window 02"
   PlatformAssetType: 1
@@ -3449,6 +3476,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bones_human_femur_01_ref"
+  }
+}
+Assets {
+  Id: 1303766757091610947
+  Name: "Chest Small Closed"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_chest_001"
   }
 }
 Assets {
