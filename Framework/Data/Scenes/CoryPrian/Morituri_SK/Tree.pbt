@@ -15,6 +15,22 @@ Objects {
     }
   }
   ParentId: 17054032585306417805
+  ChildIds: 13203756230559646738
+  ChildIds: 14063414545215694088
+  ChildIds: 3214395682232790709
+  ChildIds: 16571009914165625466
+  ChildIds: 13511302918381159723
+  ChildIds: 13319325095639990032
+  ChildIds: 10591536796821753575
+  ChildIds: 7696599778621610934
+  ChildIds: 11105014529106066007
+  ChildIds: 14311276228071114046
+  ChildIds: 10102731438014125386
+  ChildIds: 4436886995012483095
+  ChildIds: 2883667312557164430
+  ChildIds: 16644747852605042279
+  ChildIds: 1812588885019826260
+  ChildIds: 8074178798996114994
   ChildIds: 9648069230132934115
   ChildIds: 10060029153306071971
   ChildIds: 11285265557235796837
@@ -86,29 +102,29 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Protection"
+          String: "Protection 2 Test"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -12014.8389
-            Y: -28.2128906
-            Z: 376.463867
+            X: 21769.8965
+            Y: 15125.4043
+            Z: 2228.22217
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: -90
-            Roll: 137.669525
+            Pitch: 90
+            Roll: 124.225555
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 2.50178766
-            Y: 2.50178766
-            Z: 2.50178766
+            X: 2.97324467
+            Y: 2.97324467
+            Z: 2.97324467
           }
         }
         Overrides {
@@ -148,30 +164,29 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Fury"
+          String: "Fury 2 Test"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -20063.0723
-            Y: -11535.9707
-            Z: 38.4418945
+            X: 19702.623
+            Y: 16531.6699
+            Z: 2228.22217
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: -28.6351929
-            Yaw: -37.7444458
-            Roll: -8.99197388
+            Pitch: 90
+            Roll: 124.225555
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 3.55446267
-            Y: 3.55446267
-            Z: 3.55446267
+            X: 2.97324467
+            Y: 2.97324467
+            Z: 2.97324467
           }
         }
         Overrides {
@@ -211,29 +226,29 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Anger"
+          String: "Anger 2 Test"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: 3804.67578
-            Y: -5567.34
-            Z: -4877.87305
+            X: 19840.2324
+            Y: 16438.0605
+            Z: 2228.22217
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: 180
-            Roll: -179.999969
+            Pitch: 90
+            Roll: 124.225555
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 2.66034722
-            Y: 2.66034722
-            Z: 2.66034722
+            X: 2.97324467
+            Y: 2.97324467
+            Z: 2.97324467
           }
         }
         Overrides {
@@ -274,29 +289,29 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Vitriol"
+          String: "Vitriol 2 Test"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -47467.7812
-            Y: 23478.0918
-            Z: -312.355469
+            X: 19973.248
+            Y: 16347.5762
+            Z: 2228.22217
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: -90
-            Roll: -38.7686768
+            Pitch: 90
+            Roll: 124.225555
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 3.92383218
-            Y: 3.9243443
-            Z: 3.9243443
+            X: 2.97324467
+            Y: 2.97324467
+            Z: 2.97324467
           }
         }
         Overrides {
@@ -335,22 +350,21 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Rage"
+          String: "Rage  2 Test"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -2682.2168
-            Y: -13338.5742
-            Z: 383.71875
+            X: 20101.9863
+            Y: 16260.002
+            Z: 2228.22217
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: -73.3616333
-            Yaw: -4.50091553
-            Roll: 25.2480888
+            Pitch: 90
+            Roll: 124.225555
           }
         }
         Overrides {
@@ -360,9 +374,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.59813392
-            Y: 1.59813392
-            Z: 1.59813392
+            X: 2.97324467
+            Y: 2.97324467
+            Z: 2.97324467
           }
         }
       }
@@ -419,29 +433,29 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Detection (Visibility ForceOff)"
+          String: "Detection 2 Test"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: 4327.01367
-            Y: 9997.31836
-            Z: 1491.91992
+            X: 20234.0723
+            Y: 16170.1504
+            Z: 2228.22217
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: -90
-            Roll: 52.6089439
+            Pitch: 90
+            Roll: 124.225555
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 2.97324467
+            Y: 2.97324467
+            Z: 2.97324467
           }
         }
         Overrides {
@@ -451,7 +465,7 @@ Objects {
         Overrides {
           Name: "Visible"
           Enum {
-            Value: "mc:evisibilitysetting:forceoff"
+            Value: "mc:evisibilitysetting:inheritfromparent"
           }
         }
       }
@@ -503,30 +517,29 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Reflection"
+          String: "Reflection 2 Test"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: 14566.127
-            Y: -25106.7363
-            Z: 5740.80322
+            X: 20384.8965
+            Y: 16067.5527
+            Z: 2228.22217
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: -179.324615
-            Yaw: 34.0233459
-            Roll: 89.4199829
+            Pitch: 90
+            Roll: 124.225555
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 2.28544617
-            Y: 2.28544617
-            Z: 2.28544617
+            X: 2.97324467
+            Y: 2.97324467
+            Z: 2.97324467
           }
         }
         Overrides {
@@ -566,30 +579,29 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "The Twins"
+          String: "The Twins 2 Test"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -18056.959
-            Y: 23533.002
-            Z: 323.241211
+            X: 20527.1699
+            Y: 15970.7676
+            Z: 2228.22217
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: -89.7360535
-            Yaw: -163.296234
-            Roll: 55.2231979
+            Pitch: 90
+            Roll: 124.225555
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 2.50969887
-            Y: 2.50969887
-            Z: 2.50969887
+            X: 2.97324467
+            Y: 2.97324467
+            Z: 2.97324467
           }
         }
         Overrides {
@@ -630,30 +642,29 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "The Fox"
+          String: "The Fox 2 Test"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: 31696.6035
-            Y: -24493.375
-            Z: 2656.86963
+            X: 20666.748
+            Y: 15875.8223
+            Z: 2228.22217
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: 77.5441818
-            Yaw: -176.249969
-            Roll: 179.999985
+            Pitch: 90
+            Roll: 124.225555
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 3.23161697
-            Y: 3.23161697
-            Z: 3.23161697
+            X: 2.97324467
+            Y: 2.97324467
+            Z: 2.97324467
           }
         }
         Overrides {
@@ -694,28 +705,29 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Power"
+          String: "Power 2 Test"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -8999.38
-            Y: 5675.6543
-            Z: 11.3354492
+            X: 20808.4824
+            Y: 15779.4043
+            Z: 2228.22217
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 2.73207552e-05
+            Pitch: 90
+            Roll: 124.225555
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 2.1391
-            Y: 2.1391
-            Z: 2.1391
+            X: 2.97324467
+            Y: 2.97324467
+            Z: 2.97324467
           }
         }
         Overrides {
@@ -755,29 +767,29 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Giants"
+          String: "Giants 2 Test"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -50526.1797
-            Y: -40172.4062
-            Z: 2174.01172
+            X: 20942.1387
+            Y: 15688.4863
+            Z: 2228.22217
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: -90
-            Roll: 113.165863
+            Pitch: 90
+            Roll: 124.225555
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 2.97324467
+            Y: 2.97324467
+            Z: 2.97324467
           }
         }
         Overrides {
@@ -816,30 +828,29 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Perfection"
+          String: "Perfection 2 Test"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -30356.3574
-            Y: -31722.4375
-            Z: 1178.81445
+            X: 21069.916
+            Y: 15601.5684
+            Z: 2228.22217
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: 80.1040421
-            Yaw: -89.3049316
-            Roll: 0.475110173
+            Pitch: 90
+            Roll: 124.225555
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 2.97324467
+            Y: 2.97324467
+            Z: 2.97324467
           }
         }
         Overrides {
@@ -880,30 +891,29 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Brilliance"
+          String: "Brilliance 2 Test"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -77489.2656
-            Y: -27470.3
-            Z: 3129.88965
+            X: 21195.2793
+            Y: 15516.291
+            Z: 2228.22217
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: 102.432838
-            Yaw: -35
-            Roll: 180
+            Pitch: 90
+            Roll: 124.225555
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 3.6952436
-            Y: 3.6952436
-            Z: 3.6952436
+            X: 2.97324467
+            Y: 2.97324467
+            Z: 2.97324467
           }
         }
         Overrides {
@@ -944,29 +954,29 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Skill"
+          String: "Skill 2 Test"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -6166.62402
-            Y: 7074.33398
-            Z: 939.436523
+            X: 21618.0488
+            Y: 15228.6973
+            Z: 2228.22217
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: -90
-            Roll: 6.11042118
+            Pitch: 90
+            Roll: 124.225555
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 2.97324467
+            Y: 2.97324467
+            Z: 2.97324467
           }
         }
         Overrides {
@@ -1005,29 +1015,29 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Enlightenment"
+          String: "Enlightenment 2 Test"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -28308.9336
-            Y: -10944.9375
-            Z: 2361.49414
+            X: 21334.6855
+            Y: 15421.4551
+            Z: 2228.22217
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: -90
-            Roll: -96.1334839
+            Pitch: 90
+            Roll: 124.225555
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 3.17375255
-            Y: 3.17375255
-            Z: 3.17375255
+            X: 2.97324467
+            Y: 2.97324467
+            Z: 2.97324467
           }
         }
         Overrides {
@@ -1087,6 +1097,1074 @@ Objects {
       value {
         Overrides {
           Name: "Name"
+          String: "Titan 2 Test"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 21475.2363
+            Y: 15325.8457
+            Z: 2228.22217
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 90
+            Roll: 124.225555
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.97324467
+            Y: 2.97324467
+            Z: 2.97324467
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 8074178798996114994
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 8560.4873
+      Y: 28031.6953
+      Z: 4976.90088
+    }
+    Rotation {
+      Pitch: -90
+      Roll: 137.669525
+    }
+    Scale {
+      X: 2.50178766
+      Y: 2.50178766
+      Z: 2.50178766
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Protection"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -12014.8389
+            Y: -28.2128906
+            Z: 376.463867
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -90
+            Roll: 137.669525
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.50178766
+            Y: 2.50178766
+            Z: 2.50178766
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "16"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 1812588885019826260
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 512.253906
+      Y: 16523.9375
+      Z: 4638.87891
+    }
+    Rotation {
+      Pitch: -28.635191
+      Yaw: -37.7444344
+      Roll: -8.99198437
+    }
+    Scale {
+      X: 3.55446267
+      Y: 3.55446267
+      Z: 3.55446267
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Fury"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -20063.0723
+            Y: -11535.9707
+            Z: 38.4418945
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -28.6351833
+            Yaw: -37.7444115
+            Roll: -8.99199486
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.55446267
+            Y: 3.55446267
+            Z: 3.55446267
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "15"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 16644747852605042279
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 24380.002
+      Y: 22492.5684
+      Z: -277.436035
+    }
+    Rotation {
+      Pitch: -1.36603776e-05
+      Yaw: 180
+      Roll: 4.09811219e-05
+    }
+    Scale {
+      X: 2.66034722
+      Y: 2.66034722
+      Z: 2.66034722
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Anger"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3804.67578
+            Y: -5567.34
+            Z: -4877.87305
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -1.36603776e-05
+            Yaw: -179.999985
+            Roll: 4.09811146e-05
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.66034722
+            Y: 2.66034722
+            Z: 2.66034722
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "14"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 2883667312557164430
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: -26892.4551
+      Y: 51538
+      Z: 4288.08154
+    }
+    Rotation {
+      Pitch: -90
+      Roll: -38.7686768
+    }
+    Scale {
+      X: 3.92383218
+      Y: 3.9243443
+      Z: 3.9243443
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Vitriol"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -47467.7812
+            Y: 23478.0918
+            Z: -312.355469
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -90
+            Roll: -38.7686768
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.92383218
+            Y: 3.9243443
+            Z: 3.9243443
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "13"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 4436886995012483095
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 17893.1094
+      Y: 14721.334
+      Z: 4984.15576
+    }
+    Rotation {
+      Pitch: -73.3615952
+      Yaw: -4.5009203
+      Roll: 25.2480583
+    }
+    Scale {
+      X: 1.59813392
+      Y: 1.59813392
+      Z: 1.59813392
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rage"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2682.2168
+            Y: -13338.5742
+            Z: 383.71875
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -73.361557
+            Yaw: -4.50092
+            Roll: 25.248024
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "12"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.59813392
+            Y: 1.59813392
+            Z: 1.59813392
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 10102731438014125386
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 24902.3398
+      Y: 38057.2266
+      Z: 6092.35693
+    }
+    Rotation {
+      Pitch: -90
+      Roll: 52.6089058
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10408956019674201079
+      value {
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:inheritfromparent"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12078976952193358902
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Detection (Visibility ForceOff)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4327.01367
+            Y: 9997.31836
+            Z: 1491.91992
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -90
+            Roll: 52.6088638
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "11"
+        }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 14311276228071114046
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 35141.4531
+      Y: 2953.17188
+      Z: 10341.2402
+    }
+    Rotation {
+      Pitch: -0.675396383
+      Yaw: -145.976639
+      Roll: -90.5800171
+    }
+    Scale {
+      X: 2.28544617
+      Y: 2.28544617
+      Z: 2.28544617
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8826974485400301971
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 16.0839825
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Reflection"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 14566.127
+            Y: -25106.7363
+            Z: 5740.80322
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -0.675396383
+            Yaw: -145.976608
+            Roll: -90.5800095
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.28544617
+            Y: 2.28544617
+            Z: 2.28544617
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "10"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 11105014529106066007
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 2518.36719
+      Y: 51592.9102
+      Z: 4923.67822
+    }
+    Rotation {
+      Pitch: -89.735321
+      Yaw: -163.296402
+      Roll: 55.2226181
+    }
+    Scale {
+      X: 2.50969887
+      Y: 2.50969887
+      Z: 2.50969887
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "The Twins"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -18056.959
+            Y: 23533.002
+            Z: 323.241211
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -89.734581
+            Yaw: -163.295502
+            Roll: 55.2211456
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.50969887
+            Y: 2.50969887
+            Z: 2.50969887
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "9"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 7696599778621610934
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 52271.9297
+      Y: 3566.5332
+      Z: 7257.30664
+    }
+    Rotation {
+      Pitch: 77.5441055
+      Yaw: -176.249969
+      Roll: 179.999969
+    }
+    Scale {
+      X: 3.23161697
+      Y: 3.23161697
+      Z: 3.23161697
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "The Fox"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 31696.6035
+            Y: -24493.375
+            Z: 2656.86963
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 77.544075
+            Yaw: -176.249969
+            Roll: 179.999954
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.23161697
+            Y: 3.23161697
+            Z: 3.23161697
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "8"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 10591536796821753575
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 11575.9463
+      Y: 33735.5625
+      Z: 4611.77246
+    }
+    Rotation {
+      Yaw: 2.73207534e-05
+    }
+    Scale {
+      X: 2.1391
+      Y: 2.1391
+      Z: 2.1391
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Power"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8999.38
+            Y: 5675.6543
+            Z: 11.3354492
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 2.73207515e-05
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.1391
+            Y: 2.1391
+            Z: 2.1391
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "7"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 13319325095639990032
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: -29950.8535
+      Y: -12112.498
+      Z: 6774.44873
+    }
+    Rotation {
+      Pitch: -90
+      Roll: 113.165825
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Giants"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -50526.1797
+            Y: -40172.4062
+            Z: 2174.01172
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -90
+            Yaw: -14.0362635
+            Roll: 127.202057
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "6"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 13511302918381159723
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: -9781.03125
+      Y: -3662.5293
+      Z: 5779.25146
+    }
+    Rotation {
+      Pitch: 80.1040878
+      Yaw: -89.3049774
+      Roll: 0.475111663
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Perfection"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -30356.3574
+            Y: -31722.4375
+            Z: 1178.81445
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 80.1040878
+            Yaw: -89.3049927
+            Roll: 0.475113332
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "5"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 16571009914165625466
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: -56913.9375
+      Y: 589.607422
+      Z: 7730.32666
+    }
+    Rotation {
+      Pitch: 77.5671
+      Yaw: 144.999969
+      Roll: 7.93119e-06
+    }
+    Scale {
+      X: 3.6952436
+      Y: 3.6952436
+      Z: 3.6952436
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Brilliance"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -77489.2656
+            Y: -27470.3
+            Z: 3129.88965
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 77.56707
+            Yaw: 144.999954
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.6952436
+            Y: 3.6952436
+            Z: 3.6952436
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "4"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 3214395682232790709
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 14408.7021
+      Y: 35134.2422
+      Z: 5539.87354
+    }
+    Rotation {
+      Pitch: -90
+      Roll: 6.11042213
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Skill"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6166.62402
+            Y: 7074.33398
+            Z: 939.436523
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -90
+            Roll: 6.11042309
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "3"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 14063414545215694088
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: -7733.60742
+      Y: 17114.9707
+      Z: 6961.93115
+    }
+    Rotation {
+      Pitch: -90
+      Yaw: 26.565033
+      Roll: -122.698486
+    }
+    Scale {
+      X: 3.17375255
+      Y: 3.17375255
+      Z: 3.17375255
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Enlightenment"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -28308.9336
+            Y: -10944.9375
+            Z: 2361.49414
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -90
+            Roll: -96.1334229
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.17375255
+            Y: 3.17375255
+            Z: 3.17375255
+          }
+        }
+        Overrides {
+          Name: "cs:Id"
+          String: "2"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1989990967213482915
+    }
+  }
+}
+Objects {
+  Id: 13203756230559646738
+  Name: "SigilPlaceholder"
+  Transform {
+    Location {
+      X: 27338.6719
+      Y: 1862.12109
+      Z: 6510.35596
+    }
+    Rotation {
+      Pitch: 1.95748425
+      Yaw: 8.78641129
+      Roll: 77.5378647
+    }
+    Scale {
+      X: 2.49008417
+      Y: 2.49008417
+      Z: 2.49008417
+    }
+  }
+  ParentId: 9477222791001229251
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8826974485400301971
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -0.000203367046
+            Y: -2.45112824e-05
+            Z: 11.1697168
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.449062645
+            Y: 0.449062645
+            Z: 0.449062645
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16155682097833407872
+      value {
+        Overrides {
+          Name: "Name"
           String: "Titan"
         }
         Overrides {
@@ -1101,8 +2179,8 @@ Objects {
           Name: "Rotation"
           Rotator {
             Pitch: 1.95748425
-            Yaw: 8.7864
-            Roll: 77.5378876
+            Yaw: 8.78642178
+            Roll: 77.5378418
           }
         }
         Overrides {
