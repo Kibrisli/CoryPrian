@@ -14,6 +14,11 @@ local CookCharacterTask = nil
 
 local ALL_SIGILS_IDs = {}
 
+--skydomes logic
+local SKYDOME_CHANGES = require(script:GetCustomProperty("SkydomeChanges"))
+local SKYDOMES = script:GetCustomProperty("Skydomes"):WaitForObject()
+local Sigils_Total_Count = 0
+
 --init sigils on the collected ring
 for _,sigParent in ipairs(SIGILS:GetChildren())do
     local sigilId = sigParent:GetCustomProperty("Id")
@@ -61,8 +66,10 @@ function OnSigilsChanged(player,PNDkey)
     LOCAL_PLAYER.clientUserData.Sigils = LOCAL_PLAYER:GetPrivateNetworkedData(sigilsNetworkKey) or {}
     Events.Broadcast("Sigils.Changed")
     --update the sigils states
+    Sigils_Total_Count = 0 --count anew cuz character change is possible
     for _,sigilId in ipairs(ALL_SIGILS_IDs)do
         local state = LOCAL_PLAYER.clientUserData.Sigils[sigilId] or false
+        if state == true then Sigils_Total_Count = Sigils_Total_Count + 1 end
         SetSigilActive(sigilId, state)
     end
     UpdateSigilsLastState()
@@ -79,6 +86,27 @@ function UpdateSigilsLastState()
         local state = LOCAL_PLAYER.clientUserData.Sigils[sigilId] or false
         SIGILS_LAST_STATE[sigilId] = state
     end
+    RefreshSkydome()
+end
+
+function RefreshSkydome()
+    local currentSkydomes = SKYDOMES:GetChildren()
+    if currentSkydomes then
+        for _,skydome in ipairs(currentSkydomes) do
+            skydome:Destroy()
+        end
+    end
+    print("spawning skydome for current sigils count "..tostring(Sigils_Total_Count))
+    local selectedTempate = nil
+    for row,rowData in ipairs(SKYDOME_CHANGES)do
+        local sigilNumber = rowData.SigilsCount
+        if sigilNumber <= Sigils_Total_Count then
+            selectedTempate = rowData.SkydomeTemplate
+        --else
+            --break
+        end
+    end
+    World.SpawnAsset(selectedTempate, {parent = SKYDOMES})
 end
 
 --turn all off

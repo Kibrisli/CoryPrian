@@ -22,6 +22,18 @@ Assets {
           Id: 330779673588324089
         }
       }
+      Overrides {
+        Name: "cs:SkydomeChanges"
+        AssetReference {
+          Id: 13116708444372119719
+        }
+      }
+      Overrides {
+        Name: "cs:Skydomes"
+        ObjectReference {
+          SelfId: 15608299745039672932
+        }
+      }
     }
   }
   SerializationVersion: 125

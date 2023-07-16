@@ -76,7 +76,7 @@ Objects {
 }
 Objects {
   Id: 17696722352203334740
-  Name: "ClientContext"
+  Name: "Client Context"
   Transform {
     Location {
     }
@@ -90,7 +90,7 @@ Objects {
   }
   ParentId: 5843095941534851271
   ChildIds: 8307898999190090529
-  ChildIds: 1614723100850630301
+  ChildIds: 15608299745039672932
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -126,6 +126,42 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 15608299745039672932
+  Name: "Skydomes"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17696722352203334740
+  ChildIds: 1614723100850630301
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 1614723100850630301
   Name: "Sky_NoGliphs_Nighttime"
   Transform {
@@ -135,7 +171,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17696722352203334740
+  ParentId: 15608299745039672932
   TemplateInstance {
     ParameterOverrideMap {
       key: 6581552519833301296
@@ -150,6 +186,16 @@ Objects {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
