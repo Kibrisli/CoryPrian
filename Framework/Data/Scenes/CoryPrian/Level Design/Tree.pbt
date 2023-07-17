@@ -174,6 +174,15 @@ Objects {
   ParentId: 15608299745039672932
   TemplateInstance {
     ParameterOverrideMap {
+      key: 764994194735732488
+      value {
+        Overrides {
+          Name: "bp:Cast Shadows"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 6581552519833301296
       value {
         Overrides {
